@@ -19,7 +19,7 @@ function Scoring(score){
 
 	totalScore = 0;
 
-	for(i = 0; i < score.length; i++){
+	for(i = 0; i < score.length - 1; i++){
 	totalScore += score[i];
 	}
 	

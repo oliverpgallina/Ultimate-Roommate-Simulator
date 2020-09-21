@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"TestScoreObj","path":"objects/TestScoreObj/TestScoreObj.yy",},"order":1,},
     {"id":{"name":"Timer","path":"objects/Timer/Timer.yy",},"order":0,},
     {"id":{"name":"Scoring","path":"scripts/Scoring/Scoring.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
