@@ -1,2 +1,2 @@
 # Ultimate-Roommate-Simulator
-We gon be makin' Roommate Simulator fellas
+We gon be makin' Ultimate Roommate Simulator fellas
