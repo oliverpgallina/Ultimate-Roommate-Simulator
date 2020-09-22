@@ -17,6 +17,7 @@ else if(keyboard_check(ord("D"))) {
 }
 else isActing = false;
 
+//While Moving, deplete Action Points over time (later this will also happen when player performs actions)
 if (isActing){
 	actionPoints--;
 }
