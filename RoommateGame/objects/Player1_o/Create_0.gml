@@ -1,2 +1,2 @@
 /* How fast the player moves */
-movespeed = 3;
+moveSpeed = 3;
