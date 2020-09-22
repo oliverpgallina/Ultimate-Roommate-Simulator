@@ -1,7 +1,11 @@
 {
   "resources": [
+    {"id":{"name":"Player1_sp","path":"sprites/Player1_sp/Player1_sp.yy",},"order":15,},
+    {"id":{"name":"Player2_o","path":"objects/Player2_o/Player2_o.yy",},"order":3,},
     {"id":{"name":"TestScoreObj","path":"objects/TestScoreObj/TestScoreObj.yy",},"order":1,},
+    {"id":{"name":"Player1_o","path":"objects/Player1_o/Player1_o.yy",},"order":2,},
     {"id":{"name":"Timer","path":"objects/Timer/Timer.yy",},"order":0,},
+    {"id":{"name":"Player2_sp","path":"sprites/Player2_sp/Player2_sp.yy",},"order":16,},
     {"id":{"name":"Scoring","path":"scripts/Scoring/Scoring.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
