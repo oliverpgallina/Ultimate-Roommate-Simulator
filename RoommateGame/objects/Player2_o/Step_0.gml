@@ -21,7 +21,14 @@ if (!regenerating)
 		x += moveSpeed;
 		actionPoints--;
 	}
-}
+	
+	//This should let the player interact with things (Studying, going to work, taking out trash, etc)
+	//presumably makes them im mobile while performing the action (for taking out trash maybe they just
+	//disappear temporarily?
+	if (keyboard_check_pressed(vk_control) && place_free(x,y)){
+		drainAP_scr();
+	}
+ }
 
 //After moving (like, say, right after reducing Action Points from 1 to 0) check if AP is 0;
 //if so, start regenerating

@@ -14,12 +14,19 @@ if (!regenerating)
 		actionPoints--;
 	}
 	else if(keyboard_check(ord("S"))) {
-		y += moveSpeed;
+		y += moveSpeed;  
 		actionPoints--;
 	}
 	else if(keyboard_check(ord("D"))) {
 		x += moveSpeed;
 		actionPoints--;
+	}
+	
+	//This should let the player interact with things (Studying, going to work, taking out trash, etc)
+	//presumably makes them im mobile while performing the action (for taking out trash maybe they just
+	//disappear temporarily?
+	if (keyboard_check_pressed(ord("E")) && place_free(x,y)){
+		drainAP_scr(); 
 	}
 }
 
