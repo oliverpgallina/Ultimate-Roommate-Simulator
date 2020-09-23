@@ -6,3 +6,6 @@ actionPoints = 100;
 
 /* Whether or not the player is performing actions right now (Moving and Doing Things) */
 isActing = false;
+
+/* Whether or not the player is currently regenerating AP (and thus unable to move */
+regenerating = false;
