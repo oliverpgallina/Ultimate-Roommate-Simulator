@@ -1,4 +1,4 @@
-function drainAP_scr(){
+function payAP_scr(){
 	actionPoints--;
 	alarm[0] = room_speed;
 	 /* this should drain AP over time and make the player immobile, 

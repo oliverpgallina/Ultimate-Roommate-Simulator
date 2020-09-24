@@ -7,10 +7,12 @@
     {"id":{"name":"Player1_o","path":"objects/Player1_o/Player1_o.yy",},"order":2,},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":17,},
     {"id":{"name":"Timer","path":"objects/Timer/Timer.yy",},"order":0,},
+    {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},"order":18,},
+    {"id":{"name":"CollisionBox_o","path":"objects/CollisionBox_o/CollisionBox_o.yy",},"order":5,},
     {"id":{"name":"regenerateAP_scr","path":"scripts/regenerateAP_scr/regenerateAP_scr.yy",},"order":1,},
     {"id":{"name":"Player2_sp","path":"sprites/Player2_sp/Player2_sp.yy",},"order":16,},
     {"id":{"name":"Scoring","path":"scripts/Scoring/Scoring.yy",},"order":0,},
-    {"id":{"name":"drainAP_scr","path":"scripts/drainAP_scr/drainAP_scr.yy",},"order":2,},
+    {"id":{"name":"payAP_scr","path":"scripts/payAP_scr/payAP_scr.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

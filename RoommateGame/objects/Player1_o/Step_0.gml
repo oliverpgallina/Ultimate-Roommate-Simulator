@@ -25,8 +25,9 @@ if (!regenerating)
 	//This should let the player interact with things (Studying, going to work, taking out trash, etc)
 	//presumably makes them im mobile while performing the action (for taking out trash maybe they just
 	//disappear temporarily?
-	if (keyboard_check_pressed(ord("E")) && place_free(x,y)){
-		drainAP_scr(); 
+	if (keyboard_check_pressed(ord("E")) && place_meeting(x,y, Wall_o)){
+		show_debug_message("colliding");
+		payAP_scr(); 
 	}
 }
 

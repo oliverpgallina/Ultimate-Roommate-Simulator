@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "drainAP_scr",
+  "name": "payAP_scr",
   "tags": [],
   "resourceType": "GMScript",
 }
