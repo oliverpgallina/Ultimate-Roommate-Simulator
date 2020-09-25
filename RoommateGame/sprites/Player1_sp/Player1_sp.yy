@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bad85ff9-c98d-4f4c-8b39-62e2de7cfc88","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "RoommateGame",
-    "path": "RoommateGame.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "Player1_sp",

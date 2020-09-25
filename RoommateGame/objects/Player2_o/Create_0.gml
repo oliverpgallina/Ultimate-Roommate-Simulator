@@ -1,11 +1,8 @@
 /* How fast the player moves */
 moveSpeed = 3;
 
-/* The max amount of Action Points available to the player*/
-apLimit = 2000;
-
 /* The player's Action Points, represented in the Action Bar*/
-actionPoints = apLimit;
+actionPoints = 2000;
 
 /* Whether or not the player is performing actions right now (Moving and Doing Things) */
 isActing = false;
