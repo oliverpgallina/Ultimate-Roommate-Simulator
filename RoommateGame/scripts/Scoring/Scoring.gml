@@ -15,7 +15,8 @@
 //THEY ARE NOT GOOD FOR THE FINAL VERSION
 
 
-/*function Scoring(score){
+/* 
+function Scoring(score){
 
 	totalScore = 0;
 
