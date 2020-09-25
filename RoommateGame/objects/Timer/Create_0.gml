@@ -10,7 +10,8 @@ clockStartTime = 0;
 //variables for the clock
 watchStartTime = 8;
 currentTime = watchStartTime;
-//minutes = timeRemaining + (-1 * (alarm[0]/room_speed));
+
+endOfDay = false;
 
 //this variable controls the frame rate
 room_speed = 60;
