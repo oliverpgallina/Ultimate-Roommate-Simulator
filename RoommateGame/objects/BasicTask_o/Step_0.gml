@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-if(collision_circle(x, y, 15, Player1_o, true, true)){
+if(place_meeting(x,y, Player1_o) || place_meeting(x,y, Player2_o)){
 	image_alpha = 0.25;
 }
 else

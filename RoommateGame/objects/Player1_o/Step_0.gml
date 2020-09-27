@@ -26,10 +26,20 @@ if (!regenerating && !isActing)
 	//This should let the player interact with things (Studying, going to work, taking out trash, etc)
 	//presumably makes them im mobile while performing the action (for taking out trash maybe they just
 	//disappear temporarily?
-	if (keyboard_check_pressed(ord("E")) && place_meeting(x,y, Wall_o)){
+	if (keyboard_check_pressed(ord("E")) && place_meeting(x,y, BasicTask_o)){
 		show_debug_message("player 1 INTERACT");
-		payAP_scr(); 
+		payAP_scr("BasicTask");
 	}
+	else if (keyboard_check_pressed(ord("E")) && place_meeting(x,y, WorkTask_o)){
+		show_debug_message("player 1 INTERACT");
+		payAP_scr("WorkTask");
+	}
+	
+	
+	/*Ok this interact code is kinda bad but it works, I was trying to make WorkTask a child class of 
+	BasicTask to make things easier but like I ended up messing around with how GML interprets
+	objects and parents and children and stuff so I was just like screw it copy paste stuff.
+	We can fix this later */
 }
 
 //If AP ever hits 0 or below AND the player isn't currently performing an Action, 

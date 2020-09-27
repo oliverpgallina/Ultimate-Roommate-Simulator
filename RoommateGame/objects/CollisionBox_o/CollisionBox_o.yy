@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite4",
-    "path": "sprites/Sprite4/Sprite4.yy",
+    "name": "CollisionBox_sp",
+    "path": "sprites/CollisionBox_sp/CollisionBox_sp.yy",
   },
   "solid": true,
   "visible": true,
