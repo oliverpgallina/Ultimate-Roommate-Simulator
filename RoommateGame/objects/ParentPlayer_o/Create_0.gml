@@ -15,3 +15,13 @@ rentDue = 1800;
 
 /* The total amount of money shared between both players */
 totalMoney = 0;
+
+/* The amount of "study points" for this player, an invisible value that goes up when studying.
+As it increases the player will get better grades at the end of each week */
+studyPoints = 0;
+
+/* The grade this player gets at the end of a week 
+
+uhhh so players get grades at the end of each week so maybe all their grades
+over the whole semester should be stored somewhere like an array or something */
+grade = "Z";

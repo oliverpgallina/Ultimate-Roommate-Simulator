@@ -1,11 +1,14 @@
 {
   "resources": [
     {"id":{"name":"Player1_sp","path":"sprites/Player1_sp/Player1_sp.yy",},"order":1,},
+    {"id":{"name":"testCalc_scr","path":"scripts/testCalc_scr/testCalc_scr.yy",},"order":5,},
     {"id":{"name":"Player2_o","path":"objects/Player2_o/Player2_o.yy",},"order":3,},
     {"id":{"name":"Wall_o","path":"objects/Wall_o/Wall_o.yy",},"order":4,},
     {"id":{"name":"rentCalc_scr","path":"scripts/rentCalc_scr/rentCalc_scr.yy",},"order":4,},
     {"id":{"name":"TestScoreObj_o","path":"objects/TestScoreObj_o/TestScoreObj_o.yy",},"order":1,},
     {"id":{"name":"ParentPlayer_o","path":"objects/ParentPlayer_o/ParentPlayer_o.yy",},"order":8,},
+    {"id":{"name":"Sprite7","path":"sprites/Sprite7/Sprite7.yy",},"order":15,},
+    {"id":{"name":"StudyTask_o","path":"objects/StudyTask_o/StudyTask_o.yy",},"order":9,},
     {"id":{"name":"Player1_o","path":"objects/Player1_o/Player1_o.yy",},"order":2,},
     {"id":{"name":"WorkTask_o","path":"objects/WorkTask_o/WorkTask_o.yy",},"order":7,},
     {"id":{"name":"Wall_sp","path":"sprites/Wall_sp/Wall_sp.yy",},"order":3,},

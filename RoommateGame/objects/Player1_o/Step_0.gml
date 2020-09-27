@@ -33,6 +33,9 @@ if (!regenerating && !isActing)
 	else if (keyboard_check_pressed(ord("E")) && place_meeting(x,y, WorkTask_o)){
 		show_debug_message("player 1 INTERACT");
 		payAP_scr("WorkTask");
+	}else if (keyboard_check_pressed(ord("E")) && place_meeting(x,y, StudyTask_o)){
+		show_debug_message("player 1 INTERACT");
+		payAP_scr("StudyTask");
 	}
 	
 	
