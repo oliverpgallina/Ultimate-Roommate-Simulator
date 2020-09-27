@@ -33,6 +33,10 @@ if (!regenerating && !isActing)
 		show_debug_message("player 2 INTERACT");
 		payAP_scr("WorkTask");
 	}
+	else if (keyboard_check_pressed(vk_control) && place_meeting(x,y, StudyTask_o)){
+		show_debug_message("player 2 INTERACT");
+		payAP_scr("StudyTask");
+	}
 	
 	
 	/*Ok this interact code is kinda bad but it works, I was trying to make WorkTask a child class of 
