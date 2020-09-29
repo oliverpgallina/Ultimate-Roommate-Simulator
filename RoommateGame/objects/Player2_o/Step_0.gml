@@ -1,6 +1,8 @@
 //First checks if the player is regenerating Action Points, and continue regenerating if they are
 if (regenerating) regenerateAP_scr();
 
+checkMoveSpeed_scr();
+
 //If the player isn't regenerating AP, allow them to move and perform actions as normal
 if (!regenerating && !isActing)
 {
@@ -37,7 +39,11 @@ if (!regenerating && !isActing)
 		show_debug_message("player 2 INTERACT");
 		payAP_scr("StudyTask");
 	}
-	
+	else if (keyboard_check_pressed(vk_control) && place_meeting(x,y, Trash_o)){
+		if (Clock_o.trashLevel == 0) return;
+		show_debug_message("player 2 INTERACT");
+		payAP_scr("TrashTask");
+	}
 	
 	/*Ok this interact code is kinda bad but it works, I was trying to make WorkTask a child class of 
 	BasicTask to make things easier but like I ended up messing around with how GML interprets

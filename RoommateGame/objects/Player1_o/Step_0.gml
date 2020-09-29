@@ -1,6 +1,8 @@
 //First checks if the player is regenerating Action Points, and continue regenerating if they are
 if (regenerating) regenerateAP_scr();
 
+checkMoveSpeed_scr();
+
 //If the player isn't regenerating AP or performing an Action, 
 //allow them to move and perform actions as normal
 if (!regenerating && !isActing)
@@ -33,9 +35,15 @@ if (!regenerating && !isActing)
 	else if (keyboard_check_pressed(ord("E")) && place_meeting(x,y, WorkTask_o)){
 		show_debug_message("player 1 INTERACT");
 		payAP_scr("WorkTask");
-	}else if (keyboard_check_pressed(ord("E")) && place_meeting(x,y, StudyTask_o)){
+	}
+	else if (keyboard_check_pressed(ord("E")) && place_meeting(x,y, StudyTask_o)){
 		show_debug_message("player 1 INTERACT");
 		payAP_scr("StudyTask");
+	}
+	else if (keyboard_check_pressed(ord("E")) && place_meeting(x,y, Trash_o)){
+		if (Clock_o.trashLevel == 0) return;
+		show_debug_message("player 1 INTERACT");
+		payAP_scr("TrashTask");
 	}
 	
 	

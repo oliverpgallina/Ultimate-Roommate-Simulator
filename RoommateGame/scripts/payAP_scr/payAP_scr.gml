@@ -28,4 +28,43 @@ function payAP_scr(taskObject){
 		isActing = true;
 		alarm[0] = 240;
 	}
+	else if (taskObject == "TrashTask"){
+		show_debug_message("TAKIN OUT TRASH");
+
+		switch (Clock_o.trashLevel){
+			case 1: 
+				actionPoints -= 100;
+				isActing = true;
+				alarm[0] = 120;
+				break;
+			case 2:
+				actionPoints -= 200;
+				isActing = true;
+				alarm[0] = 240;
+				break;
+			case 3: 
+				actionPoints -= 300;
+				isActing = true;
+				alarm[0] = 360;
+				break;
+			case 4:
+				actionPoints -= 400;
+				isActing = true;
+				alarm[0] = 480;
+				break;
+			case 5:
+				actionPoints -= 500;
+				isActing = true;
+				alarm[0] = 600;
+				break;
+			case 6:
+				actionPoints -= 600;
+				isActing = true;
+				alarm[0] = 720;
+				break;
+		}
+				
+		Clock_o.trashLevel = 0;
+		
+	}
 }

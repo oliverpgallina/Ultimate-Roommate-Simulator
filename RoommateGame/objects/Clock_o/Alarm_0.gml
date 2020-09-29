@@ -4,8 +4,10 @@
 
 alarm[0] = room_speed * timeRemaining;
 day++;
-
 currentTime++;
+
+if (trashLevel < 6) trashLevel++;
+else trashLevel = 6;
 
 if(currentTime == 24){
 	endOfDay = true;

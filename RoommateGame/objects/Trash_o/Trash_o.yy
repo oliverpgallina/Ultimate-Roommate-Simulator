@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Study_sp",
-    "path": "sprites/Study_sp/Study_sp.yy",
+    "name": "Trash_sp",
+    "path": "sprites/Trash_sp/Trash_sp.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,7 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"StudyTask_o","path":"objects/StudyTask_o/StudyTask_o.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"Trash_o","path":"objects/Trash_o/Trash_o.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "StudyTask_o",
+  "name": "Trash_o",
   "tags": [],
   "resourceType": "GMObject",
 }
