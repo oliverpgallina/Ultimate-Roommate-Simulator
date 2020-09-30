@@ -8,6 +8,7 @@ function payAP_scr(taskObject){
 		ParentPlayer_o.totalMoney += 70;
 		
 		actionPoints -= 800;
+		stressPoints += 500;
 		isActing = true;
 		alarm[0] = 360; 
 	}
@@ -25,6 +26,7 @@ function payAP_scr(taskObject){
 		show_debug_message("StudyPoints: " + string(studyPoints));
 		
 		actionPoints -= 600;
+		stressPoints += 200;
 		isActing = true;
 		alarm[0] = 240;
 	}
@@ -34,37 +36,49 @@ function payAP_scr(taskObject){
 		switch (Clock_o.trashLevel){
 			case 1: 
 				actionPoints -= 100;
+				stressPoints -= 100;
 				isActing = true;
 				alarm[0] = 120;
 				break;
 			case 2:
 				actionPoints -= 200;
+				stressPoints -= 200;
 				isActing = true;
 				alarm[0] = 240;
 				break;
 			case 3: 
 				actionPoints -= 300;
+				stressPoints -= 300;
 				isActing = true;
 				alarm[0] = 360;
 				break;
 			case 4:
 				actionPoints -= 400;
+				stressPoints -= 400;
 				isActing = true;
 				alarm[0] = 480;
 				break;
 			case 5:
 				actionPoints -= 500;
+				stressPoints -= 500;
 				isActing = true;
 				alarm[0] = 600;
 				break;
 			case 6:
 				actionPoints -= 600;
+				stressPoints -= 600;
 				isActing = true;
 				alarm[0] = 720;
 				break;
 		}
 				
-		Clock_o.trashLevel = 0;
-		
+		Clock_o.trashLevel = 0;	
+	}
+	else if (taskObject == "RelaxTask"){
+		show_debug_message("RELAXATION TIME");
+		isActing = true;
+		relieveStress_scr(); //this is supposed to decrease stress points over time, not working rn. ima stop right now tho cuz im hungry
+		panicked = false;
+		alarm[0] = 1;
 	}
 }

@@ -1,8 +1,18 @@
 /* How fast the player moves */
 moveSpeed = 3;
 
-/* The player's Action Points, represented in the Action Bar*/
+/* The player's Action Points, represented in the Action Bar.
+AP are spent to perform various types of actions*/
 actionPoints = 2000;
+
+/* The player's Stress Points, represented in the Stress Bar(?).
+Stress Points accumulate from performing actions, and can only be 
+decreased by doing something relaxing (like sitting on the couch) */
+stressPoints = 0;
+
+/* Determines whether or not the player has entered Panicked status. 
+True when Stress Points hit the max of 1000, otherwise false */ 
+panicked = false;
 
 /* Whether or not the player is performing actions right now (Moving and Doing Things) */
 isActing = false;

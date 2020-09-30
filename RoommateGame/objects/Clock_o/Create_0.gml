@@ -7,7 +7,7 @@ day = 1;
 
 weekPassed = false;
 //total time until it reaches 0
-timeRemaining = 5;
+timeRemaining = 30;
 
 clockStartTime = 0;
 

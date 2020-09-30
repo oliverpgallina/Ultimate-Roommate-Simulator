@@ -9,6 +9,7 @@
     {"id":{"name":"TV_o","path":"objects/TV_o/TV_o.yy",},"order":15,},
     {"id":{"name":"Wall_o","path":"objects/Wall_o/Wall_o.yy",},"order":4,},
     {"id":{"name":"rentCalc_scr","path":"scripts/rentCalc_scr/rentCalc_scr.yy",},"order":4,},
+    {"id":{"name":"relieveStress_scr","path":"scripts/relieveStress_scr/relieveStress_scr.yy",},"order":7,},
     {"id":{"name":"countertop_o","path":"objects/countertop_o/countertop_o.yy",},"order":11,},
     {"id":{"name":"TestScoreObj_o","path":"objects/TestScoreObj_o/TestScoreObj_o.yy",},"order":1,},
     {"id":{"name":"countertop_sp","path":"sprites/countertop_sp/countertop_sp.yy",},"order":9,},
