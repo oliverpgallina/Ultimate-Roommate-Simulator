@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite16",
-    "path": "sprites/Sprite16/Sprite16.yy",
+    "name": "bed_sp",
+    "path": "sprites/bed_sp/bed_sp.yy",
   },
   "solid": false,
   "visible": true,

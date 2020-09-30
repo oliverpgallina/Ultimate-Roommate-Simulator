@@ -77,8 +77,6 @@ function payAP_scr(taskObject){
 	else if (taskObject == "RelaxTask"){
 		show_debug_message("RELAXATION TIME");
 		isActing = true;
-		relieveStress_scr(); //this is supposed to decrease stress points over time, not working rn. ima stop right now tho cuz im hungry
-		panicked = false;
-		alarm[0] = 1;
+		relievingStress = true;
 	}
 }

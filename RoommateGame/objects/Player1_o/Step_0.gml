@@ -1,11 +1,13 @@
 //First checks if the player is regenerating Action Points, and continue regenerating if they are
 if (regenerating) regenerateAP_scr();
+//Then checks if the player is reducing Stress Points, and continue reducing if they are
+if (relievingStress) relieveStress_scr();
 
 checkMoveSpeed_scr();
 
 //If the player isn't regenerating AP or performing an Action, 
 //allow them to move and perform actions as normal
-if (!regenerating && !isActing)
+if (!regenerating && !isActing && !relievingStress)
 {
 	//Basic Up/Down/Left/Right Movement
 	if(keyboard_check(ord("W"))) {
@@ -64,4 +66,10 @@ if (actionPoints <= 0 && !isActing) {
 	regenerating = true;
 }
 
-if (stressPoints >= 1000 && !isActing) panicked = true;
+/*If stress hits the max and the player isn't performing an action
+set their status to panicked, meaning they can't perform any more actions
+until they relieve stress on the couch. And set SP to 1000 in case it went over the max */
+if (stressPoints >= 1000 && !isActing) {
+	panicked = true;
+	stressPoints = 1000;
+}

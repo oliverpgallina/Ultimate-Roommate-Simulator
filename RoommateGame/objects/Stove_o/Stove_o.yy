@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite12",
-    "path": "sprites/Sprite12/Sprite12.yy",
+    "name": "stove_sp",
+    "path": "sprites/stove_sp/stove_sp.yy",
   },
   "solid": false,
   "visible": true,

@@ -20,6 +20,9 @@ isActing = false;
 /* Whether or not the player is currently regenerating AP (and thus unable to move */
 regenerating = false;
 
+/* Whether or not the player is currently reducing their Stress Points gradually */
+relievingStress = false;
+
 /* The total rent money due at the end of each week */
 rentDue = 1800;
 
