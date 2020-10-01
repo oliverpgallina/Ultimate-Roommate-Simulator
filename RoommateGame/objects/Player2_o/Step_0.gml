@@ -46,6 +46,10 @@ if (!regenerating && !isActing)
 		show_debug_message("player 2 INTERACT");
 		payAP_scr("TrashTask");
 	}
+	else if (keyboard_check_pressed(vk_control) && place_meeting(x,y, Couch_o) && !Player1_o.relievingStress) {
+		show_debug_message("player 2 INTERACT");
+		payAP_scr("RelaxTask");
+	}
 	
 	/*Ok this interact code is kinda bad but it works, I was trying to make WorkTask a child class of 
 	BasicTask to make things easier but like I ended up messing around with how GML interprets
@@ -68,3 +72,6 @@ if (stressPoints >= 1000 && !isActing) {
 	panicked = true;
 	stressPoints = 1000;
 }
+
+//Just in case SP ever goes negative
+if (stressPoints <= 0) stressPoints = 0;

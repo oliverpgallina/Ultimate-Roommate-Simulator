@@ -47,7 +47,7 @@ if (!regenerating && !isActing && !relievingStress)
 		show_debug_message("player 1 INTERACT");
 		payAP_scr("TrashTask");
 	}
-	else if (keyboard_check_pressed(ord("E")) && place_meeting(x,y, Couch_o)) {
+	else if (keyboard_check_pressed(ord("E")) && place_meeting(x,y, Couch_o) && !Player2_o.relievingStress) {
 		show_debug_message("player 1 INTERACT");
 		payAP_scr("RelaxTask");
 	}
@@ -73,3 +73,6 @@ if (stressPoints >= 1000 && !isActing) {
 	panicked = true;
 	stressPoints = 1000;
 }
+
+//Just in case SP ever goes negative
+if (stressPoints <= 0) stressPoints = 0;

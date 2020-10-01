@@ -1,3 +1,6 @@
+//For animation frame speeds
+image_speed = .25;
+
 /* How fast the player moves */
 moveSpeed = 3;
 
