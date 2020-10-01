@@ -8,5 +8,5 @@ function relieveStress_scr(){
 		return;
 	}
 
-	stressPoints -= 2;
+	stressPoints -= 1;
 }

@@ -24,6 +24,7 @@
     {"id":{"name":"Wall_sp","path":"sprites/Wall_sp/Wall_sp.yy",},"order":3,},
     {"id":{"name":"TestSprite_sp","path":"sprites/TestSprite_sp/TestSprite_sp.yy",},"order":0,},
     {"id":{"name":"Bed_o","path":"objects/Bed_o/Bed_o.yy",},"order":16,},
+    {"id":{"name":"ParentInteractable_o","path":"objects/ParentInteractable_o/ParentInteractable_o.yy",},"order":17,},
     {"id":{"name":"Clock_o","path":"objects/Clock_o/Clock_o.yy",},"order":0,},
     {"id":{"name":"fridge_sp","path":"sprites/fridge_sp/fridge_sp.yy",},"order":12,},
     {"id":{"name":"Couch_o","path":"objects/Couch_o/Couch_o.yy",},"order":14,},

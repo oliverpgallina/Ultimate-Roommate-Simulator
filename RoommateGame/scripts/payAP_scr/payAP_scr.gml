@@ -2,6 +2,7 @@
 Preferrably this would be set up to work for every interactable object, 
 instead of having to make a script for each one or something */
 function payAP_scr(taskObject){
+	// Going to work costs AP and increases SP
 	if (taskObject == "WorkTask") {
 		show_debug_message("gettin this MONEY");
 		
@@ -12,6 +13,7 @@ function payAP_scr(taskObject){
 		isActing = true;
 		alarm[0] = 360; 
 	}
+	//This is a Basic Task, not fully implemented yet
 	else if (taskObject == "BasicTask"){
 		show_debug_message("doing basic stuff");
 		
@@ -19,6 +21,7 @@ function payAP_scr(taskObject){
 		isActing = true;
 		alarm[0] = 180; //a 180 frame alarm, i.e. 3 seconds
 	}
+	//Studying costs AP and increases SP, also boosts Study Points (contributes to a better grade)
 	else if (taskObject == "StudyTask"){
 		show_debug_message("HITTIN THE BOOKS");
 		
@@ -30,6 +33,7 @@ function payAP_scr(taskObject){
 		isActing = true;
 		alarm[0] = 240;
 	}
+	//Taking out the trash costs AP, reduces SP, (varies depending on the Trash Level) and puts the Trash Level to 0
 	else if (taskObject == "TrashTask"){
 		show_debug_message("TAKIN OUT TRASH");
 
@@ -74,9 +78,20 @@ function payAP_scr(taskObject){
 				
 		Clock_o.trashLevel = 0;	
 	}
+	//Relaxing slowly decreases SP over time and gets rid of the Panicked status (sets it to false)
 	else if (taskObject == "RelaxTask"){
 		show_debug_message("RELAXATION TIME");
 		isActing = true;
 		relievingStress = true;
+	}
+	//Cooking costs AP and reduces SP, increases the Trash Level by one, and sets Hunger Level back to 1
+	else if (taskObject == "CookTask"){
+		show_debug_message("COOKING");
+		isActing = true;
+		actionPoints -= 300;
+		stressPoints -= 300;
+		Clock_o.trashLevel++;
+		hungerLevel = 1;
+		alarm[0] = 300;
 	}
 }

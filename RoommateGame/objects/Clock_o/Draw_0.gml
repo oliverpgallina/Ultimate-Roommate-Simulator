@@ -1,9 +1,10 @@
-
-draw_set_color(c_white);
-draw_text(50, 50, "Timer: " + string(alarm[0]));
-draw_text(50, 70, "timer count: " + string(alarm[0]/room_speed));
-draw_text(50, 90, "seconds: " + string(timeRemaining + (-1 * (alarm[0]/room_speed))));
-draw_text(50, 110, "Day: " + string(day));
+draw_set_color(c_purple);
 draw_text(250, 25, "Current Trash Level: " + string(trashLevel));
+
+draw_set_color(c_black);
+draw_text(25, 10, "Timer: " + string(alarm[0]));
+draw_text(25, 30, "timer count: " + string(alarm[0]/room_speed));
+draw_text(25, 50, "seconds: " + string(timeRemaining + (-1 * (alarm[0]/room_speed))));
+draw_text(25, 70, "Day: " + string(day));
 minutes = timeRemaining + (-1 * (alarm[0]/room_speed));
-draw_text(50, 130, "Current Time: " + string(currentTime) + ":" + string(minutes));
+draw_text(25, 90, "Current Time: " + string(currentTime) + ":" + string(minutes));

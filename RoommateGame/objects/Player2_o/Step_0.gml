@@ -6,7 +6,7 @@ if (relievingStress) relieveStress_scr();
 checkMoveSpeed_scr();
 
 //If the player isn't regenerating AP, allow them to move and perform actions as normal
-if (!regenerating && !isActing)
+if (!regenerating && !isActing && !relievingStress)
 {
 	//Basic Up/Down/Left/Right Movement
 	if(keyboard_check(vk_up)) {
@@ -29,26 +29,30 @@ if (!regenerating && !isActing)
 	//This should let the player interact with things (Studying, going to work, taking out trash, etc)
 	//presumably makes them im mobile while performing the action (for taking out trash maybe they just
 	//disappear temporarily?
-		if (keyboard_check_pressed(vk_control) && place_meeting(x,y, BasicTask_o)){
+	if (keyboard_check_pressed(vk_control) && place_meeting(x,y, BasicTask_o) && !panicked && hungerLevel < 3){
 		show_debug_message("player 2 INTERACT");
 		payAP_scr("BasicTask");
 	}
-	else if (keyboard_check_pressed(vk_control) && place_meeting(x,y, WorkTask_o)){
+	else if (keyboard_check_pressed(vk_control) && place_meeting(x,y, WorkTask_o) && !panicked && hungerLevel < 3){
 		show_debug_message("player 2 INTERACT");
 		payAP_scr("WorkTask");
 	}
-	else if (keyboard_check_pressed(vk_control) && place_meeting(x,y, StudyTask_o)){
+	else if (keyboard_check_pressed(vk_control) && place_meeting(x,y, StudyTask_o) && !panicked && hungerLevel < 3){
 		show_debug_message("player 2 INTERACT");
 		payAP_scr("StudyTask");
 	}
-	else if (keyboard_check_pressed(vk_control) && place_meeting(x,y, Trash_o)){
+	else if (keyboard_check_pressed(vk_control) && place_meeting(x,y, Trash_o) && !panicked && hungerLevel < 3){
 		if (Clock_o.trashLevel == 0) return;
 		show_debug_message("player 2 INTERACT");
 		payAP_scr("TrashTask");
 	}
-	else if (keyboard_check_pressed(vk_control) && place_meeting(x,y, Couch_o) && !Player1_o.relievingStress) {
+	else if (keyboard_check_pressed(vk_control) && place_meeting(x,y, Couch_o) && !Player1_o.relievingStress && hungerLevel == 1) {
 		show_debug_message("player 2 INTERACT");
 		payAP_scr("RelaxTask");
+	}
+	else if (keyboard_check_pressed(vk_control) && place_meeting(x,y, Stove_o) && hungerLevel != 1){
+		show_debug_message("player 2 INTERACT");
+		payAP_scr("CookTask");
 	}
 	
 	/*Ok this interact code is kinda bad but it works, I was trying to make WorkTask a child class of 
@@ -64,6 +68,16 @@ if (actionPoints <= 0 && !isActing) {
 	actionPoints = 0;
 	regenerating = true;
 }
+/*For special cases when the player happens to be both Panicked and Starving.
+(Something interesting should happen but for now it'll just stop the player and reset their Hunger Level
+and Action Points and Stress Points and have them regenerate */
+else if (panicked && hungerLevel == 3){
+	actionPoints = 0;
+	stressPoints = 0;
+	hungerLevel = 1;
+	regenerating = true;
+	panicked = false;
+}
 
 /*If stress hits the max and the player isn't performing an action
 set their status to panicked, meaning they can't perform any more actions
@@ -72,6 +86,7 @@ if (stressPoints >= 1000 && !isActing) {
 	panicked = true;
 	stressPoints = 1000;
 }
+else if (stressPoints < 1000) panicked = false;
 
 //Just in case SP ever goes negative
 if (stressPoints <= 0) stressPoints = 0;

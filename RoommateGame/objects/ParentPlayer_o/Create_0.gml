@@ -4,6 +4,14 @@ image_speed = .25;
 /* How fast the player moves */
 moveSpeed = 3;
 
+/* The player's hunger level. 1 is Sated, 2 is Hungry, 3 is Starving. 
+While Sated the player can act normally, while Hungry they can't Relax,
+while Starving they can't perform any actions besides Prepare Meal*/
+hungerLevel = 1;
+
+/* String representation of the player's hunger level (to draw on the UI) */
+hungerLvlString = "Sated";
+
 /* The player's Action Points, represented in the Action Bar.
 AP are spent to perform various types of actions*/
 actionPoints = 2000;
