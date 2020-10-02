@@ -12,3 +12,7 @@ else{
 currValue = 0;	
 }
 	
+	if(place_meeting(x, y, Player1_o) && keyboard_check(vk_alt)){
+		//something happens
+		Player1_o.foo();
+	}
