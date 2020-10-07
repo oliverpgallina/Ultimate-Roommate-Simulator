@@ -49,3 +49,6 @@ studyPoints = 0;
 uhhh so players get grades at the end of each week so maybe all their grades
 over the whole semester should be stored somewhere like an array or something */
 grade = "Z";
+
+//action key that each player uses
+actionKey = vk_space;
