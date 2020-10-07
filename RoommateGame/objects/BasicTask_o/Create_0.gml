@@ -13,3 +13,5 @@ barY = y;
 
 //chanmge if something goes wrong
 timeToComplete = 10;
+
+showBar = false;

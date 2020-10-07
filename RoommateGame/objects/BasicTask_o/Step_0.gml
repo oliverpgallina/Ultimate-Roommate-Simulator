@@ -12,3 +12,9 @@ else{
 currValue = 0;	
 }
 
+if(collision_circle(x, y, 70, ParentPlayer_o, true, true)){
+	showBar = true;
+}
+else{
+	showBar = false;	
+}
