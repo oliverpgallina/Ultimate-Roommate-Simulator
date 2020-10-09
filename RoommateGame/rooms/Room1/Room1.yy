@@ -57,6 +57,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"TV_o","path":"objects/TV_o/TV_o.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":180.0,"scaleX":3.4545455,"scaleY":2.6,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":352.0,"resourceVersion":"1.0","name":"inst_7857CBDB","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Bed_o","path":"objects/Bed_o/Bed_o.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-90.0,"scaleX":0.6152649,"scaleY":0.46268627,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":896.0,"y":96.0,"resourceVersion":"1.0","name":"inst_509BE511","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Bed_o","path":"objects/Bed_o/Bed_o.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-90.0,"scaleX":0.6012461,"scaleY":0.522388041,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1312.0,"y":96.0,"resourceVersion":"1.0","name":"inst_647B05A2","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"TestTask","path":"objects/TestTask/TestTask.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":768.0,"y":512.0,"resourceVersion":"1.0","name":"inst_95ECF5B","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"CollisionBox_o","path":"objects/CollisionBox_o/CollisionBox_o.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1184.0,"y":640.0,"resourceVersion":"1.0","name":"inst_7EE20EC5","tags":[],"resourceType":"GMRInstance",},
@@ -328,6 +329,7 @@
     {"name":"inst_509BE511","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_647B05A2","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_5038F61F","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_95ECF5B","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

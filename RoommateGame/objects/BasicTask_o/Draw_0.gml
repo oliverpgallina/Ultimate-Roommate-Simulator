@@ -4,6 +4,7 @@
 //draws the bar every frame 
 
 if(showBar){
+draw_text(x ,y - 20, taskName);
 draw_sprite(BarBackground, 0, barX, barY);
 
 currValue += (alarm[0] / room_speed);
@@ -11,6 +12,7 @@ if(currValue > maxTotal){
 	currValue = maxTotal;
 	
 	show_message("task completed!")
+	TaskCompleted(taskHunger, taskMoney, taskStress, taskStudy, taskTrash);
 }
 
 draw_sprite_stretched(BarFill, 0, barX, barY, (currValue/maxTotal) * barWidth, barHeight);

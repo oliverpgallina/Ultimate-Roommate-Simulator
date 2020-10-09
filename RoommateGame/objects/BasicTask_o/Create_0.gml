@@ -15,3 +15,11 @@ barY = y;
 timeToComplete = 10;
 
 showBar = false;
+
+//all values should be overriden for each specific task
+taskName = "generic task";
+taskHunger = 0;
+taskStress = 0;
+taskMoney = 0;
+taskTrash = 0;
+taskStudy = 0;
