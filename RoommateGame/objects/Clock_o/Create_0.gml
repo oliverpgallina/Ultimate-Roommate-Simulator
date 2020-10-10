@@ -9,7 +9,7 @@ weekPassed = false;
 //total time until it reaches 0
 timeRemaining = 30;
 
-clockStartTime = 0;
+//clockStartTime = 0;
 
 /* The current level of trash that has been built up each day. Trash Level 0 means there's no trash to take out,
 and each additional level of trash will require more Action Points and more time to take out */

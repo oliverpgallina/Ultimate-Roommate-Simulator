@@ -23,3 +23,4 @@ taskStress = 0;
 taskMoney = 0;
 taskTrash = 0;
 taskStudy = 0;
+player = ParentPlayer_o;
