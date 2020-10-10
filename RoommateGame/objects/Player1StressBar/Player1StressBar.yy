@@ -21,8 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Player1ActionBar","path":"objects/Player1ActionBar/Player1ActionBar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"Player1ActionBar","path":"objects/Player1ActionBar/Player1ActionBar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Player1StressBar","path":"objects/Player1StressBar/Player1StressBar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"Player1StressBar","path":"objects/Player1StressBar/Player1StressBar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +31,7 @@
     "path": "folders/Objects/UI/Player1.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Player1ActionBar",
+  "name": "Player1StressBar",
   "tags": [],
   "resourceType": "GMObject",
 }

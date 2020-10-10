@@ -18,8 +18,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"ParentBar","path":"objects/ParentBar/ParentBar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"ParentBar","path":"objects/ParentBar/ParentBar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"DrawMoneyParent","path":"objects/DrawMoneyParent/DrawMoneyParent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"DrawMoneyParent","path":"objects/DrawMoneyParent/DrawMoneyParent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -28,7 +28,7 @@
     "path": "folders/Objects/UI/Parents.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ParentBar",
+  "name": "DrawMoneyParent",
   "tags": [],
   "resourceType": "GMObject",
 }
