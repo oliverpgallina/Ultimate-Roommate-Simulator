@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Tasks",
+    "path": "folders/Objects/Tasks.yy",
   },
   "resourceVersion": "1.0",
   "name": "TestTask",

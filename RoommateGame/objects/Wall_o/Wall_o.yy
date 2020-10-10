@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "RoomObjs",
+    "path": "folders/Objects/RoomObjs.yy",
   },
   "resourceVersion": "1.0",
   "name": "Wall_o",

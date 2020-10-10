@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "fridge_sp",
-    "path": "sprites/fridge_sp/fridge_sp.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -20,15 +17,18 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"ParentBar","path":"objects/ParentBar/ParentBar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"ParentBar","path":"objects/ParentBar/ParentBar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "RoomObjs",
-    "path": "folders/Objects/RoomObjs.yy",
+    "name": "UI",
+    "path": "folders/Objects/UI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Fridge_o",
+  "name": "ParentBar",
   "tags": [],
   "resourceType": "GMObject",
 }

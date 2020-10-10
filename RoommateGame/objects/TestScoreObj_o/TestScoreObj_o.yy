@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Clocks and systems",
+    "path": "folders/Objects/Clocks and systems.yy",
   },
   "resourceVersion": "1.0",
   "name": "TestScoreObj_o",

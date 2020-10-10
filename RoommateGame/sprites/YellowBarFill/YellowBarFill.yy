@@ -10,12 +10,12 @@
   "bbox_left": 0,
   "bbox_right": 0,
   "bbox_top": 0,
-  "bbox_bottom": 10,
+  "bbox_bottom": 19,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 1,
-  "height": 10,
+  "height": 20,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ef99e71b-420f-4f14-9087-37da89434e1a","path":"sprites/BarFill/BarFill.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ef99e71b-420f-4f14-9087-37da89434e1a","path":"sprites/BarFill/BarFill.yy",},"LayerId":{"name":"3f704204-b006-4186-a9f6-f27068233a5a","path":"sprites/BarFill/BarFill.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"BarFill","path":"sprites/BarFill/BarFill.yy",},"resourceVersion":"1.0","name":"ef99e71b-420f-4f14-9087-37da89434e1a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a7f32367-ea7a-4c18-bdfd-c01ab69677df","path":"sprites/YellowBarFill/YellowBarFill.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a7f32367-ea7a-4c18-bdfd-c01ab69677df","path":"sprites/YellowBarFill/YellowBarFill.yy",},"LayerId":{"name":"850fec93-613c-4d53-a1b1-5aa2930f6b78","path":"sprites/YellowBarFill/YellowBarFill.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"YellowBarFill","path":"sprites/YellowBarFill/YellowBarFill.yy",},"resourceVersion":"1.0","name":"a7f32367-ea7a-4c18-bdfd-c01ab69677df","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"BarFill","path":"sprites/BarFill/BarFill.yy",},
+    "spriteId": {"name":"YellowBarFill","path":"sprites/YellowBarFill/YellowBarFill.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"1a4b876b-29ff-4630-9f82-f8a3adb0f981","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ef99e71b-420f-4f14-9087-37da89434e1a","path":"sprites/BarFill/BarFill.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d28860bd-656c-4e7c-8499-b8fe920c119c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a7f32367-ea7a-4c18-bdfd-c01ab69677df","path":"sprites/YellowBarFill/YellowBarFill.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"BarFill","path":"sprites/BarFill/BarFill.yy",},
+    "parent": {"name":"YellowBarFill","path":"sprites/YellowBarFill/YellowBarFill.yy",},
     "resourceVersion": "1.3",
-    "name": "BarFill",
+    "name": "YellowBarFill",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3f704204-b006-4186-a9f6-f27068233a5a","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"850fec93-613c-4d53-a1b1-5aa2930f6b78","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "UI",
     "path": "folders/Sprites/UI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "BarFill",
+  "name": "YellowBarFill",
   "tags": [],
   "resourceType": "GMSprite",
 }

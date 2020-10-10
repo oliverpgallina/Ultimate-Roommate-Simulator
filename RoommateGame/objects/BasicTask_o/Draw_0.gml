@@ -15,7 +15,7 @@ if(currValue > maxTotal){
 	TaskCompleted(taskHunger, taskMoney, taskStress, taskStudy, taskTrash, player);
 }
 
-draw_sprite_stretched(BarFill, 0, barX, barY, (currValue/maxTotal) * barWidth, barHeight);
+draw_sprite_stretched(RedBarFill, 0, barX, barY, (currValue/maxTotal) * barWidth, barHeight);
 }
 else{
 draw_sprite(TestSprite_sp, 0, x, y);
