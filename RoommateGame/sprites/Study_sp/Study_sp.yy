@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a5155ec9-f4c4-4ac8-baf7-09cfe15c7bb7","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Room objs",
+    "path": "folders/Sprites/Room objs.yy",
   },
   "resourceVersion": "1.0",
   "name": "Study_sp",

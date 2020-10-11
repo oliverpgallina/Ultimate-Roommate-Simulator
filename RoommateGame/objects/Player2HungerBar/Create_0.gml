@@ -2,7 +2,7 @@
 event_inherited();
 
 statName = "Hunger";
-player = Player1_o;
+player = Player2_o;
 maxValue = player.maxHungerLevel;
 minValue = player.minHungerLevel - 1;
 //the math here is kinda weird but works

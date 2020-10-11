@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ee1eadb6-aa80-4fa8-8a27-7b66e70b64c4","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Room objs",
+    "path": "folders/Sprites/Room objs.yy",
   },
   "resourceVersion": "1.0",
   "name": "CollisionBox_sp",

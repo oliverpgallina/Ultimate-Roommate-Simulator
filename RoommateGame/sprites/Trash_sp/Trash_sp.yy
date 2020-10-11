@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f1139238-c232-4019-9904-a152441b774d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Room objs",
+    "path": "folders/Sprites/Room objs.yy",
   },
   "resourceVersion": "1.0",
   "name": "Trash_sp",

@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"394a76f9-ec18-4c87-9e39-d20dcb353f10","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Room objs",
+    "path": "folders/Sprites/Room objs.yy",
   },
   "resourceVersion": "1.0",
   "name": "TV_sp",

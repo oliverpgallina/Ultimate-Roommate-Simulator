@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"546c2111-7925-440a-a0d4-299321615121","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Room objs",
+    "path": "folders/Sprites/Room objs.yy",
   },
   "resourceVersion": "1.0",
   "name": "countertop_sp",
