@@ -2,4 +2,4 @@
 // You can write your code in this editor
 event_inherited();
 
-actionKey = ord("Q");
+actionKey = ord("E");

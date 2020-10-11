@@ -7,6 +7,7 @@ function partyCheck_scr(){
 
 /* Checks if player has performed well and thus is eligible for PARTY TIME */
 function isGoodRoommate(player){
+	show_debug_message("checkin good roommates");
 	//should eventually factor in how many times player went to work as well (probably gonna use Roommate Points's count of work points for that)
 	if (player.grade == "A" && player.stressPoints <= 200 && Clock_o.trashLevel <= 2) return true;
 }

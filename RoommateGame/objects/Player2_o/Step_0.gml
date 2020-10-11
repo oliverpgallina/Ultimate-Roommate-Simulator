@@ -29,28 +29,25 @@ if (!regenerating && !isActing && !relievingStress)
 	//This should let the player interact with things (Studying, going to work, taking out trash, etc)
 	//presumably makes them im mobile while performing the action (for taking out trash maybe they just
 	//disappear temporarily?
-	if (keyboard_check_pressed(vk_control) && place_meeting(x,y, BasicTask_o) && !panicked && hungerLevel < 3){
-		show_debug_message("player 2 INTERACT");
-		payAP_scr("BasicTask");
-	}
-	else if (keyboard_check_pressed(vk_control) && place_meeting(x,y, WorkTask_o) && !panicked && hungerLevel < 3){
+
+	else if (keyboard_check_pressed(actionKey) && place_meeting(x,y, WorkTask_o) && !panicked && hungerLevel < 3){
 		show_debug_message("player 2 INTERACT");
 		payAP_scr("WorkTask");
 	}
-	else if (keyboard_check_pressed(vk_control) && place_meeting(x,y, StudyTask_o) && !panicked && hungerLevel < 3){
+	else if (keyboard_check_pressed(actionKey) && place_meeting(x,y, StudyTask_o) && !panicked && hungerLevel < 3){
 		show_debug_message("player 2 INTERACT");
 		payAP_scr("StudyTask");
 	}
-	else if (keyboard_check_pressed(vk_control) && place_meeting(x,y, Trash_o) && !panicked && hungerLevel < 3){
+	else if (keyboard_check_pressed(actionKey) && place_meeting(x,y, Trash_o) && !panicked && hungerLevel < 3){
 		if (Clock_o.trashLevel == 0) return;
 		show_debug_message("player 2 INTERACT");
 		payAP_scr("TrashTask");
 	}
-	else if (keyboard_check_pressed(vk_control) && place_meeting(x,y, Couch_o) && !Player1_o.relievingStress && hungerLevel == 1) {
+	else if (keyboard_check_pressed(actionKey) && place_meeting(x,y, Couch_o) && !Player1_o.relievingStress && hungerLevel == 1) {
 		show_debug_message("player 2 INTERACT");
 		payAP_scr("RelaxTask");
 	}
-	else if (keyboard_check_pressed(vk_control) && place_meeting(x,y, Stove_o) && hungerLevel != 1){
+	else if (keyboard_check_pressed(actionKey) && place_meeting(x,y, Stove_o) && hungerLevel != 1){
 		show_debug_message("player 2 INTERACT");
 		payAP_scr("CookTask");
 	}

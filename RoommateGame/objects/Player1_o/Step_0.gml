@@ -30,36 +30,31 @@ if (!regenerating && !isActing && !relievingStress)
 	//This should let the player interact with things (Studying, going to work, taking out trash, etc)
 	//presumably makes them im mobile while performing the action (for taking out trash maybe they just
 	//disappear temporarily?
-	if (keyboard_check_pressed(ord("E")) && place_meeting(x,y, BasicTask_o) && !panicked && hungerLevel < 3){
+	if (keyboard_check_pressed(actionKey) && place_meeting(x,y, BasicTask_o) && !panicked && hungerLevel < 3){
 		show_debug_message("player 1 INTERACT");
 		payAP_scr("BasicTask");
 	}
-	else if (keyboard_check_pressed(ord("E")) && place_meeting(x,y, WorkTask_o) && !panicked && hungerLevel < 3){
+	else if (keyboard_check_pressed(actionKey) && place_meeting(x,y, WorkTask_o) && !panicked && hungerLevel < 3){
 		show_debug_message("player 1 INTERACT");
 		payAP_scr("WorkTask");
 	}
-	else if (keyboard_check_pressed(ord("E")) && place_meeting(x,y, StudyTask_o) && !panicked && hungerLevel < 3){
+	else if (keyboard_check_pressed(actionKey) && place_meeting(x,y, StudyTask_o) && !panicked && hungerLevel < 3){
 		show_debug_message("player 1 INTERACT");
 		payAP_scr("StudyTask");
 	}
-	else if (keyboard_check_pressed(ord("E")) && place_meeting(x,y, Trash_o) && !panicked && hungerLevel < 3){
+	else if (keyboard_check_pressed(actionKey) && place_meeting(x,y, Trash_o) && !panicked && hungerLevel < 3){
 		if (Clock_o.trashLevel == 0) return;
 		show_debug_message("player 1 INTERACT");
 		payAP_scr("TrashTask");
 	}
-	else if (keyboard_check_pressed(ord("E")) && place_meeting(x,y, Couch_o) && !Player2_o.relievingStress && hungerLevel == 1) {
+	else if (keyboard_check_pressed(actionKey) && place_meeting(x,y, Couch_o) && !Player2_o.relievingStress && hungerLevel == 1) {
 		show_debug_message("player 1 INTERACT");
 		payAP_scr("RelaxTask");
 	}
-	else if (keyboard_check_pressed(ord("E")) && place_meeting(x,y, Stove_o) && hungerLevel != 1){
+	else if (keyboard_check_pressed(actionKey) && place_meeting(x,y, Stove_o) && hungerLevel != 1){
 		show_debug_message("player 1 INTERACT");
 		payAP_scr("CookTask");
 	}
-	
-	/*Ok this interact code is kinda bad but it works, I was trying to make WorkTask a child class of 
-	BasicTask to make things easier but like I ended up messing around with how GML interprets
-	objects and parents and children and stuff so I was just like screw it copy paste stuff.
-	We can fix this later */
 }
 
 //If AP ever hits 0 or below AND the player isn't currently performing an Action, 

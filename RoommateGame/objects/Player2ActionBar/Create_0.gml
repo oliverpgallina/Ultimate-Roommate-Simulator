@@ -1,6 +1,6 @@
 event_inherited();
 
-statName = "Action Points";
+statName = "Stamina";
 player = Player2_o;
 maxValue = player.maxActionPoints;
 minValue = player.minActionPoints;

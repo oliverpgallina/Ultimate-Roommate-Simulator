@@ -1,5 +1,5 @@
 draw_set_color(c_purple);
-draw_text(250, 25, "Current Trash Level: " + string(trashLevel));
+draw_text(250, 10, "Current Trash Level: " + string(trashLevel));
 
 draw_set_color(c_black);
 draw_text(25, 10, "Timer: " + string(alarm[0]));
