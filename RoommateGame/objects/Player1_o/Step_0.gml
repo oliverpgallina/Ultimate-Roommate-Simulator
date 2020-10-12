@@ -55,6 +55,8 @@ if (!regenerating && !isActing && !relievingStress)
 		show_debug_message("player 1 INTERACT");
 		payAP_scr("CookTask");
 	}
+	else if (keyboard_check_pressed(partyKey) && !isPartying) partyTime_scr();
+	
 }
 
 //If AP ever hits 0 or below AND the player isn't currently performing an Action, 

@@ -4,8 +4,8 @@ image_speed = .25;
 /* How fast the player moves */
 moveSpeed = 3;
 
-/* The player's hunger level. 1 is Sated, 2 is Hungry, 3 is Starving. 
-While Sated the player can act normally, while Hungry they can't Relax,
+/* The player's hunger level. 1 is Full, 2 is Hungry, 3 is Starving. 
+While Full the player can act normally, while Hungry they can't Relax,
 while Starving they can't perform any actions besides Prepare Meal*/
 maxHungerLevel = 3;
 minHungerLevel = 1;
@@ -34,6 +34,9 @@ panicked = false;
 /* Whether or not the player is performing actions right now (Moving and Doing Things) */
 isActing = false;
 
+/* Whether or not the player is currently partying*/
+isPartying = false;
+
 /* Whether or not the player is currently regenerating AP (and thus unable to move */
 regenerating = false;
 
@@ -58,3 +61,6 @@ grade = "Z";
 
 //action key that each player uses
 actionKey = vk_space;
+
+//Key for activating PARTY TIME, used by either player
+partyKey = vk_space;

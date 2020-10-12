@@ -4,7 +4,6 @@ if (day == 7) weekPassed = true;
 if (weekPassed) {
 	rentCalc_scr();
 	testCalc_scr();
-	partyCheck_scr();
 	weekPassed = false;
 	day = 1;
 }

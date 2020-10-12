@@ -51,11 +51,7 @@ if (!regenerating && !isActing && !relievingStress)
 		show_debug_message("player 2 INTERACT");
 		payAP_scr("CookTask");
 	}
-	
-	/*Ok this interact code is kinda bad but it works, I was trying to make WorkTask a child class of 
-	BasicTask to make things easier but like I ended up messing around with how GML interprets
-	objects and parents and children and stuff so I was just like screw it copy paste stuff.
-	We can fix this later */
+	else if (keyboard_check_pressed(partyKey) && !isPartying) partyTime_scr();
 }
 
 /*If AP ever hits 0 or below AND the player isn't currently performing an Action, 
