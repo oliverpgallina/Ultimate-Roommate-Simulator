@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "ParentInteractable_o",
-    "path": "objects/ParentInteractable_o/ParentInteractable_o.yy",
+    "name": "BasicTask_o",
+    "path": "objects/BasicTask_o/BasicTask_o.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,7 +23,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Trash_o","path":"objects/Trash_o/Trash_o.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"Trash_o","path":"objects/Trash_o/Trash_o.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

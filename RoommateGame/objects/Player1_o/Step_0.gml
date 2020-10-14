@@ -30,33 +30,32 @@ if (!regenerating && !isActing && !relievingStress)
 	//This should let the player interact with things (Studying, going to work, taking out trash, etc)
 	//presumably makes them im mobile while performing the action (for taking out trash maybe they just
 	//disappear temporarily?
-	if (keyboard_check_pressed(actionKey) && place_meeting(x,y, BasicTask_o) && !panicked && hungerLevel < 3){
-		show_debug_message("player 1 INTERACT");
-		payAP_scr("BasicTask");
+	if (place_meeting(x,y, WorkTask_o) && !panicked && hungerLevel < 3 && BasicTask_o.player != Player2_o){
+		show_debug_message("WORK TIME");
+		canInteract = true;
 	}
-	else if (keyboard_check_pressed(actionKey) && place_meeting(x,y, WorkTask_o) && !panicked && hungerLevel < 3){
-		show_debug_message("player 1 INTERACT");
-		payAP_scr("WorkTask");
+	else if (place_meeting(x,y, StudyTask_o) && !panicked && hungerLevel < 3 && BasicTask_o.player != Player2_o){
+		show_debug_message("STUDY TIME");
+		canInteract = true;
 	}
-	else if (keyboard_check_pressed(actionKey) && place_meeting(x,y, StudyTask_o) && !panicked && hungerLevel < 3){
-		show_debug_message("player 1 INTERACT");
-		payAP_scr("StudyTask");
-	}
-	else if (keyboard_check_pressed(actionKey) && place_meeting(x,y, Trash_o) && !panicked && hungerLevel < 3){
+	else if (place_meeting(x,y, Trash_o) && !panicked && hungerLevel < 3 && BasicTask_o.player != Player2_o){
 		if (Clock_o.trashLevel == 0) return;
-		show_debug_message("player 1 INTERACT");
-		payAP_scr("TrashTask");
+		show_debug_message("TRASH TIME");
+		canInteract = true;
 	}
-	else if (keyboard_check_pressed(actionKey) && place_meeting(x,y, Couch_o) && !Player2_o.relievingStress && hungerLevel == 1) {
-		show_debug_message("player 1 INTERACT");
-		payAP_scr("RelaxTask");
+	else if (place_meeting(x,y, Couch_o) && !Player2_o.relievingStress && hungerLevel == 1 && BasicTask_o.player != Player2_o) {
+		show_debug_message("RELAXING TIME");
+		canInteract = true;
 	}
-	else if (keyboard_check_pressed(actionKey) && place_meeting(x,y, Stove_o) && hungerLevel != 1){
-		show_debug_message("player 1 INTERACT");
-		payAP_scr("CookTask");
+	else if (place_meeting(x,y, Stove_o) && hungerLevel != 1 && BasicTask_o.player != Player2_o){
+		show_debug_message("COOKING TIME");
+		canInteract = true;
 	}
 	else if (keyboard_check_pressed(partyKey) && !isPartying) partyTime_scr();
-	
+	else {
+		//show_debug_message("CANNOT INTERACT NOW PLAYER 1");
+		canInteract = false;
+	}
 }
 
 //If AP ever hits 0 or below AND the player isn't currently performing an Action, 

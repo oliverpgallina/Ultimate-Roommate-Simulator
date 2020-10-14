@@ -3,11 +3,14 @@
 //place holder variable for the number of days passed
 day = 1;
 
+/* The amount of weeks passed in the current month */
+weeksPassedThisMonth = 0;
+
 /* Turns true when a week has passed and rent must be calculated, otherwise false*/
 
 weekPassed = false;
 //total time until it reaches 0
-timeRemaining = 30;
+timeRemaining = 10;
 
 //clockStartTime = 0;
 

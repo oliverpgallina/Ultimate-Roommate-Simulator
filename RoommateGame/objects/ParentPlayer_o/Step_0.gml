@@ -10,3 +10,6 @@ switch (Clock_o.trashLevel) {
 		moveSpeed = 1;
 		break;
 }
+
+//this doesn't work either fuck
+if (isPartying) moveSpeed = 6;

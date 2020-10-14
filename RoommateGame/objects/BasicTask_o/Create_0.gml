@@ -18,6 +18,7 @@ showBar = false;
 
 //all values should be overriden for each specific task
 taskName = "generic task";
+taskAction = 0;
 taskHunger = 0;
 taskStress = 0;
 taskMoney = 0;

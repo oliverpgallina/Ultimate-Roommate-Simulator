@@ -12,7 +12,7 @@ currValue += (alarm[0] / room_speed);
 	currValue = maxTotal;
 	
 	show_message("task completed!")
-	TaskCompleted(taskHunger, taskMoney, taskStress, taskStudy, taskTrash, player);
+	TaskCompleted(taskAction, taskHunger, taskMoney, taskStress, taskStudy, taskTrash, player);
 	}
 
 draw_sprite_stretched(RedBarFill, 0, barX, barY, (currValue/maxTotal) * barWidth, barHeight);

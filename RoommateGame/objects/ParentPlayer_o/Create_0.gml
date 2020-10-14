@@ -37,6 +37,10 @@ isActing = false;
 /* Whether or not the player is currently partying*/
 isPartying = false;
 
+/* Whether or not the player meets the proper prerequisites to interact with a task 
+(prereqs vary from task to task) */
+canInteract = false;
+
 /* Whether or not the player is currently regenerating AP (and thus unable to move */
 regenerating = false;
 
@@ -57,7 +61,7 @@ studyPoints = 0;
 
 uhhh so players get grades at the end of each week so maybe all their grades
 over the whole semester should be stored somewhere like an array or something */
-grade = "Z";
+grade = "";
 
 //action key that each player uses
 actionKey = vk_space;
