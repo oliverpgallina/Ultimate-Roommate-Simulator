@@ -68,3 +68,6 @@ actionKey = vk_space;
 
 //Key for activating PARTY TIME, used by either player
 partyKey = vk_space;
+
+//translates to a roommate score at the end of the game
+scorePoints = 0;

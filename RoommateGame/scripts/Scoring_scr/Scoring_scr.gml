@@ -15,30 +15,24 @@
 //THEY ARE NOT GOOD FOR THE FINAL VERSION
 
 
-/* 
-function Scoring(score){
 
-	totalScore = 0;
+function Scoring(player){
+	
+	totalScore = player.scorePoints;
 
-	for(i = 0; i < score.length - 1; i++){
-	totalScore += score[i];
-	}
-	
-	
-	//stub values
-	if(totalScore > 10)
+	if(totalScore > 1000)
 		return "S";
-	else if (totalScore > 9)
+	else if (totalScore > 800)
 		return "A";
-	else if(totalScore > 8)
+	else if(totalScore > 700)
 		return "B";
-	else if (totalScore > 7)
+	else if (totalScore > 500)
 		return "C";
-	else if(totalScore > 6)
+	else if(totalScore > 300)
 		return "D";
-	else if (totalScore > 5)
+	else if (totalScore > 200)
 		return "E";
-	else if(totalScore > 4)
+	else if(totalScore > 100)
 		return "F";
 	
 }
@@ -50,3 +44,11 @@ function Scoring(score){
 //violets are red
 //game maker is bad
 //and Unity is better
+
+/*
+1000 Points to get S tier
+800 Points for A tier
+700 Points for B tier
+500 Points for C tier
+300 Points for D tier
+0 - 200 for F tier

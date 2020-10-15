@@ -3,7 +3,7 @@
 
 //changes all the stats after a task is done
 //IMPORTANT: all the stats are ADDED
-function TaskCompleted(taskAction, taskHunger, taskMoney, taskStress, taskStudy, taskTrash, player){
+function TaskCompleted(taskAction, taskHunger, taskMoney, taskStress, taskStudy, taskTrash, taskScorePoints, player){
 //show_message( object_get_name(player) );
 
 player.actionPoints += taskAction;
@@ -12,5 +12,6 @@ ParentPlayer_o.totalMoney += taskMoney;
 player.stressPoints += taskStress;
 player.studyPoints += taskStudy;
 Clock_o.trashLevel += taskTrash;
+player.scorePoints += taskScorePoints;
 
 }
