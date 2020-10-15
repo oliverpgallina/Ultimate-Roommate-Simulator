@@ -1,7 +1,7 @@
 //Timer class
 
 //place holder variable for the number of days passed in the MONTH
-day = 28;
+day = 1;
 
 /* The amount of weeks passed in the current month */
 weeksPassedThisMonth = 0;
@@ -14,7 +14,7 @@ monthsPassed = 0;
 weekPassed = false;
 
 //total time that takes an hour to pass
-timeRemaining = 0.1;
+timeRemaining = 30;
 
 //current month when the game begins
 currentMonthIndex = 0;
