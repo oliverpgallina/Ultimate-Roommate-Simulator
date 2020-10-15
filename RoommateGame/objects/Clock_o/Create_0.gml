@@ -14,7 +14,7 @@ monthsPassed = 0;
 weekPassed = false;
 
 //total time that takes an hour to pass
-timeRemaining = 0.1;
+timeRemaining = 15;
 
 //clockStartTime = 0;
 

@@ -2,6 +2,8 @@
 function partyTime_scr(){
 	show_debug_message("PARTY TIME");
 	
+	audio_play_sound(RAVE_snd, 1, false);
+	
 	Player1_o.isPartying = true;
 	Player2_o.isPartying = true;
 	

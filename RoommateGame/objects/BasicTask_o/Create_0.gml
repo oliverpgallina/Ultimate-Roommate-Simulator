@@ -25,4 +25,5 @@ taskMoney = 0;
 taskTrash = 0;
 taskStudy = 0;
 taskScorePoints = 0;
+taskSound = GettinMoney_snd;
 player = ParentPlayer_o;
