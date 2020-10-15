@@ -1,11 +1,11 @@
 /*This code was redone a bit to fix a bug where if both players collided with a task and one of them
 Interacted with it, sometimes the other player's stats would be affected */
 if(collision_circle(x, y, 70, Player1_o, true, true) && keyboard_check(Player1_o.actionKey) 
-&& Player1_o.canInteract && !Player1_o.regenerating) {
+&& Player1_o.canInteract && !Player1_o.regenerating && taskCanInteract) {
 	player = Player1_o;
 }
 else if (collision_circle(x, y, 70, Player2_o, true, true) && keyboard_check(Player2_o.actionKey) 
-&& Player2_o.canInteract && !Player2_o.regenerating) {
+&& Player2_o.canInteract && !Player2_o.regenerating && taskCanInteract) {
 	player = Player2_o;
 }
 else{
@@ -28,6 +28,7 @@ alarm[0] = currTime;
 
 if(collision_circle(x, y, 70, ParentPlayer_o, true, true)){
 	showBar = true;
+	//taskCanInteract = true;
 }
 else{
 	showBar = false;	

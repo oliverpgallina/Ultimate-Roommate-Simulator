@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
 
 //draws the bar every frame 
 
@@ -11,8 +9,10 @@ currValue += (alarm[0] / room_speed);
 	if(currValue > maxTotal){
 	currValue = maxTotal;
 	
-	show_message("Task Complete!")
+	//show_message("Task Complete!")
 	TaskCompleted(taskAction, taskHunger, taskMoney, taskStress, taskStudy, taskTrash, taskScorePoints, player);
+	taskCanInteract = false;
+	alarm[1] = room_speed * .01;
 	}
 
 draw_sprite_stretched(RedBarFill, 0, barX, barY, (currValue/maxTotal) * barWidth, barHeight);

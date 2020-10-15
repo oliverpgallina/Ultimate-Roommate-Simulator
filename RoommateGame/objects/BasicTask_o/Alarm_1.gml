@@ -1,0 +1,2 @@
+
+taskCanInteract = true;

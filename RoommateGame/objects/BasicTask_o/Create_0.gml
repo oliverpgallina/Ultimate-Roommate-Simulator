@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
 
 //starting values
 currValue = 0;
@@ -27,3 +25,4 @@ taskStudy = 0;
 taskScorePoints = 0;
 taskSound = GettinMoney_snd;
 player = ParentPlayer_o;
+taskCanInteract = true;
