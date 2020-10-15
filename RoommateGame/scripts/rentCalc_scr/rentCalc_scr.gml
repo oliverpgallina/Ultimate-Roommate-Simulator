@@ -2,5 +2,11 @@
 and resets it back to 1800 if players have been fined (thus increasing the rent temporarily) */
 function rentCalc_scr(){
 	ParentPlayer_o.totalMoney = ParentPlayer_o.totalMoney - ParentPlayer_o.rentDue;
+	
+	//NOT ENOUGH MONEY FAIL STATE
+	if (ParentPlayer_o.totalMoney < 0) {
+		room_goto(RentGameOver);
+	}
+	
 	if (ParentPlayer_o.rentDue > 1800) ParentPlayer_o.rentDue = 1800;
 }
