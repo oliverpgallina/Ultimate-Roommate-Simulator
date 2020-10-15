@@ -10,4 +10,4 @@ draw_text(250, 10, "Current Trash Level: " + string(trashLevel));
 
 //minutes = timeRemaining - (alarm[0] / room_speed);
 //draw_text(25, 90, "Current Time: " + string(currentTime) + ":" + string(minutes));
-draw_text(25, 90, "weeks: " + string(weeksPassedThisMonth));
+draw_text(25, 90, "weekday: " + string(weekDay));

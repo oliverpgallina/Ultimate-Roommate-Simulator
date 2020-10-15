@@ -10,7 +10,7 @@ Player2_o.hungerLevel++;
 if (trashLevel < 6) trashLevel++;
 else trashLevel = 6;
 
-if(currentTime == 24){
+if(currentTime > 23){
 	endOfDay = true;
 	currentTime = 0;
 	day++;
@@ -22,9 +22,8 @@ if(currentTime == 24){
 //this section of code was previously in the step script
 //but was moved here for better performance
 /* Calculate rent payments at the end of each week / month */
-if (weekDay == 7) {
+if (weekDay > 7) {
 	weekPassed = true;
-	//weeksPassedThisMonth++;
 }
 
 /* When a week passes, calculate grades */
@@ -39,13 +38,12 @@ if (weekPassed) {
 
 /* When a month passes, pay rent */
 //if (weeksPassedThisMonth == 4){
-if(day == 31){
+if(day > 31){
 	monthsPassed++;
 	currentMonthIndex++;
 	currentMonth = months[currentMonthIndex];
 	day = 1;
-	
-	//weeksPassedThisMonth = 0;
+
 	//room_goto(ScoringRoom);
 	
 	//rentCalc_scr();

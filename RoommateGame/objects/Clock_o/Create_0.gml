@@ -3,9 +3,6 @@
 //place holder variable for the number of days passed in the MONTH
 day = 1;
 
-/* The amount of weeks passed in the current month */
-weeksPassedThisMonth = 0;
-
 /* The amount of months passed. Once the max amount (TBD) passes, the game ends
 and players are shown their Roommate Scores */
 monthsPassed = 0;
@@ -25,9 +22,7 @@ months = ["July", "August"];
 currentMonth = months[currentMonthIndex];
 
 //keeps track of the day of the week, not month
-weekDay = 0;
-
-//clockStartTime = 0;
+weekDay = 1;
 
 /* The current level of trash that has been built up each day. Trash Level 0 means there's no trash to take out,
 and each additional level of trash will require more Action Points and more time to take out */
