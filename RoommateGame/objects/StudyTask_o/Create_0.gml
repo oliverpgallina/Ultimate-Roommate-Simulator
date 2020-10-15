@@ -9,3 +9,4 @@ taskMoney = 0;
 taskTrash = 0;
 taskStudy = 1;
 taskScorePoints = 10000;
+taskSound = Study_snd;

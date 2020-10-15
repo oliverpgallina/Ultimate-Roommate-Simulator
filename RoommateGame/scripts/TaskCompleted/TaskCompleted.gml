@@ -12,6 +12,7 @@ ParentPlayer_o.totalMoney += taskMoney;
 player.stressPoints += taskStress;
 player.studyPoints += taskStudy;
 Clock_o.trashLevel += taskTrash;
+audio_play_sound(taskSound, 1, false);
 
 if(player == Player1_o) global.PlayerOneScore += taskScorePoints;
 if(player == Player2_o) global.PlayerTwoScore += taskScorePoints;

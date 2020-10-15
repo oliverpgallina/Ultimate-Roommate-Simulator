@@ -8,3 +8,4 @@ taskStress = -300;
 taskMoney = 0;
 taskTrash = 0;
 taskStudy = 0;
+taskSound = Cook_snd;
