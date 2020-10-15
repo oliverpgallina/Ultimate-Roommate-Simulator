@@ -6,11 +6,15 @@ day = 1;
 /* The amount of weeks passed in the current month */
 weeksPassedThisMonth = 0;
 
-/* Turns true when a week has passed and rent must be calculated, otherwise false*/
+/* The amount of months passed. Once the max amount (TBD) passes, the game ends
+and players are shown their Roommate Scores */
+monthsPassed = 0;
 
+/* Turns true when a week has passed and rent must be calculated, otherwise false*/
 weekPassed = false;
+
 //total time until it reaches 0
-timeRemaining = 1;
+timeRemaining = 10;
 
 //clockStartTime = 0;
 
