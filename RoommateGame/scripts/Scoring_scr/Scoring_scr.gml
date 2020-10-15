@@ -2,21 +2,15 @@
 
 function Scoring(totalScore){
 
-	if(totalScore > 1000)
-		return "S";
-	else if (totalScore > 800)
-		return "A";
-	else if(totalScore > 700)
-		return "B";
-	else if (totalScore > 500)
-		return "C";
-	else if(totalScore > 300)
-		return "D";
-	else if (totalScore > 200)
-		return "E";
-	else if(totalScore > 100)
-		return "F";
+	if (totalScore > 1000) return "S";
+	else if (totalScore > 800 ) return "S";
+	else if (totalScore > 700 ) return "A";
+	else if (totalScore > 600 ) return "B";
+	else if (totalScore > 500 ) return "C";
+	else if (totalScore > 400 ) return "D";
+	else if (totalScore > 300 ) return "E";
 	
+	return "F";
 }
 
 
