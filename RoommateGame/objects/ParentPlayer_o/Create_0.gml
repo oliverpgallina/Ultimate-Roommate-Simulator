@@ -70,4 +70,4 @@ actionKey = vk_space;
 partyKey = vk_space;
 
 //translates to a roommate score at the end of the game
-scorePoints = 0;
+//scorePoints = 0;

@@ -15,7 +15,7 @@ if (weekPassed) {
 if (weeksPassedThisMonth == 4){
 	monthsPassed++;
 	weeksPassedThisMonth = 0;
-	room_goto(ScoringRoom);
+	//room_goto(ScoringRoom);
 	//rentCalc_scr();
 }
 

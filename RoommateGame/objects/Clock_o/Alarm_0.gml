@@ -14,5 +14,6 @@ if(currentTime == 24){
 	endOfDay = true;
 	currentTime = 0;
 	day++;
-	show_message("end of the day");
+	room_goto(ScoringRoom);
+	//show_message("end of the day");
 }

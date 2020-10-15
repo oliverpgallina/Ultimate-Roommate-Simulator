@@ -12,6 +12,8 @@ ParentPlayer_o.totalMoney += taskMoney;
 player.stressPoints += taskStress;
 player.studyPoints += taskStudy;
 Clock_o.trashLevel += taskTrash;
-player.scorePoints += taskScorePoints;
+
+if(player == Player1_o) global.PlayerOneScore += taskScorePoints;
+if(player == Player2_o) global.PlayerTwoScore += taskScorePoints;
 
 }

@@ -1,8 +1,6 @@
 //calculates a letter score based on the score points in each player
 
-function Scoring(player){
-	
-	totalScore = player.scorePoints;
+function Scoring(totalScore){
 
 	if(totalScore > 1000)
 		return "S";
