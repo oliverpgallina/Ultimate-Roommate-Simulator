@@ -10,7 +10,7 @@ weeksPassedThisMonth = 0;
 
 weekPassed = false;
 //total time until it reaches 0
-timeRemaining = 100;
+timeRemaining = 1;
 
 //clockStartTime = 0;
 
