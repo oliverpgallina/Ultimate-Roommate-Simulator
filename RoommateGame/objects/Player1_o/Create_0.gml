@@ -3,3 +3,4 @@
 event_inherited();
 
 actionKey = ord("E");
+global.PlayerOneScore = 0;

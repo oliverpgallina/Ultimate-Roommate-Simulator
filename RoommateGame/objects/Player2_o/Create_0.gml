@@ -3,3 +3,4 @@
 event_inherited();
 
 actionKey = vk_control;
+global.PlayerTwoScore = 0;
