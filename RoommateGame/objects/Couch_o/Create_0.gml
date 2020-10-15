@@ -1,5 +1,5 @@
 event_inherited();
-taskName = "RELAXING";
+taskName = "RELIEVE STRESS";
 taskAction = 0;
 taskHunger = 0;
 taskStress = -1000;

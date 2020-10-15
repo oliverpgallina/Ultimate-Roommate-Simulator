@@ -1,7 +1,7 @@
 event_inherited();
 image_alpha = 1;
 
-taskName = "STUDYING";
+taskName = "DO HOMEWORK";
 taskAction = -600;
 taskHunger = 0;
 taskStress = 300;

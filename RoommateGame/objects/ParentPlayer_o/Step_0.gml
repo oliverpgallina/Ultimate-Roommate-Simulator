@@ -1,5 +1,5 @@
 //As the Trash Level increases towards higher values, it becomes harder to move for the player
-switch (Clock_o.trashLevel) {
+/*switch (Clock_o.trashLevel) {
 	case 4:
 		moveSpeed = 2;
 		break;
@@ -9,7 +9,4 @@ switch (Clock_o.trashLevel) {
 	case 6:
 		moveSpeed = 1;
 		break;
-}
-
-//this doesn't work either fuck
-if (isPartying) moveSpeed = 6;
+}*/

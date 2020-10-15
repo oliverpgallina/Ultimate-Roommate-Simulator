@@ -11,7 +11,7 @@ currValue += (alarm[0] / room_speed);
 	if(currValue > maxTotal){
 	currValue = maxTotal;
 	
-	show_message("task completed!")
+	show_message("Task Complete!")
 	TaskCompleted(taskAction, taskHunger, taskMoney, taskStress, taskStudy, taskTrash, taskScorePoints, player);
 	}
 
