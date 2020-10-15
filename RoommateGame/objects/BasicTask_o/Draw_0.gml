@@ -18,7 +18,7 @@ currValue += (alarm[0] / room_speed);
 draw_sprite_stretched(RedBarFill, 0, barX, barY, (currValue/maxTotal) * barWidth, barHeight);
 }
 else{
-draw_sprite(TestSprite_sp, 0, x, y);
+draw_sprite(sprite_index, 0, x, y);
 }
 
 //the clamp method legit doesn't work
