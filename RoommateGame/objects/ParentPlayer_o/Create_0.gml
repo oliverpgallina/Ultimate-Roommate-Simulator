@@ -23,7 +23,7 @@ actionPoints = 2000;
 /* The player's Stress Points, represented in the Stress Bar(?).
 Stress Points accumulate from performing actions, and can only be 
 decreased by doing something relaxing (like sitting on the couch) */
-maxStressPoints = 100;
+maxStressPoints = 1000;
 minStressPoints = 0;
 stressPoints = 0;
 
