@@ -8,4 +8,4 @@ taskStress = 300;
 taskMoney = 0;
 taskTrash = 0;
 taskStudy = 1;
-taskScorePoints = 1000;
+taskScorePoints = 10000;

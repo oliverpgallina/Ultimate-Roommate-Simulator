@@ -13,8 +13,8 @@ monthsPassed = 0;
 /* Turns true when a week has passed and rent must be calculated, otherwise false*/
 weekPassed = false;
 
-//total time until it reaches 0
-timeRemaining = 10;
+//total time that takes an hour to pass
+timeRemaining = 0.1;
 
 //clockStartTime = 0;
 

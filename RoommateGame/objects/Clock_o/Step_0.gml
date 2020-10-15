@@ -15,7 +15,8 @@ if (weekPassed) {
 if (weeksPassedThisMonth == 4){
 	monthsPassed++;
 	weeksPassedThisMonth = 0;
-	rentCalc_scr();
+	room_goto(ScoringRoom);
+	//rentCalc_scr();
 }
 
 /* Make sure trash level doesn't go negative lol */

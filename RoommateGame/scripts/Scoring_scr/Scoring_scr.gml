@@ -1,20 +1,4 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-
-//takes in a bunch of parameters, such as money made, times the house was cleaned, 
-//grades and etc and assigns a roommate grade to that roommate from F-S
-//F, E, D, C, B, A, S
-
-//params
-//score is an array with all the important scoring info
-
-//note: there is a haiku at the end
-
-//TODO
-//ALL THE VALUES ARE STUBS
-//THEY ARE NOT GOOD FOR THE FINAL VERSION
-
-
+//calculates a letter score based on the score points in each player
 
 function Scoring(player){
 	
