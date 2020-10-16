@@ -14,7 +14,7 @@ weekPassed = false;
 timeRemaining = 1.25;
 
 //current month when the game begins
-currentMonthIndex = 0;
+currentMonthIndex = 1;
 
 //list of months in the game
 months = ["October", "December"];
@@ -29,7 +29,7 @@ and each additional level of trash will require more Action Points and more time
 trashLevel = 0;
 
 //variables for the clock
-watchStartTime = 0;
+watchStartTime = 23;
 currentTime = watchStartTime;
 
 endOfDay = false;

@@ -8,6 +8,8 @@ function TaskCompleted(taskAction, taskHunger, taskMoney, taskStress, taskStudy,
 
 player.actionPoints += taskAction;
 player.hungerLevel += taskHunger;
+player.hungerLevel = clamp(player.hungerLevel, 1, 3);
+
 ParentPlayer_o.totalMoney += taskMoney;
 player.stressPoints += taskStress;
 player.studyPoints += taskStudy;
