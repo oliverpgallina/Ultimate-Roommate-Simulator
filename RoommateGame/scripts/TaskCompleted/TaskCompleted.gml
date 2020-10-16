@@ -7,13 +7,20 @@ function TaskCompleted(taskAction, taskHunger, taskMoney, taskStress, taskStudy,
 //show_message( object_get_name(player) );
 
 player.actionPoints += taskAction;
-player.hungerLevel += taskHunger;
-player.hungerLevel = clamp(player.hungerLevel, 1, 3);
+player.actionPoints = clamp(player.actionPoints, player.minActionPoints, player.maxActionPoints);
 
-ParentPlayer_o.totalMoney += taskMoney;
+player.hungerLevel += taskHunger;
+player.hungerLevel = clamp(player.hungerLevel, player.minHungerLevel, player.maxHungerLevel);
+
 player.stressPoints += taskStress;
-player.studyPoints += taskStudy;
+player.stressPoints = clamp(player.stressPoints, player.minStressPoints, player.maxStressPoints);
+
 Clock_o.trashLevel += taskTrash;
+Clock_o.trashLevel = clamp(Clock_o.trashLevel, 0, 6);
+
+player.studyPoints += taskStudy;
+ParentPlayer_o.totalMoney += taskMoney;
+
 audio_play_sound(taskSound, 1, false);
 
 if(player == Player1_o) global.PlayerOneScore += taskScorePoints;
