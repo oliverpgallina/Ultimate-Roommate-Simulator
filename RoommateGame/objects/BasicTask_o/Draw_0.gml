@@ -12,7 +12,7 @@ currValue += (alarm[0] / room_speed);
 	//show_message("Task Complete!")
 	TaskCompleted(taskAction, taskHunger, taskMoney, taskStress, taskStudy, taskTrash, taskScorePoints, player);
 	taskCanInteract = false;
-	alarm[1] = room_speed * .01;
+	alarm[1] = room_speed * 0.1;
 	}
 
 draw_sprite_stretched(RedBarFill, 0, barX, barY, (currValue/maxTotal) * barWidth, barHeight);
