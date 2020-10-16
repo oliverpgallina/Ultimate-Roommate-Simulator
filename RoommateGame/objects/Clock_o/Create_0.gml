@@ -29,7 +29,7 @@ and each additional level of trash will require more Action Points and more time
 trashLevel = 0;
 
 //variables for the clock
-watchStartTime = 23;
+watchStartTime = 0;
 currentTime = watchStartTime;
 
 endOfDay = false;
