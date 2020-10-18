@@ -6,6 +6,9 @@
 function TaskCompleted(taskAction, taskHunger, taskMoney, taskStress, taskStudy, taskTrash, taskScorePoints, player){
 //show_message( object_get_name(player) );
 
+//For the Sleep action, since regenerating works in kinda a weird way
+if (taskName == "SLEEP") player.regenerating = true;
+
 player.actionPoints += taskAction;
 player.actionPoints = clamp(player.actionPoints, player.minActionPoints, player.maxActionPoints);
 

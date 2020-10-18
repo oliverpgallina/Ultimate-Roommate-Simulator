@@ -14,7 +14,10 @@ if(currentTime > 23){
 	Player1_o.hungerLevel++;
 	Player2_o.hungerLevel++;
 	
-	if (trashLevel < 6) trashLevel++;
+	if (trashLevel < 6) {
+		trashLevel++;
+		checkMoveSpeed_scr();
+	}
 	else trashLevel = 6;
 
 	/* Make sure trash level doesn't go negative lol */

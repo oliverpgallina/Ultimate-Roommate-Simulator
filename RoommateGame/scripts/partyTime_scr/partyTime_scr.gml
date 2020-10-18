@@ -9,6 +9,7 @@ function partyTime_scr(){
 	
 	//ok movespeed increase doesnt work rn but anyway
 	ParentPlayer_o.moveSpeed = 7;
+	
 	Player1_o.stressPoints = 0;
 	Player2_o.stressPoints = 0;
 	
@@ -17,5 +18,6 @@ function partyTime_scr(){
 	
 	Clock_o.trashLevel = 0;
 	
-	alarm[2] = 300;
+	Player1_o.alarm[2] = 300;
+	Player2_o.alarm[2] = 300;
 }

@@ -5,5 +5,6 @@ function regenerateAP_scr(){
 		regenerating = false;	
 		return;
 	}
+
 	actionPoints += 4;
 }

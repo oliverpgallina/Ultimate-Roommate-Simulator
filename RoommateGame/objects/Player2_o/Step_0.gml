@@ -3,7 +3,7 @@ if (regenerating) regenerateAP_scr();
 //Then checks if the player is reducing Stress Points, and continue reducing if they are
 if (relievingStress) relieveStress_scr();
 
-checkMoveSpeed_scr();
+//checkMoveSpeed_scr();
 
 //If the player isn't regenerating AP, allow them to move and perform actions as normal
 if (!regenerating && !isActing && !relievingStress)
@@ -26,6 +26,8 @@ if (!regenerating && !isActing && !relievingStress)
 		actionPoints--;
 	}
 	
+if (actionPoints > 0)
+{
 	//This should let the player interact with things (Studying, going to work, taking out trash, etc)
 	//presumably makes them im mobile while performing the action (for taking out trash maybe they just
 	//disappear temporarily?
@@ -56,11 +58,19 @@ if (!regenerating && !isActing && !relievingStress)
 		canInteract = false;
 	}
 }
+else 
+{
+	if (place_meeting(x,y, Bed_o) && hungerLevel < 3){
+		show_debug_message("BED TIME");
+		canInteract = true;
+	}
+}
+}
 
 /*If AP ever hits 0 or below AND the player isn't currently performing an Action, 
 set AP to 0 (just in case it was negative, so that it regenerates fully at the same speed each time)
 and start regenerating */ 
-if (actionPoints <= 0 && !isActing) {
+/*if (actionPoints <= 0 && !isActing) {
 	actionPoints = 0;
 	regenerating = true;
 }

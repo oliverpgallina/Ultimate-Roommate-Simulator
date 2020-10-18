@@ -1,6 +1,6 @@
 show_debug_message("PARTY'S OVER");
 isPartying = false;
-moveSpeed = 3;
+checkMoveSpeed_scr();
 RaveOverlay1_o.image_alpha = 0;
 RaveOverlay2_o.image_alpha = 0;
 RaveOverlay3_o.image_alpha = 0;
