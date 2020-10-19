@@ -49,6 +49,7 @@
     {"id":{"name":"RaveOverlay2_o","path":"objects/RaveOverlay2_o/RaveOverlay2_o.yy",},"order":12,},
     {"id":{"name":"ParentInteractable_o","path":"objects/ParentInteractable_o/ParentInteractable_o.yy",},"order":1,},
     {"id":{"name":"ParentBar","path":"objects/ParentBar/ParentBar.yy",},"order":0,},
+    {"id":{"name":"bestBed","path":"sprites/bestBed/bestBed.yy",},"order":12,},
     {"id":{"name":"Evicted_spr","path":"sprites/Evicted_spr/Evicted_spr.yy",},"order":8,},
     {"id":{"name":"Clock_o","path":"objects/Clock_o/Clock_o.yy",},"order":0,},
     {"id":{"name":"RaveOverlay3_o","path":"objects/RaveOverlay3_o/RaveOverlay3_o.yy",},"order":13,},
