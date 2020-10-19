@@ -1,3 +1,6 @@
+/* So that each task has its own time to complete */
+timeToComplete = taskTTC;
+
 /*This code was redone a bit to fix a bug where if both players collided with a task and one of them
 Interacted with it, sometimes the other player's stats would be affected */
 if(collision_circle(x, y, 70, Player1_o, true, true) && keyboard_check(Player1_o.actionKey) 
@@ -33,3 +36,4 @@ if(collision_circle(x, y, 70, ParentPlayer_o, true, true)){
 else{
 	showBar = false;	
 }
+

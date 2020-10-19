@@ -7,7 +7,7 @@ if (relievingStress) relieveStress_scr();
 
 //If the player isn't regenerating AP or performing an Action, 
 //allow them to move and perform actions as normal
-if (!regenerating && !isActing && !relievingStress)
+if (!regenerating && !relievingStress)
 {
 	//Basic Up/Down/Left/Right Movement
 	if(keyboard_check(ord("W"))) {
@@ -40,8 +40,7 @@ if (actionPoints > 0)
 		show_debug_message("STUDY TIME");
 		canInteract = true;
 	}
-	else if (place_meeting(x,y, Trash_o) && !panicked && hungerLevel < 3 && BasicTask_o.player != Player2_o){
-		if (Clock_o.trashLevel == 0) return;
+	else if (place_meeting(x,y, Trash_o) && !panicked && hungerLevel < 3 && Clock_o.trashLevel != 0 && BasicTask_o.player != Player2_o){
 		show_debug_message("TRASH TIME");
 		canInteract = true;
 	}
@@ -69,6 +68,7 @@ else
 		show_debug_message("BED TIME");
 		canInteract = true;
 	}
+	else canInteract = false;
 }
 }
 
@@ -82,7 +82,7 @@ else
 /*For special cases when the player happens to be both Panicked and Starving.
 (Something interesting should happen but for now it'll just stop the player and reset their Hunger Level
 and Action Points and Stress Points and have them regenerate */
-else if (panicked && hungerLevel == 3){
+if (panicked && hungerLevel == 3){
 	actionPoints = 0;
 	stressPoints = 0;
 	hungerLevel = 1;
@@ -93,7 +93,7 @@ else if (panicked && hungerLevel == 3){
 /*If stress hits the max and the player isn't performing an action
 set their status to panicked, meaning they can't perform any more actions
 until they relieve stress on the couch. And set SP to 1000 in case it went over the max */
-if (stressPoints >= 1000 && !isActing) {
+if (stressPoints >= 1000) {
 	panicked = true;
 	stressPoints = 1000;
 }

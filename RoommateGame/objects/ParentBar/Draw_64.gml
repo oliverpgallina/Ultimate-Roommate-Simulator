@@ -36,6 +36,16 @@ if (Player2_o.regenerating){
 	draw_set_color(c_white);
 }
 
+if (Player1_o.actionPoints <= 0){
+	draw_set_color(c_orange);
+	draw_text(40, 225, "EXHAUSTED");
+	draw_set_color(c_white);
+}
+if (Player2_o.actionPoints <= 0){
+	draw_set_color(c_orange);
+	draw_text(1245, 225, "EXHAUSTED");
+	draw_set_color(c_white);
+}
 draw_set_color(c_purple);
 draw_text(47, 417, string(Player1_o.hungerLvlString));
 draw_text(1252, 413, string(Player2_o.hungerLvlString));

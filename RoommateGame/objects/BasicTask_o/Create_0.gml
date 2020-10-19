@@ -9,13 +9,11 @@ barHeight = 10;
 barX = x;
 barY = y;
 
-//chanmge if something goes wrong
-timeToComplete = 10;
-
 showBar = false;
 
 //all values should be overriden for each specific task
 taskName = "generic task";
+taskTTC = 10;
 taskAction = 0;
 taskHunger = 0;
 taskStress = 0;

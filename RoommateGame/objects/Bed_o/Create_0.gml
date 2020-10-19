@@ -2,6 +2,7 @@ event_inherited();
 image_alpha = 1;
 
 taskName = "SLEEP";
+taskTTC = 20;
 taskAction = 0;
 taskHunger = 0;
 taskStress = -500;
