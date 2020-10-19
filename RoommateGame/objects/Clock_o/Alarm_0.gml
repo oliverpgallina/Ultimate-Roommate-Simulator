@@ -47,12 +47,12 @@ if (weekPassed) {
 /* When a month passes, pay rent */
 //if (weeksPassedThisMonth == 4){
 if(day > 31){
+	rentCalc_scr();
 	monthsPassed++;
 	currentMonthIndex++;
+	if (monthsPassed == 2) room_goto(ScoringRoom);
 	currentMonth = months[currentMonthIndex];
 	day = 1;
 
 	//room_goto(ScoringRoom);
-	
-	//rentCalc_scr();
 }

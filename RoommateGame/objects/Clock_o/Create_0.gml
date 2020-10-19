@@ -11,13 +11,13 @@ monthsPassed = 0;
 weekPassed = false;
 
 //total time that takes an hour to pass
-timeRemaining = 1.25;
+timeRemaining = 1.25; //set back to 1.25 for real shit
 
 //current month when the game begins
-currentMonthIndex = 1;
+currentMonthIndex = 0;
 
 //list of months in the game
-months = ["October", "December"];
+months = ["October", "November", "December"];
 
 currentMonth = months[currentMonthIndex];
 
