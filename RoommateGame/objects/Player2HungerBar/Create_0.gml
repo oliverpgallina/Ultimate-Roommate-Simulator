@@ -3,7 +3,7 @@ event_inherited();
 
 statName = "Hunger";
 player = Player2_o;
-maxValue = player.maxHungerLevel;
+maxValue = player.maxHungerLevel - 1;
 minValue = player.minHungerLevel - 1;
 //the math here is kinda weird but works
 currValue = (maxValue - player.hungerLevel) + 1;

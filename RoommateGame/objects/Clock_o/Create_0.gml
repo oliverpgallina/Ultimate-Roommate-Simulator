@@ -11,7 +11,7 @@ monthsPassed = 0;
 weekPassed = false;
 
 //total time that takes an hour to pass
-timeRemaining = 1.25;
+timeRemaining = .1;
 
 //current month when the game begins
 currentMonthIndex = 1;
