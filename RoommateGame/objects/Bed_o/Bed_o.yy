@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "bestBed",
-    "path": "sprites/bestBed/bestBed.yy",
+    "name": "Bed_spr",
+    "path": "sprites/Bed_spr/Bed_spr.yy",
   },
   "solid": false,
   "visible": true,

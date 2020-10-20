@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 99,
+  "bbox_right": 27,
   "bbox_top": 0,
-  "bbox_bottom": 159,
+  "bbox_bottom": 99,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 100,
-  "height": 160,
+  "width": 28,
+  "height": 100,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"cc6878e5-2fad-4e42-ad74-b686700312c3","path":"sprites/bestBed/bestBed.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cc6878e5-2fad-4e42-ad74-b686700312c3","path":"sprites/bestBed/bestBed.yy",},"LayerId":{"name":"ac6c4d76-eaab-4cbc-ac89-d63205dce98e","path":"sprites/bestBed/bestBed.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"bestBed","path":"sprites/bestBed/bestBed.yy",},"resourceVersion":"1.0","name":"cc6878e5-2fad-4e42-ad74-b686700312c3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"61948d02-379d-4d2a-a3ed-0587542d3b5a","path":"sprites/Sprite38/Sprite38.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"61948d02-379d-4d2a-a3ed-0587542d3b5a","path":"sprites/Sprite38/Sprite38.yy",},"LayerId":{"name":"ec65fe6f-4986-457b-bc29-4d839a13180b","path":"sprites/Sprite38/Sprite38.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Sprite38","path":"sprites/Sprite38/Sprite38.yy",},"resourceVersion":"1.0","name":"61948d02-379d-4d2a-a3ed-0587542d3b5a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"bestBed","path":"sprites/bestBed/bestBed.yy",},
+    "spriteId": {"name":"Sprite38","path":"sprites/Sprite38/Sprite38.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"aa1afbe4-093f-40a7-8ff4-456d24d8f277","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cc6878e5-2fad-4e42-ad74-b686700312c3","path":"sprites/bestBed/bestBed.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5db4bfa2-0013-4b70-be48-cd821286c703","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"61948d02-379d-4d2a-a3ed-0587542d3b5a","path":"sprites/Sprite38/Sprite38.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"bestBed","path":"sprites/bestBed/bestBed.yy",},
+    "parent": {"name":"Sprite38","path":"sprites/Sprite38/Sprite38.yy",},
     "resourceVersion": "1.3",
-    "name": "bestBed",
+    "name": "Sprite38",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ac6c4d76-eaab-4cbc-ac89-d63205dce98e","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ec65fe6f-4986-457b-bc29-4d839a13180b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Room objs",
-    "path": "folders/Sprites/Room objs.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "bestBed",
+  "name": "Sprite38",
   "tags": [],
   "resourceType": "GMSprite",
 }

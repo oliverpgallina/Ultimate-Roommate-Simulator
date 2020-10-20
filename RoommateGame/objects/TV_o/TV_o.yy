@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "TV_sp",
-    "path": "sprites/TV_sp/TV_sp.yy",
+    "name": "Sprite38",
+    "path": "sprites/Sprite38/Sprite38.yy",
   },
   "solid": false,
   "visible": true,

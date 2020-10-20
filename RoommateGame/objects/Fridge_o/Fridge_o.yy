@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "fridge_sp",
-    "path": "sprites/fridge_sp/fridge_sp.yy",
+    "name": "Sprite34",
+    "path": "sprites/Sprite34/Sprite34.yy",
   },
   "solid": false,
   "visible": true,
