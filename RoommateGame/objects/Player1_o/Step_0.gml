@@ -12,19 +12,19 @@ if (!regenerating && !relievingStress)
 	//Basic Up/Down/Left/Right Movement
 	if(keyboard_check(ord("W"))) {
 		y -= moveSpeed;
-		actionPoints--;
+		//actionPoints--;
 	}
 	else if(keyboard_check(ord("A"))) {
 		x -= moveSpeed;
-		actionPoints--;
+		//actionPoints--;
 	}
 	else if(keyboard_check(ord("S"))) {
 		y += moveSpeed;
-		actionPoints--;
+		//actionPoints--;
 	}
 	else if(keyboard_check(ord("D"))) {
 		x += moveSpeed;
-		actionPoints--;
+		//actionPoints--;
 	}
 	
 if (actionPoints > 0)
@@ -79,16 +79,17 @@ else
 	actionPoints = 0;
 	regenerating = true;
 }
+
 /*For special cases when the player happens to be both Panicked and Starving.
 (Something interesting should happen but for now it'll just stop the player and reset their Hunger Level
 and Action Points and Stress Points and have them regenerate */
-if (panicked && hungerLevel == 3){
-	actionPoints = 0;
-	stressPoints = 0;
-	hungerLevel = 1;
-	regenerating = true;
-	panicked = false;
-}
+//if (panicked && hungerLevel == 3){
+//	actionPoints = 0;
+//	stressPoints = 0;
+//	hungerLevel = 1;
+//	regenerating = true;
+//	panicked = false;
+//}
 
 /*If stress hits the max and the player isn't performing an action
 set their status to panicked, meaning they can't perform any more actions

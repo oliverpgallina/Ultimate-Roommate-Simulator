@@ -48,7 +48,7 @@ regenerating = false;
 relievingStress = false;
 
 /* The total rent money due at the end of each week */
-rentDue = 1800;
+rentDue = 1200;
 
 /* The total amount of money shared between both players */
 totalMoney = 0;
