@@ -11,8 +11,8 @@ if(currentTime > 23){
 	day++;
 	weekDay++;
 	
-	Player1_o.hungerLevel++;
-	Player2_o.hungerLevel++;
+	//Player1_o.hungerLevel++;
+	//Player2_o.hungerLevel++;
 	
 	if (trashLevel < 6) {
 		trashLevel++;

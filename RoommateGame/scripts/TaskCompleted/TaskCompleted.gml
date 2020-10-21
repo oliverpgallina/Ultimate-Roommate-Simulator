@@ -6,6 +6,9 @@
 function TaskCompleted(taskAction, taskHunger, taskMoney, taskStress, taskStudy, taskTrash, taskScorePoints, player){
 //show_message( object_get_name(player) );
 
+//Reset hunger alarm if player just cooked food
+if (taskName == "COOK FOOD") player.alarm[3] = 1200;
+
 //For the Sleep action, since regenerating works in kinda a weird way
 if (taskName == "SLEEP") player.regenerating = true;
 
