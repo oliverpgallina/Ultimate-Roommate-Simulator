@@ -1,5 +1,5 @@
 
-statName = "Trash Levek";
+statName = "Trash Level";
 
 //bar values
 maxValue = 6;
@@ -9,6 +9,6 @@ barHeight = 100;
 
 //sprites
 sprite = TrashSpt;
-bgSprite = LongBarBg;
+bgSprite = Sprite24;
 
 barTrashLevel = Clock_o.trashLevel;

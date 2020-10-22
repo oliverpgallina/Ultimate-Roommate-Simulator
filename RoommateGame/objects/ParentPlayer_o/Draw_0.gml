@@ -1,6 +1,4 @@
-draw_set_color(c_black);
-draw_text(500, 10, "P1 Grade: " + string(Player1_o.grade));
-draw_text(650, 10, "P2 Grade: " + string(Player2_o.grade));
+
 /*
 draw_set_color(c_red);
 draw_text(250, 725, "P1 Action Points: " + string(Player1_o.actionPoints));
