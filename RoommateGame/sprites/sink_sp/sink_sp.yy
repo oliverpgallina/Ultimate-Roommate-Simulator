@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 99,
+  "bbox_right": 119,
   "bbox_top": 0,
-  "bbox_bottom": 63,
+  "bbox_bottom": 93,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 100,
-  "height": 64,
+  "width": 120,
+  "height": 94,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8d710b8d-b92d-49dd-834e-893b6a804cab","path":"sprites/fridge_sp/fridge_sp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8d710b8d-b92d-49dd-834e-893b6a804cab","path":"sprites/fridge_sp/fridge_sp.yy",},"LayerId":{"name":"9d8ac49e-b1b7-42e5-acc8-cca9ecc350ae","path":"sprites/fridge_sp/fridge_sp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"fridge_sp","path":"sprites/fridge_sp/fridge_sp.yy",},"resourceVersion":"1.0","name":"8d710b8d-b92d-49dd-834e-893b6a804cab","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c13dc74c-3025-45a2-8572-3b831569ddb2","path":"sprites/sink_sp/sink_sp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c13dc74c-3025-45a2-8572-3b831569ddb2","path":"sprites/sink_sp/sink_sp.yy",},"LayerId":{"name":"6cdb6afd-563f-4561-9d3d-3c0a65e37601","path":"sprites/sink_sp/sink_sp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sink_sp","path":"sprites/sink_sp/sink_sp.yy",},"resourceVersion":"1.0","name":"c13dc74c-3025-45a2-8572-3b831569ddb2","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"fridge_sp","path":"sprites/fridge_sp/fridge_sp.yy",},
+    "spriteId": {"name":"sink_sp","path":"sprites/sink_sp/sink_sp.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f0abe966-194d-4a00-81f8-4306b6df359a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8d710b8d-b92d-49dd-834e-893b6a804cab","path":"sprites/fridge_sp/fridge_sp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e0befdd7-2e9e-4a5b-8600-fa13168f6d56","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c13dc74c-3025-45a2-8572-3b831569ddb2","path":"sprites/sink_sp/sink_sp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"fridge_sp","path":"sprites/fridge_sp/fridge_sp.yy",},
+    "parent": {"name":"sink_sp","path":"sprites/sink_sp/sink_sp.yy",},
     "resourceVersion": "1.3",
-    "name": "fridge_sp",
+    "name": "sink_sp",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9d8ac49e-b1b7-42e5-acc8-cca9ecc350ae","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6cdb6afd-563f-4561-9d3d-3c0a65e37601","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Room objs",
     "path": "folders/Sprites/Room objs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "fridge_sp",
+  "name": "sink_sp",
   "tags": [],
   "resourceType": "GMSprite",
 }

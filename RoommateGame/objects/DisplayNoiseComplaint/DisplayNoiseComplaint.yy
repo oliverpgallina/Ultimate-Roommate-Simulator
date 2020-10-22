@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "fridge_sp",
-    "path": "sprites/fridge_sp/fridge_sp.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -20,15 +17,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"DisplayNoiseComplaint","path":"objects/DisplayNoiseComplaint/DisplayNoiseComplaint.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "RoomObjs",
-    "path": "folders/Objects/RoomObjs.yy",
+    "name": "World",
+    "path": "folders/Objects/UI/World.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Fridge_o",
+  "name": "DisplayNoiseComplaint",
   "tags": [],
   "resourceType": "GMObject",
 }

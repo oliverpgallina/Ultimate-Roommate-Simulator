@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 99,
+  "bbox_left": 1,
+  "bbox_right": 76,
   "bbox_top": 0,
-  "bbox_bottom": 63,
+  "bbox_bottom": 79,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 100,
-  "height": 64,
+  "width": 78,
+  "height": 80,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8d710b8d-b92d-49dd-834e-893b6a804cab","path":"sprites/fridge_sp/fridge_sp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8d710b8d-b92d-49dd-834e-893b6a804cab","path":"sprites/fridge_sp/fridge_sp.yy",},"LayerId":{"name":"9d8ac49e-b1b7-42e5-acc8-cca9ecc350ae","path":"sprites/fridge_sp/fridge_sp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"fridge_sp","path":"sprites/fridge_sp/fridge_sp.yy",},"resourceVersion":"1.0","name":"8d710b8d-b92d-49dd-834e-893b6a804cab","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bcc46029-5f10-44a4-ab04-fa5b223fab33","path":"sprites/bedsidetable_sp/bedsidetable_sp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bcc46029-5f10-44a4-ab04-fa5b223fab33","path":"sprites/bedsidetable_sp/bedsidetable_sp.yy",},"LayerId":{"name":"f59a8f8b-409d-4c40-a48d-d91d2bc42af3","path":"sprites/bedsidetable_sp/bedsidetable_sp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"bedsidetable_sp","path":"sprites/bedsidetable_sp/bedsidetable_sp.yy",},"resourceVersion":"1.0","name":"bcc46029-5f10-44a4-ab04-fa5b223fab33","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"fridge_sp","path":"sprites/fridge_sp/fridge_sp.yy",},
+    "spriteId": {"name":"bedsidetable_sp","path":"sprites/bedsidetable_sp/bedsidetable_sp.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f0abe966-194d-4a00-81f8-4306b6df359a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8d710b8d-b92d-49dd-834e-893b6a804cab","path":"sprites/fridge_sp/fridge_sp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d2af2742-9f92-4d89-a325-86e6f78e53a9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bcc46029-5f10-44a4-ab04-fa5b223fab33","path":"sprites/bedsidetable_sp/bedsidetable_sp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"fridge_sp","path":"sprites/fridge_sp/fridge_sp.yy",},
+    "parent": {"name":"bedsidetable_sp","path":"sprites/bedsidetable_sp/bedsidetable_sp.yy",},
     "resourceVersion": "1.3",
-    "name": "fridge_sp",
+    "name": "bedsidetable_sp",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9d8ac49e-b1b7-42e5-acc8-cca9ecc350ae","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f59a8f8b-409d-4c40-a48d-d91d2bc42af3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Room objs",
     "path": "folders/Sprites/Room objs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "fridge_sp",
+  "name": "bedsidetable_sp",
   "tags": [],
   "resourceType": "GMSprite",
 }

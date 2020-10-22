@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite32",
-    "path": "sprites/Sprite32/Sprite32.yy",
+    "name": "couch_sp",
+    "path": "sprites/couch_sp/couch_sp.yy",
   },
   "solid": false,
   "visible": true,

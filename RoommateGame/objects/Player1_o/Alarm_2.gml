@@ -8,4 +8,7 @@ RaveOverlay1_o.alarm[0] = -1;
 RaveOverlay2_o.alarm[0] = -1;
 RaveOverlay3_o.alarm[0] = -1;
 
+partied = true;
+alarm[4] = 120;
+
 ParentPlayer_o.rentDue += 300;

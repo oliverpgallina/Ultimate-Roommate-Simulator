@@ -1,5 +1,5 @@
 {
-  "bboxMode": 1,
+  "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
   "origin": 9,
@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 159,
+  "bbox_right": 102,
   "bbox_top": 0,
-  "bbox_bottom": 269,
+  "bbox_bottom": 197,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 160,
-  "height": 270,
+  "width": 103,
+  "height": 198,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f329b6da-d283-4676-a8b7-5857e4f5d814","path":"sprites/couch_sp/couch_sp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f329b6da-d283-4676-a8b7-5857e4f5d814","path":"sprites/couch_sp/couch_sp.yy",},"LayerId":{"name":"e93de58f-8731-4486-b32e-4e78db2df635","path":"sprites/couch_sp/couch_sp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"couch_sp","path":"sprites/couch_sp/couch_sp.yy",},"resourceVersion":"1.0","name":"f329b6da-d283-4676-a8b7-5857e4f5d814","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bde8728a-71a9-49f3-8a0d-d0720d1058f2","path":"sprites/couch_sp/couch_sp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bde8728a-71a9-49f3-8a0d-d0720d1058f2","path":"sprites/couch_sp/couch_sp.yy",},"LayerId":{"name":"2f7c4f4a-f6d7-453b-aab0-338eaeea817f","path":"sprites/couch_sp/couch_sp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"couch_sp","path":"sprites/couch_sp/couch_sp.yy",},"resourceVersion":"1.0","name":"bde8728a-71a9-49f3-8a0d-d0720d1058f2","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"couch_sp","path":"sprites/couch_sp/couch_sp.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"7253b3d9-5673-4090-88a1-dc7d3be45449","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f329b6da-d283-4676-a8b7-5857e4f5d814","path":"sprites/couch_sp/couch_sp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"daacdec3-7a04-4b65-8c9e-250f549a9da6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bde8728a-71a9-49f3-8a0d-d0720d1058f2","path":"sprites/couch_sp/couch_sp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 86,
-    "yorigin": 134,
+    "xorigin": 51,
+    "yorigin": 100,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"couch_sp","path":"sprites/couch_sp/couch_sp.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e93de58f-8731-4486-b32e-4e78db2df635","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2f7c4f4a-f6d7-453b-aab0-338eaeea817f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Room objs",

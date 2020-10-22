@@ -51,6 +51,10 @@ if (actionPoints > 0)
 		show_debug_message("COOKING TIME");
 		canInteract = true;
 	}
+	else if (place_meeting(x,y, Bed_o) && hungerLevel < 3){
+		show_debug_message("BED TIME");
+		canInteract = true;
+	}
 	else if (keyboard_check_pressed(partyKey) && !isPartying) partyTime_scr();
 	else {
 		//show_debug_message("CANNOT INTERACT NOW PLAYER 2");

@@ -47,6 +47,9 @@ regenerating = false;
 /* Whether or not the player is currently reducing their Stress Points gradually */
 relievingStress = false;
 
+/* Whether or not players just finished partying (used for the Noise Complaint message */ 
+partied = false;
+
 /* The total rent money due at the end of each week */
 rentDue = 1200;
 

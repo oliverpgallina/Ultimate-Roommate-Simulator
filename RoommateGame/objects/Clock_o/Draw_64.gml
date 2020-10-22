@@ -13,4 +13,4 @@ else drawHours = string(currentTime);
 //clock
 //calendar days and months
 draw_set_color(c_white);
-draw_text_transformed(x, y-5, drawHours + ":" + drawMinutes, 3, 3, image_angle);
+draw_text_transformed(x, y, drawHours + ":" + drawMinutes, 3, 3, image_angle);
