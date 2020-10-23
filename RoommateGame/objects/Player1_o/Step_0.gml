@@ -32,43 +32,65 @@ if (actionPoints > 0)
 	//This should let the player interact with things (Studying, going to work, taking out trash, etc)
 	//presumably makes them im mobile while performing the action (for taking out trash maybe they just
 	//disappear temporarily?
-	if (place_meeting(x,y, WorkTask_o) && !panicked && hungerLevel < 3 && BasicTask_o.player != Player2_o){
+	
+	//work
+	if ( place_meeting(x,y, WorkTask_o) ){
+		
+		if( !panicked && hungerLevel < 3 && BasicTask_o.player != Player2_o){
 		show_debug_message("WORK TIME");
 		canInteract = true;
+		}
+		else{
+		displayMessage = true;
+		}
+
 	}
-	else if (place_meeting(x,y, StudyTask_o) && !panicked && hungerLevel < 3 && BasicTask_o.player != Player2_o){
-		show_debug_message("STUDY TIME");
-		canInteract = true;
-	}
-	else if (place_meeting(x,y, Trash_o) && !panicked && hungerLevel < 3 && Clock_o.trashLevel != 0 && BasicTask_o.player != Player2_o){
-		show_debug_message("TRASH TIME");
-		canInteract = true;
-	}
-	else if (place_meeting(x,y, Couch_o) && !Player2_o.relievingStress && hungerLevel == 1 && BasicTask_o.player != Player2_o) {
-		show_debug_message("RELAXING TIME");
-		canInteract = true;
-	}
-	else if (place_meeting(x,y, Stove_o) && hungerLevel != 1 && BasicTask_o.player != Player2_o){
-		show_debug_message("COOKING TIME");
-		canInteract = true;
-	}
-	else if (place_meeting(x,y, Bed_o) && hungerLevel < 3){
-		show_debug_message("BED TIME");
-		canInteract = true;
-	}
-	else if (keyboard_check_pressed(partyKey) && !isPartying) partyTime_scr();
-	else {
-		//show_debug_message("CANNOT INTERACT NOW PLAYER 1");
-		canInteract = false;
-	}
-}
-else 
-{
-	if (place_meeting(x,y, Bed_o) && hungerLevel < 3){
-		show_debug_message("BED TIME");
-		canInteract = true;
-	}
-	else canInteract = false;
+	else displayMessage = false;
+	
+	
+	
+//	if (place_meeting(x,y, WorkTask_o) && !panicked && hungerLevel < 3 && BasicTask_o.player != Player2_o){
+//		show_debug_message("WORK TIME");
+//		canInteract = true;
+//	}
+//	else 
+//	if (place_meeting(x,y, StudyTask_o) && !panicked && hungerLevel < 3 && BasicTask_o.player != Player2_o){
+//		show_debug_message("STUDY TIME");
+//		canInteract = true;
+//	}
+//	else if (place_meeting(x,y, Trash_o) && !panicked && hungerLevel < 3 && Clock_o.trashLevel != 0 && BasicTask_o.player != Player2_o){
+//		show_debug_message("TRASH TIME");
+//		canInteract = true;
+//	}
+//	else if (place_meeting(x,y, Couch_o) && !Player2_o.relievingStress && hungerLevel == 1 && BasicTask_o.player != Player2_o) {
+//		show_debug_message("RELAXING TIME");
+//		canInteract = true;
+//	}
+//	else if (place_meeting(x,y, Stove_o) && hungerLevel != 1 && BasicTask_o.player != Player2_o){
+//		show_debug_message("COOKING TIME");
+//		canInteract = true;
+//	}
+//	else if (place_meeting(x,y, Bed_o) && hungerLevel < 3){
+//		show_debug_message("BED TIME");
+//		canInteract = true;
+//	}
+//	else if (keyboard_check_pressed(partyKey) && !isPartying) partyTime_scr();
+//	else {
+//		//show_debug_message("CANNOT INTERACT NOW PLAYER 1");
+//		canInteract = false;
+//	}
+//}
+//else 
+//{
+//	if (place_meeting(x,y, Bed_o) && hungerLevel < 3){
+//		show_debug_message("BED TIME");
+//		canInteract = true;
+//	}
+//	else{
+//		canInteract = false;
+//		displayMessage = false;
+//		show_debug_message("player can't interact");
+//	}
 }
 }
 
