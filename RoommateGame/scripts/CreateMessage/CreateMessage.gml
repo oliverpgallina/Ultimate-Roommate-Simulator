@@ -2,14 +2,14 @@
 //creates a message for the player when they can't interact with a task
 function CreateMessage(player, task){
 
-switch (task) {
-    case StudyTask_o:
-        // code here
-        break;
-    default:
-        // code here
-        break;
-}
+//switch (task) {
+//    case StudyTask_o:
+//        // code here
+//        break;
+//    default:
+//        // code here
+//        break;
+//}
 
 
 newMessage = "";

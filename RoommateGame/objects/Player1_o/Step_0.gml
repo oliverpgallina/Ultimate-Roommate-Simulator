@@ -42,8 +42,7 @@ if (!regenerating && !relievingStress)
 		//This should let the player interact with things (Studying, going to work, taking out trash, etc)
 		//presumably makes them im mobile while performing the action (for taking out trash maybe they just
 		//disappear temporarily?
-	
-		//work
+
 		PlayerInteract(Player1_o, WorkTask_o, (!panicked && hungerLevel < 3 && BasicTask_o.player != Player2_o) );
 		PlayerInteract(Player1_o, StudyTask_o, (!panicked && hungerLevel < 3 && BasicTask_o.player != Player2_o) );
 		PlayerInteract(Player1_o, Trash_o, (!panicked && hungerLevel < 3 && Clock_o.trashLevel != 0 && BasicTask_o.player != Player2_o) );
