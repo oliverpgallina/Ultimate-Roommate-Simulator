@@ -74,3 +74,6 @@ partyKey = vk_space;
 
 //translates to a roommate score at the end of the game
 //scorePoints = 0;
+
+//message to be displayed when the player cannot perform a task
+playerMessage = "";

@@ -34,19 +34,20 @@ if (actionPoints > 0)
 	//disappear temporarily?
 	
 	//work
-	if ( place_meeting(x,y, WorkTask_o) ){
-		
-		if( !panicked && hungerLevel < 3 && BasicTask_o.player != Player2_o){
-		show_debug_message("WORK TIME");
-		canInteract = true;
-		}
-		else{
-		displayMessage = true;
-		}
-
-	}
-	else displayMessage = false;
+	//conditions =  [panicked, hungerLevel < 3, BasicTask_o.player != Player2_o]
+	PlayerInteract(Player1_o, WorkTask_o, (!panicked && hungerLevel < 3 && BasicTask_o.player != Player2_o) );
 	
+	canStudy = true;
+	if(panicked){
+		show_debug_message("panicked");
+		canStudy = false;
+	}
+	//canStudy = (!panicked) // && (hungerLevel < 3) && (BasicTask_o.player != Player2_o));
+	PlayerInteract(Player1_o, StudyTask_o, canStudy); //(!panicked && hungerLevel < 3 && BasicTask_o.player != Player2_o) );
+	PlayerInteract(Player1_o, Trash_o, (!panicked && hungerLevel < 3 && Clock_o.trashLevel != 0 && BasicTask_o.player != Player2_o) );
+	PlayerInteract(Player1_o, Couch_o, ( !Player2_o.relievingStress && hungerLevel == 1 && BasicTask_o.player != Player2_o ) );
+	PlayerInteract(Player1_o, Stove_o, (hungerLevel != 1 && BasicTask_o.player != Player2_o) );
+	PlayerInteract(Player1_o, Bed_o, hungerLevel < 3);
 	
 	
 //	if (place_meeting(x,y, WorkTask_o) && !panicked && hungerLevel < 3 && BasicTask_o.player != Player2_o){

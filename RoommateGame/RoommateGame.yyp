@@ -36,6 +36,7 @@
     {"id":{"name":"Player1StressBar","path":"objects/Player1StressBar/Player1StressBar.yy",},"order":2,},
     {"id":{"name":"Stove_o","path":"objects/Stove_o/Stove_o.yy",},"order":4,},
     {"id":{"name":"StudyTask_o","path":"objects/StudyTask_o/StudyTask_o.yy",},"order":5,},
+    {"id":{"name":"PlayerInteract","path":"scripts/PlayerInteract/PlayerInteract.yy",},"order":11,},
     {"id":{"name":"Sprite25","path":"sprites/Sprite25/Sprite25.yy",},"order":10,},
     {"id":{"name":"TrashSpt","path":"sprites/TrashSpt/TrashSpt.yy",},"order":12,},
     {"id":{"name":"RedBarFill","path":"sprites/RedBarFill/RedBarFill.yy",},"order":0,},
