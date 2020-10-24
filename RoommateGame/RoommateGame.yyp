@@ -25,6 +25,7 @@
     {"id":{"name":"TestScoreObj_o","path":"objects/TestScoreObj_o/TestScoreObj_o.yy",},"order":2,},
     {"id":{"name":"Cook_snd","path":"sounds/Cook_snd/Cook_snd.yy",},"order":3,},
     {"id":{"name":"Sprite26","path":"sprites/Sprite26/Sprite26.yy",},"order":11,},
+    {"id":{"name":"CreateMessage","path":"scripts/CreateMessage/CreateMessage.yy",},"order":12,},
     {"id":{"name":"LongBarBg","path":"sprites/LongBarBg/LongBarBg.yy",},"order":6,},
     {"id":{"name":"DisplayDays","path":"objects/DisplayDays/DisplayDays.yy",},"order":2,},
     {"id":{"name":"ScoringRoom","path":"rooms/ScoringRoom/ScoringRoom.yy",},"order":2,},
