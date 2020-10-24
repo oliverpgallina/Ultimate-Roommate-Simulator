@@ -11,7 +11,7 @@ function PlayerInteract(player, task, condition ){
 		else{
 			show_debug_message("Player cant interact");
 			player.canInteract = false;
-			CreateMessage(player);
+			CreateMessage(player, task);
 			player.displayMessage = true;
 		}
 

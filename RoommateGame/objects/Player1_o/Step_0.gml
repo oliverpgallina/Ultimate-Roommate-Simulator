@@ -58,9 +58,9 @@ if (!regenerating && !relievingStress)
 			canInteract = true;
 		}
 		else if(place_meeting(x, y, BasicTask_o)) {
-				canInteract = false;
-				CreateMessage(Player1_o);
-				displayMessage = true;
+			canInteract = false;
+			CreateMessage(Player1_o, BasicTask_o);
+			displayMessage = true;
 		}
 		else{
 			canInteract = false;
@@ -70,4 +70,4 @@ if (!regenerating && !relievingStress)
 
 	}
 
-}/**/
+}
