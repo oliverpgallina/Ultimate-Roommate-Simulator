@@ -8,3 +8,4 @@ taskMoney = 0;
 taskTrash = 0;
 taskStudy = 0;
 taskSound = Relax_snd;
+requirements = ["hunger2"];

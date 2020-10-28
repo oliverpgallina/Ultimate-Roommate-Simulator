@@ -5,4 +5,4 @@ taskMoney = 0;
 taskTrash = -6;
 taskStudy = 0;
 taskSound = Trash_snd;
-requirements = ["exhausted"]
+requirements = ["exhausted", "panic", "hunger3", "trash1"]

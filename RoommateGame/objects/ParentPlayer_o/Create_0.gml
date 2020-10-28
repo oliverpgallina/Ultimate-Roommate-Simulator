@@ -79,3 +79,12 @@ partyKey = vk_space;
 playerMessage = "";
 
 displayMessage = false;
+
+//for the step function
+thisPlayer = Player1_o;
+otherPlayerIsRelievingStress = false;
+otherPlayerIsInteracting = false;
+up = ord("O");
+down = ord("l");
+left = ord("l");
+right = ord("y");

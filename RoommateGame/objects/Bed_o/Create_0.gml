@@ -11,4 +11,4 @@ taskTrash = 0;
 taskStudy = 0;
 taskScorePoints = 10000;
 taskSound = Relax_snd;
-requirements = ["trash"];
+requirements = ["trash3"];
