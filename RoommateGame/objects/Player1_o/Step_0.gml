@@ -37,11 +37,16 @@ if (!regenerating && !relievingStress)
 		//actionPoints--;
 	}
 	
-	if (actionPoints > 0)
+	if (actionPoints > 0) // THIS ONE HERE
 	{
 		//This should let the player interact with things (Studying, going to work, taking out trash, etc)
 		//presumably makes them im mobile while performing the action (for taking out trash maybe they just
 		//disappear temporarily?
+
+		//NOTE FOR FUTURE VINCENT 
+		//REMOVE THIS IF STATEMENT 
+		//SHOULD CHANGE SOMETHING 
+
 
 		PlayerInteract(Player1_o, WorkTask_o, (!panicked && hungerLevel < 3 && BasicTask_o.player != Player2_o) );
 		PlayerInteract(Player1_o, StudyTask_o, (!panicked && hungerLevel < 3 && BasicTask_o.player != Player2_o) );

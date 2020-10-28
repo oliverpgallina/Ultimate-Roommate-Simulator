@@ -2,20 +2,43 @@
 //creates a message for the player when they can't interact with a task
 function CreateMessage(player, task){
 
-//switch (task) {
-//    case StudyTask_o:
-//        // code here
-//        break;
-//    default:
-//        // code here
-//        break;
-//}
+	newMessage = [""];
+
+	//checks the task to see its requirements
+	//and adds then to a list if the playert doesn't meet them
+	for (var i = 0; i < array_length(task.requirements); ++i) {
+		req = task.requirements[i];
+	
+		switch (req) {
+			
+	    case "panic":
+	        
+			if(player.panicked) newMessage[i] = "I'm Panicking";
+			
+	        break;  
+			
+		case "hunger3":
+		
+			if(player.hungerLevel == 0) newMessage[i] = "I'm too hungry";
+		
+			break;
+		
+		}
+	}
+	
+	//creates the meesage
+	displayMessage = "";
+	for (var i = 0; i < array_length(newMessage); ++i) {
+		
+		displayMessage += newMessage[i] + "\n";
+		
+	}
 
 
-newMessage = "";
-if (player.panicked) newMessage += "I'm panicking";
-if(player.hungerLevel == 3) newMessage += "\n I'm too hungry";
-if(player.actionPoints == 0) newMessage += "\n I'm exausted";
-
-player.playerMessage = newMessage;
 }
+
+//note:
+//list of valid requirements
+//	hunger 1-3
+//	panic
+//	exausted

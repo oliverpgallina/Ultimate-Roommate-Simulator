@@ -24,3 +24,4 @@ taskScorePoints = 0;
 taskSound = GettinMoney_snd;
 player = ParentPlayer_o;
 taskCanInteract = true;
+requirements = ["some requirement"];
