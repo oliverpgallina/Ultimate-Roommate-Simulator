@@ -77,3 +77,5 @@ partyKey = vk_space;
 
 //message to be displayed when the player cannot perform a task
 playerMessage = "";
+
+displayMessage = false;

@@ -16,8 +16,5 @@ function PlayerInteract(player, task, condition ){
 		}
 
 	}
-	else{
-		player.displayMessage = false;
-	}
 
 }

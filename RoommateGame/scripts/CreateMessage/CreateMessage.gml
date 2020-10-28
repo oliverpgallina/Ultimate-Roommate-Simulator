@@ -27,12 +27,12 @@ function CreateMessage(player, task){
 	}
 	
 	//creates the meesage
-	displayMessage = "";
+	messageToDisplay = "";
 	for (var i = 0; i < array_length(newMessage); ++i) {
-		
-		displayMessage += newMessage[i] + "\n";
-		
+		messageToDisplay += newMessage[i] + "\n";
 	}
+	
+	player.playerMessage = messageToDisplay;
 
 
 }
