@@ -5,3 +5,4 @@ taskMoney = 0;
 taskTrash = -6;
 taskStudy = 0;
 taskSound = Trash_snd;
+requirements = ["exhausted"]

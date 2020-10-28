@@ -14,22 +14,30 @@ function CreateMessage(player, task){
 	    case "panic":
 	        
 			if(player.panicked) newMessage[i] = "I'm Panicking";
-			
 	        break;  
 			
 		case "hunger3":
 		
 			if(player.hungerLevel == 0) newMessage[i] = "I'm too hungry";
+			break;
+			
+		case "exhausted":
 		
+			if(player.actionPoints == 0) newMessage[i] = "I'm exhausted";
 			break;
 		
+		case "trash":
+		
+			if(Clock_o.trashLevel == 3) newMessage[i] = "The House is too dirty";
+			break;
 		}
 	}
 	
 	//creates the meesage
 	messageToDisplay = "";
 	for (var i = 0; i < array_length(newMessage); ++i) {
-		messageToDisplay += newMessage[i] + "\n";
+		if(newMessage[i] != 0)
+			messageToDisplay += string(newMessage[i]) + "\n";
 	}
 	
 	player.playerMessage = messageToDisplay;
@@ -42,3 +50,4 @@ function CreateMessage(player, task){
 //	hunger 1-3
 //	panic
 //	exausted
+//	trash
