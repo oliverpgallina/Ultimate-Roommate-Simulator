@@ -64,12 +64,12 @@ if (!regenerating && !relievingStress)
 		show_debug_message("yo");
 	}
 	
-	PlayerInteract(thisPlayer, WorkTask_o, (playerIsNotPanicking && isTooHungry && otherPlayerIsInteracting && hasActionPoints) );
-	PlayerInteract(thisPlayer, StudyTask_o, (playerIsNotPanicking && isTooHungry && otherPlayerIsInteracting && hasActionPoints) );
-	PlayerInteract(thisPlayer, Trash_o, (playerIsNotPanicking && isTooHungry && trashIsNotEmpty && otherPlayerIsInteracting && hasActionPoints) );
-	PlayerInteract(thisPlayer, Couch_o, ( otherPlayerIsRelievingStress && fullBelly && otherPlayerIsInteracting && hasActionPoints) );
-	PlayerInteract(thisPlayer, Stove_o, (isHungry && otherPlayerIsInteracting && hasActionPoints) );
-	PlayerInteract(thisPlayer, Bed_o, isTooHungry);
+	PlayerInteract(id, WorkTask_o, (playerIsNotPanicking && isTooHungry && otherPlayerIsInteracting && hasActionPoints) );
+	PlayerInteract(id, StudyTask_o, (playerIsNotPanicking && isTooHungry && otherPlayerIsInteracting && hasActionPoints) );
+	PlayerInteract(id, Trash_o, (playerIsNotPanicking && isTooHungry && trashIsNotEmpty && otherPlayerIsInteracting && hasActionPoints) );
+	PlayerInteract(id, Couch_o, ( otherPlayerIsRelievingStress && fullBelly && otherPlayerIsInteracting && hasActionPoints) );
+	PlayerInteract(id, Stove_o, (isHungry && otherPlayerIsInteracting && hasActionPoints) );
+	PlayerInteract(id, Bed_o, isTooHungry);
 	
 	if(!place_meeting(x, y, BasicTask_o)) displayMessage = false;
 	

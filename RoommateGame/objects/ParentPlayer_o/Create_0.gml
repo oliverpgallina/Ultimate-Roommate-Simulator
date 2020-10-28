@@ -81,7 +81,6 @@ playerMessage = "";
 displayMessage = false;
 
 //for the step function
-thisPlayer = Player1_o;
 otherPlayerIsRelievingStress = false;
 otherPlayerIsInteracting = false;
 up = ord("O");
