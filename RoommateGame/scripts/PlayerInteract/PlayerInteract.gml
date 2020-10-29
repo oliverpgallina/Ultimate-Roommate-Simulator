@@ -9,7 +9,7 @@ function PlayerInteract(player, task, condition ){
 			player.canInteract = true;
 		}
 		else{
-			show_debug_message("Player cant interact");
+			show_debug_message("Player can't interact");
 			player.canInteract = false;
 			CreateMessage(player, task);
 			player.displayMessage = true;

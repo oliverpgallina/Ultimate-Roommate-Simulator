@@ -7,8 +7,6 @@ function partyTime_scr(){
 	Player1_o.isPartying = true;
 	Player2_o.isPartying = true;
 	
-	//ok movespeed increase doesnt work rn but anyway
-
 	Player1_o.actionPoints = maxActionPoints;
 	Player2_o.actionPoints = maxActionPoints;
 	

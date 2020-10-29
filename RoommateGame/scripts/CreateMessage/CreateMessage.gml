@@ -13,12 +13,12 @@ function CreateMessage(player, task){
 			
 	    case "panic":
 	        
-			if(player.panicked) newMessage[i] = "I'm Panicking";
+			if(player.panicked) newMessage[i] = "I'm Panicked.";
 	        break;  
 			
 		case "hunger1":
 		
-			if(player.hungerLevel == 1) newMessage[i] = "I'm not hungry.";
+			if(player.hungerLevel == 1) newMessage[i] = "I'm full.";
 			break;
 			
 		case "hunger2":
@@ -28,22 +28,22 @@ function CreateMessage(player, task){
 			
 		case "hunger3":
 		
-			if(player.hungerLevel <= 3) newMessage[i] = "I'm too hungry";
+			if(player.hungerLevel == 3) newMessage[i] = "I'm starving.";
 			break;
 		
 		case "trash1":
 		
-			if(Clock_o.trashLevel == 0) newMessage[i] = "The house is not dirty yet.";
+			if(Clock_o.trashLevel == 0) newMessage[i] = "The apartment's clean.";
 			break;
 			
 		case "trash3":
 		
-			if(Clock_o.trashLevel == 3) newMessage[i] = "The House is too dirty";
+			if(Clock_o.trashLevel == 3) newMessage[i] = "The apartment's filthy.";
 			break;
 
 		case "exhausted":
 		
-			if(player.actionPoints == 0) newMessage[i] = "I'm exhausted";
+			if(player.actionPoints == 0) newMessage[i] = "I'm exhausted.";
 			break;
 		}
 	}

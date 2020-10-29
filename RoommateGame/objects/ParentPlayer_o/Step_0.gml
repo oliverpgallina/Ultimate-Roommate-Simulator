@@ -69,7 +69,9 @@ if (!regenerating && !relievingStress)
 	PlayerInteract(id, Trash_o, (playerIsNotPanicking && isTooHungry && trashIsNotEmpty && otherPlayerIsInteracting && hasActionPoints) );
 	PlayerInteract(id, Couch_o, ( otherPlayerIsRelievingStress && fullBelly && otherPlayerIsInteracting && hasActionPoints) );
 	PlayerInteract(id, Stove_o, (isHungry && otherPlayerIsInteracting && hasActionPoints) );
-	PlayerInteract(id, Bed_o, isTooHungry);
+	PlayerInteract(id, Bed_o, isTooHungry && actionPoints < maxActionPoints);
+	
+	if(keyboard_check_pressed(partyKey)) partyTime_scr();
 	
 	if(!place_meeting(x, y, BasicTask_o)) displayMessage = false;
 	
