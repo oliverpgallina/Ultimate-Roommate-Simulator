@@ -45,6 +45,12 @@ function CreateMessage(player, task){
 		
 			if(player.actionPoints == 0) newMessage[i] = "I'm exhausted.";
 			break;
+			
+		case "tired":
+			
+			if(player.actionPoints == player.maxActionPoints) newMessage[i] = "I'm not tired yet.";
+			break;
+			
 		}
 	}
 	
@@ -66,3 +72,4 @@ function CreateMessage(player, task){
 //	panic
 //	exausted
 //	trash 1-3
+//	tired
