@@ -11,7 +11,7 @@ monthsPassed = 0;
 weekPassed = false;
 
 //total time that takes an hour to pass
-timeRemaining = 1.25; //set back to 1.25 for real shit
+timeRemaining = .1; //set back to 1.25 for real shit
 
 //current month when the game begins
 currentMonthIndex = 0;
@@ -25,7 +25,9 @@ currentMonth = months[currentMonthIndex];
 weekDay = 1;
 
 /* The current level of trash that has been built up each day. Trash Level 0 means there's no trash to take out,
-and each additional level of trash will require more Action Points and more time to take out */
+and each additional level of trash will require more Action Points and more time to take out.*/
+//min 0
+//max 6
 trashLevel = 0;
 
 //variables for the clock

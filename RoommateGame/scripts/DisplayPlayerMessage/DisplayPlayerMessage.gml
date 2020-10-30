@@ -3,7 +3,17 @@
 //to perform said task at this moment
 function DisplayPlayerMessage(displayMessage, x, y){
 
-draw_sprite(PlayerMessage, 0, x + 30, y - 140);
-draw_text(x + 50, y - 150, displayMessage);
+spriteX = x + 30;
+spriteY = y - 140;
+messageX = spriteX + 20;
+messageY = spriteY - 10;
+
+draw_sprite(PlayerMessage, 0, spriteX, spriteY);
+draw_text(messageX, messageY, displayMessage);
+
+show_debug_message("sprite X:" + string(spriteX));
+show_debug_message("sprite Y:" + string(spriteY));
+show_debug_message("message X:" + string(messageX));
+show_debug_message("message Y:" + string(messageY));
 
 }

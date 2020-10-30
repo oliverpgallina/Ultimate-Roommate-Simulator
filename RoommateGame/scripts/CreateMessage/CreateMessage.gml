@@ -38,7 +38,7 @@ function CreateMessage(player, task){
 			
 		case "trash3":
 		
-			if(Clock_o.trashLevel == 3) newMessage[i] = "The apartment's filthy.";
+			if(Clock_o.trashLevel == 6) newMessage[i] = "The apartment's filthy.";
 			break;
 
 		case "exhausted":
