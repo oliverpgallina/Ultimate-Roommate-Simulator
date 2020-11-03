@@ -1,7 +1,7 @@
 
 //starting values
 currValue = 0;
-maxTotal = 100;
+maxTotal = 600;
 
 barWidth = 100;
 barHeight = 10;
@@ -25,3 +25,5 @@ taskSound = GettinMoney_snd;
 player = ParentPlayer_o;
 taskCanInteract = true;
 requirements = ["some requirement"];
+
+isInteracting = false;
