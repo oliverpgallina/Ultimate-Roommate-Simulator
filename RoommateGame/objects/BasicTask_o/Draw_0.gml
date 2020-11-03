@@ -6,6 +6,8 @@ draw_text(x ,y - 20, taskName);
 draw_sprite(BarBackground, 0, barX, barY);
 
 currValue += (alarm[0] / room_speed);
+show_debug_message(string(currValue));
+
 	if(currValue > maxTotal){
 	currValue = maxTotal;
 	
@@ -20,6 +22,3 @@ draw_sprite_stretched(RedBarFill, 0, barX, barY, (currValue/maxTotal) * barWidth
 else{
 draw_sprite(sprite_index, 0, x, y);
 }
-
-//the clamp method legit doesn't work
-// why game maker, why?

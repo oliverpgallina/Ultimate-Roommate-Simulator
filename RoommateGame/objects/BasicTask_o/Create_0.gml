@@ -1,7 +1,7 @@
 
 //starting values
 currValue = 0;
-maxTotal = 300;
+maxTotal = 100;
 
 barWidth = 100;
 barHeight = 10;

@@ -2,7 +2,7 @@ event_inherited();
 image_alpha = 1;
 
 taskName = "DO HOMEWORK";
-taskTTC = 3;
+taskTTC = 10;
 taskAction = -600;
 taskHunger = 0;
 taskStress = 300;

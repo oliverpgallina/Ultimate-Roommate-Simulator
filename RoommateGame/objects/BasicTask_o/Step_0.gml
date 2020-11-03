@@ -16,11 +16,13 @@ else{
 	player = ParentPlayer_o;
 }
 
-show_debug_message(player);
+//show_debug_message(player);
 currTime = room_speed * timeToComplete;
 
 room_speed = 60;
 alarm[0] = currTime;
+
+//show_debug_message("alarm " +  string(alarm[0]));
 
 if(collision_circle(x, y, 70, ParentPlayer_o, true, true)){
 	showBar = true;
