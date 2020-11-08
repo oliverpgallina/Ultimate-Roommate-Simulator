@@ -1,5 +1,6 @@
 show_debug_message("PARTY'S OVER");
 isPartying = false;
+audio_resume_sound(BGM_snd);
 checkMoveSpeed_scr();
 RaveOverlay1_o.image_alpha = 0;
 RaveOverlay2_o.image_alpha = 0;

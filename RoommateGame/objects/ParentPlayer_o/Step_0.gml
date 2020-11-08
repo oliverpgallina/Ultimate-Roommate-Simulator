@@ -6,6 +6,11 @@
 //left = ord("A");
 //right = ord("D");
 
+//Pause and unpause the game (DOES NOT WORK CURRENTLY)
+if (global.pause){
+	instance_deactivate_all(true);
+}
+
 //First checks if the player is regenerating Action Points, and continue regenerating if they are
 if (regenerating) regenerateAP_scr();
 //Then checks if the player is reducing Stress Points, and continue reducing if they are
@@ -71,8 +76,10 @@ if (!regenerating && !relievingStress)
 	PlayerInteract(id, Stove_o, (isHungry && otherPlayerIsInteracting && hasActionPoints) );
 	PlayerInteract(id, Bed_o, isTooHungry && actionPoints < maxActionPoints);
 	
-	if(keyboard_check_pressed(partyKey)) partyTime_scr();
+	if(keyboard_check_pressed(partyKey) && (!Player1_o.isPartying && !Player2_o.isPartying)) partyTime_scr();
 	
 	if(!place_meeting(x, y, BasicTask_o)) displayMessage = false;
 	
 }
+
+if (keyboard_check_pressed(ord("P"))) global.pause = true;
