@@ -9,6 +9,7 @@ messageX = spriteX + 20;
 messageY = spriteY - 10;
 
 draw_sprite(PlayerMessage, 0, spriteX, spriteY);
+draw_set_valign(fa_top);
 draw_text(messageX, messageY, displayMessage);
 
 show_debug_message("sprite X:" + string(spriteX));

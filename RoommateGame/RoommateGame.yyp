@@ -73,7 +73,6 @@
     {"id":{"name":"GettinMoney_snd","path":"sounds/GettinMoney_snd/GettinMoney_snd.yy",},"order":0,},
     {"id":{"name":"Player1TestScores","path":"objects/Player1TestScores/Player1TestScores.yy",},"order":3,},
     {"id":{"name":"Couch_o","path":"objects/Couch_o/Couch_o.yy",},"order":1,},
-    {"id":{"name":"TestTask","path":"objects/TestTask/TestTask.yy",},"order":1,},
     {"id":{"name":"CollisionBox_sp","path":"sprites/CollisionBox_sp/CollisionBox_sp.yy",},"order":12,},
     {"id":{"name":"bedsidetable_sp","path":"sprites/bedsidetable_sp/bedsidetable_sp.yy",},"order":15,},
     {"id":{"name":"checkMoveSpeed_scr","path":"scripts/checkMoveSpeed_scr/checkMoveSpeed_scr.yy",},"order":6,},

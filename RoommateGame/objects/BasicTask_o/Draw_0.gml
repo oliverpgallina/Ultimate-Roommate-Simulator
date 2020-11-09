@@ -10,7 +10,7 @@ if(showBar){
 	draw_sprite(BarBackground, 0, barX, barY);
 	
 	if(isInteracting){
-		currValue += taskTTC;
+		currValue += maxTotal / (60 * taskTTC);
 
 		show_debug_message("current value " + string(currValue));
 

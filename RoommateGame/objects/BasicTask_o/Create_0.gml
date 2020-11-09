@@ -1,3 +1,4 @@
+room_speed = 60;
 
 //starting values
 currValue = 0;
