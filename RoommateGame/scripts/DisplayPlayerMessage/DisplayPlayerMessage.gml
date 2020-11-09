@@ -6,7 +6,7 @@ function DisplayPlayerMessage(displayMessage, x, y){
 spriteX = x + 30;
 spriteY = y - 140;
 messageX = spriteX + 20;
-messageY = spriteY - 10;
+messageY = spriteY + 10;
 
 draw_sprite(PlayerMessage, 0, spriteX, spriteY);
 draw_set_valign(fa_top);

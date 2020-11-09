@@ -57,7 +57,7 @@ function CreateMessage(player, task){
 	//creates the meesage
 	messageToDisplay = "";
 	for (var i = 0; i < array_length(newMessage); ++i) {
-		if(newMessage[i] != 0)
+		if(newMessage[i] != 0 && newMessage[i] != "" && newMessage[i] != "\n")
 			messageToDisplay += string(newMessage[i]) + "\n";
 			
 		if(i ==  array_length(newMessage))
