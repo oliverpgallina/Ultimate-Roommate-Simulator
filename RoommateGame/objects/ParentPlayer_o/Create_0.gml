@@ -4,7 +4,7 @@ image_speed = .25;
 global.pause = false; 
 
 //Start up the BGM
-audio_play_sound(BGM_snd, 0, false);
+audio_play_sound(BGM_snd, 0, true);
 
 /* How fast the player moves */
 moveSpeed = 3;
