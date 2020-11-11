@@ -1,3 +1,4 @@
+
 show_debug_message("PARTY'S OVER");
 isPartying = false;
 audio_resume_sound(BGM_snd);

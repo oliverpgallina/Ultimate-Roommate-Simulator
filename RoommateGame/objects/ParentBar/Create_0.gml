@@ -13,6 +13,7 @@ barHeight = 20;
 
 //sprites
 sprite = LongRedBarFill;
+smallBgSprite = BarBackground;
 bgSprite = LongBarBg;
 
 player = ParentPlayer_o;

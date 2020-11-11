@@ -1,3 +1,4 @@
+
 relievingStress = false;
 panicked = false;
 isActing = false;

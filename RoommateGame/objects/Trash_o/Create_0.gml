@@ -1,6 +1,5 @@
 event_inherited();
 taskName = "TAKE OUT TRASH";
-//taskTTC = 10;
 taskHunger = 0;
 taskMoney = 0;
 taskTrash = -6;
