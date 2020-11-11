@@ -51,8 +51,6 @@ if (!regenerating && !relievingStress)
 	}
 	
 	//This should let the player interact with things (Studying, going to work, taking out trash, etc)
-	//presumably makes them im mobile while performing the action (for taking out trash maybe they just
-	//disappear temporarily?
 
 	//NOTE FOR FUTURE VINCENT 
 	//REMOVE THIS IF STATEMENT 
