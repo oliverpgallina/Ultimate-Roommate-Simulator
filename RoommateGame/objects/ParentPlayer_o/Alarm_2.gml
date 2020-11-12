@@ -1,4 +1,4 @@
-
+/* End the party overlay and music and increase rent */
 show_debug_message("PARTY'S OVER");
 isPartying = false;
 audio_resume_sound(BGM_snd);
@@ -13,4 +13,4 @@ RaveOverlay3_o.alarm[0] = -1;
 partied = true;
 alarm[4] = 120;
 
-ParentPlayer_o.rentDue += 300;
+ParentPlayer_o.rentDue += noiseComplaintFee;

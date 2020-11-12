@@ -16,12 +16,18 @@ if(currentTime > 23){
 	
 	if (trashLevel < 6) {
 		trashLevel++;
-		checkMoveSpeed_scr();
+		if (!Player1_o.isPartying) checkMoveSpeed_scr();
 	}
-	else trashLevel = 6;
+	else {
+		trashLevel = 6;
+		if (!Player1_o.isPartying) checkMoveSpeed_scr();
+	}
 
 	/* Make sure trash level doesn't go negative lol */
-	if (trashLevel < 0) trashLevel = 0;
+	if (trashLevel < 0) {
+		trashLevel = 0;
+		if (!Player1_o.isPartying) checkMoveSpeed_scr();
+	}
 	
 	//room_goto(ScoringRoom);
 	//show_message("end of the day");
@@ -46,13 +52,20 @@ if (weekPassed) {
 
 /* When a month passes, pay rent */
 //if (weeksPassedThisMonth == 4){
-if(day > 31){
+if(day > 30){
 	rentCalc_scr();
 	monthsPassed++;
 	currentMonthIndex++;
-	if (monthsPassed == 2) room_goto(ScoringRoom);
+	//if (monthsPassed == 2) room_goto(ScoringRoom);
 	currentMonth = months[currentMonthIndex];
 	day = 1;
 
 	//room_goto(ScoringRoom);
+}
+
+/* Very janky way of saying end the game once it hits the 15th of December */
+if (day > 15 && monthsPassed == 1){
+	room_goto(ScoringRoom);
+	currentMonth = months[0];
+	day = 1;
 }

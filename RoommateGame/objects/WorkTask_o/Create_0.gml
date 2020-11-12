@@ -1,6 +1,6 @@
 event_inherited();
 taskName = "GO TO WORK";
-taskTTC = 1;
+taskTTC = 5;
 taskAction = -800;
 taskHunger = 0;
 taskStress = 500;

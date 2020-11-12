@@ -1,7 +1,7 @@
 //Timer class
 
 //place holder variable for the number of days passed in the MONTH
-day = 1;
+day = 16;
 
 /* The amount of months passed. Once the max amount (TBD) passes, the game ends
 and players are shown their Roommate Scores */
@@ -17,7 +17,7 @@ timeRemaining = 1.25; //set back to 1.25 for real shit
 currentMonthIndex = 0;
 
 //list of months in the game
-months = ["October", "November", "December"];
+months = ["November", "December"];
 
 currentMonth = months[currentMonthIndex];
 
