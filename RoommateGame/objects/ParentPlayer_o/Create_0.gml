@@ -55,8 +55,14 @@ relievingStress = false;
 /* Whether or not players just finished partying (used for the Noise Complaint message */ 
 partied = false;
 
-/* The total rent money due at the end of each week */
-rentDue = 1200;
+/* The total rent money due at the end of each week (changes based on the situation) */
+rentDue = 1000;
+
+/* The base amount of rent due */
+baseRent = 1000;
+
+/* The noise complaint fee (applied after partying) */
+noiseComplaintFee = 70;
 
 /* The total amount of money shared between both players */
 totalMoney = 0;

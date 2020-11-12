@@ -5,8 +5,9 @@ function rentCalc_scr(){
 	
 	//NOT ENOUGH MONEY FAIL STATE
 	if (ParentPlayer_o.totalMoney < 0) {
+		audio_stop_sound(BGM_snd);
 		room_goto(RentGameOver);
 	}
 	
-	if (ParentPlayer_o.rentDue > 1800) ParentPlayer_o.rentDue = 1800;
+	if (ParentPlayer_o.rentDue > ParentPlayer_o.baseRent) ParentPlayer_o.rentDue = ParentPlayer_o.baseRent;
 }

@@ -10,7 +10,11 @@ function TaskCompleted(taskAction, taskHunger, taskMoney, taskStress, taskStudy,
 if (taskName == "COOK FOOD") {
 	player.alarm[3] = 1200;
 	Clock_o.trashLevel++;
+	checkMoveSpeed_scr();
 }
+
+//Change move speed after taking out trash
+if (taskName == "TAKE OUT TRASH") checkMoveSpeed_scr();
 
 //For the Sleep action, since regenerating works in kinda a weird way
 if (taskName == "SLEEP") player.regenerating = true;
