@@ -70,7 +70,7 @@ if (!regenerating && !relievingStress)
 	PlayerInteract(id, WorkTask_o, (playerIsNotPanicking && isTooHungry && hasActionPoints) );
 	PlayerInteract(id, StudyTask_o, (playerIsNotPanicking && isTooHungry  && hasActionPoints) ); //&& otherPlayerIsInteracting
 	PlayerInteract(id, Trash_o, (playerIsNotPanicking && isTooHungry && trashIsNotEmpty && hasActionPoints) );
-	PlayerInteract(id, Couch_o, ( otherPlayerIsRelievingStress && fullBelly && hasActionPoints) );
+	PlayerInteract(id, Couch_o, ( otherPlayerIsRelievingStress && fullBelly && hasActionPoints && stressPoints > 0) );
 	PlayerInteract(id, Stove_o, (isHungry && hasActionPoints) );
 	PlayerInteract(id, Bed_o, isTooHungry && actionPoints < maxActionPoints);
 	

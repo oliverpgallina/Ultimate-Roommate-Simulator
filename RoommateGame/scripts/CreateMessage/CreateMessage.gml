@@ -51,6 +51,10 @@ function CreateMessage(player, task){
 			if(player.actionPoints == player.maxActionPoints) newMessage[i] = "I'm not tired yet.";
 			break;
 			
+		case "0_Stress":
+		
+			if(player.stressPoints == player.minStressPoints) newMessage[i] = "I don't feel stressed yet.";
+			
 		}
 	}
 	
