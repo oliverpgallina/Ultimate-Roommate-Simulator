@@ -39,3 +39,5 @@ endOfDay = false;
 //this variable controls the frame rate
 room_speed = 60;
 alarm[0] = (room_speed * timeRemaining);
+showMessage = true;
+alarm[1] = room_speed * 2;
