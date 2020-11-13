@@ -67,11 +67,11 @@ if (!regenerating && !relievingStress)
 		show_debug_message("yo");
 	}
 	
-	PlayerInteract(id, WorkTask_o, (playerIsNotPanicking && isTooHungry && otherPlayerIsInteracting && hasActionPoints) );
-	PlayerInteract(id, StudyTask_o, (playerIsNotPanicking && isTooHungry && otherPlayerIsInteracting && hasActionPoints) );
-	PlayerInteract(id, Trash_o, (playerIsNotPanicking && isTooHungry && trashIsNotEmpty && otherPlayerIsInteracting && hasActionPoints) );
-	PlayerInteract(id, Couch_o, ( otherPlayerIsRelievingStress && fullBelly && otherPlayerIsInteracting && hasActionPoints) );
-	PlayerInteract(id, Stove_o, (isHungry && otherPlayerIsInteracting && hasActionPoints) );
+	PlayerInteract(id, WorkTask_o, (playerIsNotPanicking && isTooHungry && hasActionPoints) );
+	PlayerInteract(id, StudyTask_o, (playerIsNotPanicking && isTooHungry  && hasActionPoints) ); //&& otherPlayerIsInteracting
+	PlayerInteract(id, Trash_o, (playerIsNotPanicking && isTooHungry && trashIsNotEmpty && hasActionPoints) );
+	PlayerInteract(id, Couch_o, ( otherPlayerIsRelievingStress && fullBelly && hasActionPoints) );
+	PlayerInteract(id, Stove_o, (isHungry && hasActionPoints) );
 	PlayerInteract(id, Bed_o, isTooHungry && actionPoints < maxActionPoints);
 	
 	if(keyboard_check_pressed(partyKey) && (!Player1_o.isPartying && !Player2_o.isPartying)) partyTime_scr();
