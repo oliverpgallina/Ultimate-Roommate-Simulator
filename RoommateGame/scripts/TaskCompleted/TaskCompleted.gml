@@ -13,9 +13,6 @@ if (taskName == "COOK FOOD") {
 	checkMoveSpeed_scr();
 }
 
-//Change move speed after taking out trash
-if (taskName == "TAKE OUT TRASH") checkMoveSpeed_scr();
-
 //For the Sleep action, since regenerating works in kinda a weird way
 if (taskName == "SLEEP") player.regenerating = true;
 
@@ -39,4 +36,6 @@ audio_play_sound(taskSound, 1, false);
 if(player == Player1_o) global.PlayerOneScore += taskScorePoints;
 if(player == Player2_o) global.PlayerTwoScore += taskScorePoints;
 
+//Change move speed after taking out trash
+if (taskName == "TAKE OUT TRASH") checkMoveSpeed_scr();
 }

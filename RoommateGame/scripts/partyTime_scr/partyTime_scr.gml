@@ -16,7 +16,7 @@ function partyTime_scr(){
 	Player1_o.hungerLevel = minHungerLevel;
 	Player2_o.hungerLevel = minHungerLevel;
 	
-	Clock_o.trashLevel = 0;
+	Clock_o.trashLevel++;
 	
 	ParentPlayer_o.moveSpeed = 7;
 	

@@ -6,11 +6,6 @@
 //left = ord("A");
 //right = ord("D");
 
-//Pause and unpause the game (DOES NOT WORK CURRENTLY)
-if (global.pause){
-	instance_deactivate_all(true);
-}
-
 //First checks if the player is regenerating Action Points, and continue regenerating if they are
 if (regenerating) regenerateAP_scr();
 //Then checks if the player is reducing Stress Points, and continue reducing if they are
@@ -79,5 +74,3 @@ if (!regenerating && !relievingStress)
 	if(!place_meeting(x, y, BasicTask_o)) displayMessage = false;
 	
 }
-
-if (keyboard_check_pressed(ord("P"))) global.pause = true;

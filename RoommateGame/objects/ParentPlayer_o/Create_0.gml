@@ -1,8 +1,6 @@
 //For animation frame speeds
 image_speed = .25;
 
-global.pause = false; 
-
 //Start up the BGM
 audio_play_sound(BGM_snd, 0, true);
 

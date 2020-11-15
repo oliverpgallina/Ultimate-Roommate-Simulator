@@ -9,6 +9,6 @@ barHeight = 100;
 
 //sprites
 sprite = TrashSpt;
-bgSprite = Sprite24;
+bgSprite = TrashBG;
 
 barTrashLevel = Clock_o.trashLevel;
