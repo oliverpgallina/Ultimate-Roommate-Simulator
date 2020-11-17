@@ -28,28 +28,28 @@ if (stressPoints <= 0) stressPoints = 0;
 if (!regenerating && !relievingStress)
 	{
 	
-	//Basic Up/Down/Left/Right Movement
-		if(keyboard_check(up)) {
+		////Basic Up/Down/Left/Right Movement
+		if(keyboard_check(up) ) {
 			y -= moveSpeed;
 			image_speed = 1;
 			sprite_index = AnimRight;
 		}
-		else if(keyboard_check(left)) {
+		if(keyboard_check(left)) {
 			x -= moveSpeed;
 			image_speed = 1;
 			sprite_index = AnimLeft;
 		}
-		else if(keyboard_check(down)) {
+		if(keyboard_check(down) ) {
 			y += moveSpeed;
 			image_speed = 1;
 			sprite_index = AnimLeft;
 		}
-		else if(keyboard_check(right)) {
+		if(keyboard_check(right  )) {
 			x += moveSpeed;
 			image_speed = 1;
 			sprite_index = AnimRight;
 		}
-		else if (keyboard_check(vk_nokey)){
+		if (keyboard_check(vk_nokey)){
 			image_speed = 0;
 			sprite_index = AnimIdle;
 		}
