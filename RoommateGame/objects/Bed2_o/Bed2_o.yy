@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "Sprite50",
-    "path": "sprites/Sprite50/Sprite50.yy",
+    "name": "bed2_spr",
+    "path": "sprites/bed2_spr/bed2_spr.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "BasicTask_o",
-    "path": "objects/BasicTask_o/BasicTask_o.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,9 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Couch_o","path":"objects/Couch_o/Couch_o.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -33,7 +28,7 @@
     "path": "folders/Objects/RoomObjs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Couch_o",
+  "name": "Bed2_o",
   "tags": [],
   "resourceType": "GMObject",
 }
