@@ -1,5 +1,3 @@
-//For animation frame speeds
-image_speed = .25;
 
 //Start up the BGM
 audio_play_sound(BGM_snd, 0, true);
@@ -99,5 +97,6 @@ right = ord("y");
 
 image_speed = 0;
 
-leftSprite = Player2_sp;
-rightSprite = Player2_walk_right_sp;
+AnimRight = Player1_walk_right_sp;
+AnimLeft = Player1_walk_sp;
+AnimIdle = Player1_sp;

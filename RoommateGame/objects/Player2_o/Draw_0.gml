@@ -1,1 +1,0 @@
-draw_sprite(Player2_sp,-1, x, y);

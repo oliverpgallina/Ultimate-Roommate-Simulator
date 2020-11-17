@@ -26,45 +26,36 @@ if (stressPoints <= 0) stressPoints = 0;
 //If the player isn't regenerating AP or performing an Action, 
 //allow them to move and perform actions as normal
 if (!regenerating && !relievingStress)
-{
+	{
+	
 	//Basic Up/Down/Left/Right Movement
-	if(keyboard_check(up)) {
-		y -= moveSpeed;
-		image_speed = .25;
-		sprite_index = leftSprite;
-		//actionPoints--;
-	}
-	else if(keyboard_check(left)) {
-		x -= moveSpeed;
-		image_speed = .25;
-		sprite_index = leftSprite;
-		//actionPoints--;
-	}
-	else if(keyboard_check(down)) {
-		y += moveSpeed;
-		sprite_index = rightSprite;
-		image_speed = .25;
-		sprite_index = rightSprite;
-		//actionPoints--;
-	}
-	else if(keyboard_check(right)) {
-		x += moveSpeed;
-		sprite_index = rightSprite;
-		image_speed = .25;
-		sprite_index = rightSprite;
-		//actionPoints--;
-	}
-	else {
-		image_index = 0;
-		image_speed = 0;
-		//sprite_index = leftSprite;
-	}
+		if(keyboard_check(up)) {
+			y -= moveSpeed;
+			image_speed = 1;
+			sprite_index = AnimRight;
+		}
+		else if(keyboard_check(left)) {
+			x -= moveSpeed;
+			image_speed = 1;
+			sprite_index = AnimLeft;
+		}
+		else if(keyboard_check(down)) {
+			y += moveSpeed;
+			image_speed = 1;
+			sprite_index = AnimLeft;
+		}
+		else if(keyboard_check(right)) {
+			x += moveSpeed;
+			image_speed = 1;
+			sprite_index = AnimRight;
+		}
+		else if (keyboard_check(vk_nokey)){
+			image_speed = 0;
+			sprite_index = AnimIdle;
+		}
+	
 	
 	//This should let the player interact with things (Studying, going to work, taking out trash, etc)
-
-	//NOTE FOR FUTURE VINCENT 
-	//REMOVE THIS IF STATEMENT 
-	//SHOULD CHANGE SOMETHING 
 
 	playerIsNotPanicking = !panicked;
 	isTooHungry = hungerLevel < 3;
