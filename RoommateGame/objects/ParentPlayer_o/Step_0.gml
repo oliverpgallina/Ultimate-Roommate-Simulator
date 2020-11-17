@@ -32,24 +32,24 @@ if (!regenerating && !relievingStress)
 		if(keyboard_check(up) ) {
 			y -= moveSpeed;
 			image_speed = 1;
-			sprite_index = AnimRight;
+			sprite_index = AnimLeft;
 		}
-		if(keyboard_check(left)) {
+		else if(keyboard_check(left)) {
 			x -= moveSpeed;
 			image_speed = 1;
 			sprite_index = AnimLeft;
 		}
-		if(keyboard_check(down) ) {
+		else if(keyboard_check(down) ) {
 			y += moveSpeed;
 			image_speed = 1;
-			sprite_index = AnimLeft;
+			sprite_index = AnimRight;
 		}
-		if(keyboard_check(right  )) {
+		else if(keyboard_check(right  )) {
 			x += moveSpeed;
 			image_speed = 1;
 			sprite_index = AnimRight;
 		}
-		if (keyboard_check(vk_nokey)){
+		else if (keyboard_check(vk_nokey)){
 			image_speed = 0;
 			sprite_index = AnimIdle;
 		}

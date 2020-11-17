@@ -135,8 +135,8 @@
     "children": [],
   },
   "RoomOrder": [
-    {"name":"CollisionTest","path":"rooms/CollisionTest/CollisionTest.yy",},
     {"name":"Room1","path":"rooms/Room1/Room1.yy",},
+    {"name":"CollisionTest","path":"rooms/CollisionTest/CollisionTest.yy",},
     {"name":"RentGameOver","path":"rooms/RentGameOver/RentGameOver.yy",},
     {"name":"ScoringRoom","path":"rooms/ScoringRoom/ScoringRoom.yy",},
   ],
