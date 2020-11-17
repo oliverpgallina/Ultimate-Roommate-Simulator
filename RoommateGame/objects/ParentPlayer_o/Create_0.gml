@@ -96,3 +96,8 @@ up = ord("O");
 down = ord("l");
 left = ord("l");
 right = ord("y");
+
+image_speed = 0;
+
+leftSprite = Player2_sp;
+rightSprite = Player2_walk_right_sp;

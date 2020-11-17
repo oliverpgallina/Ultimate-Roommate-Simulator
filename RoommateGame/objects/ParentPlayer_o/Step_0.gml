@@ -30,19 +30,34 @@ if (!regenerating && !relievingStress)
 	//Basic Up/Down/Left/Right Movement
 	if(keyboard_check(up)) {
 		y -= moveSpeed;
+		image_speed = .25;
+		sprite_index = leftSprite;
 		//actionPoints--;
 	}
 	else if(keyboard_check(left)) {
 		x -= moveSpeed;
+		image_speed = .25;
+		sprite_index = leftSprite;
 		//actionPoints--;
 	}
 	else if(keyboard_check(down)) {
 		y += moveSpeed;
+		sprite_index = rightSprite;
+		image_speed = .25;
+		sprite_index = rightSprite;
 		//actionPoints--;
 	}
 	else if(keyboard_check(right)) {
 		x += moveSpeed;
+		sprite_index = rightSprite;
+		image_speed = .25;
+		sprite_index = rightSprite;
 		//actionPoints--;
+	}
+	else {
+		image_index = 0;
+		image_speed = 0;
+		//sprite_index = leftSprite;
 	}
 	
 	//This should let the player interact with things (Studying, going to work, taking out trash, etc)
