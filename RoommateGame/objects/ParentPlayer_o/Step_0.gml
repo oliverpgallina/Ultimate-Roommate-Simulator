@@ -74,6 +74,7 @@ if (!regenerating && !relievingStress)
 	PlayerInteract(id, Couch_o, ( otherPlayerIsRelievingStress && fullBelly && hasActionPoints && stressPoints > 0) );
 	PlayerInteract(id, Stove_o, (isHungry && hasActionPoints) );
 	PlayerInteract(id, Bed_o, isTooHungry && actionPoints < maxActionPoints);
+	PlayerInteract(id, Bed2_o, isTooHungry && actionPoints < maxActionPoints);
 	
 	if(keyboard_check_pressed(partyKey) && (!Player1_o.isPartying && !Player2_o.isPartying)) partyTime_scr();
 	

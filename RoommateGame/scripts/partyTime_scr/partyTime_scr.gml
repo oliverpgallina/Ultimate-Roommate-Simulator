@@ -23,6 +23,7 @@ function partyTime_scr(){
 	Player1_o.alarm[2] = 300;
 	Player2_o.alarm[2] = 300;
 	
-	Player1_o.alarm[3] = 1200;
-	Player2_o.alarm[3] = 1200;
+	//Reset players' hunger timers
+	Player1_o.alarm[3] = 1800;
+	Player2_o.alarm[3] = 1800;
 }

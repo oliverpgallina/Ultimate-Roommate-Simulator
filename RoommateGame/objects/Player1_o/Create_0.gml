@@ -6,4 +6,5 @@ image_speed = 0;
 actionKey = ord("E");
 global.PlayerOneScore = 0;
 
-alarm[3] = 1200;
+//start player's hunger timer
+alarm[3] = 1800;

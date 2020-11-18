@@ -8,7 +8,7 @@ function TaskCompleted(taskAction, taskHunger, taskMoney, taskStress, taskStudy,
 
 //Reset hunger alarm AND increase trash level if player just cooked food
 if (taskName == "COOK FOOD") {
-	player.alarm[3] = 1200;
+	player.alarm[3] = 1800;
 	Clock_o.trashLevel++;
 	checkMoveSpeed_scr();
 }

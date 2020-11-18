@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Work_sp",
-    "path": "sprites/Work_sp/Work_sp.yy",
+    "name": "newdoor_sp",
+    "path": "sprites/newdoor_sp/newdoor_sp.yy",
   },
   "solid": false,
   "visible": true,

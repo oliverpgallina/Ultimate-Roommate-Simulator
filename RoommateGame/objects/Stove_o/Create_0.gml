@@ -2,7 +2,7 @@ event_inherited();
 image_alpha = 1;
 
 taskName = "COOK FOOD";
-taskTTC = 2;
+taskTTC = 4;
 taskAction = -300;
 taskHunger = -3;
 taskStress = -50;

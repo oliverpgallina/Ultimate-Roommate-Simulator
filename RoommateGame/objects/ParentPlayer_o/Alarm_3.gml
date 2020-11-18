@@ -3,4 +3,5 @@
 hungerLevel++;
 hungerLevel = clamp(hungerLevel, 0, 3);
 
-alarm[3] = 1200;
+//Set hunger level to increase again in x amount of seconds
+alarm[3] = 1800;
