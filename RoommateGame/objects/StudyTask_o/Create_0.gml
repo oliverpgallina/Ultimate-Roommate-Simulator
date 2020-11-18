@@ -9,6 +9,6 @@ taskStress = 300;
 taskMoney = 0;
 taskTrash = 0;
 taskStudy = 1;
-taskScorePoints = 10000;
+taskScorePoints = 1000;
 taskSound = Study_snd;
 requirements = ["panic", "hunger3", "exhausted", "trash3"];
