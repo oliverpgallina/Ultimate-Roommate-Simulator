@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Trash_sp",
-    "path": "sprites/Trash_sp/Trash_sp.yy",
+    "name": "dustbin3",
+    "path": "sprites/dustbin3/dustbin3.yy",
   },
   "solid": false,
   "visible": true,

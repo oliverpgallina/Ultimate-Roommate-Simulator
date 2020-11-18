@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "newcountertop_sp",
-    "path": "sprites/newcountertop_sp/newcountertop_sp.yy",
+    "name": "countertop_sp",
+    "path": "sprites/countertop_sp/countertop_sp.yy",
   },
   "solid": false,
   "visible": true,
