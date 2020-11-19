@@ -6,19 +6,19 @@ switch (Clock_o.trashLevel){
 				taskTTC = 5;
 				taskAction = -100;
 				taskStress = -100;
-				taskScorePoints = 3000;
+				taskScorePoints = 1000;
 				break;
 			case 2:
 				taskTTC = 6;
 				taskAction = -200;
 				taskStress = -150;
-				taskScorePoints = 4000;
+				taskScorePoints = 2000;
 				break;
 			case 3:
 				taskTTC = 7;
 				taskAction = -300;
 				taskStress = -200;
-				taskScorePoints = 5000;
+				taskScorePoints = 3000;
 				break;
 			case 4:
 				taskTTC = 8;

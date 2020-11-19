@@ -53,18 +53,16 @@ if (weekPassed) {
 /* When a month passes, pay rent */
 //if (weeksPassedThisMonth == 4){
 if(day > 30){
-	rentCalc_scr();
+	//rentCalc_scr();
 	monthsPassed++;
 	currentMonthIndex++;
-	//if (monthsPassed == 2) room_goto(ScoringRoom);
 	currentMonth = months[currentMonthIndex];
 	day = 1;
-
-	//room_goto(ScoringRoom);
 }
 
 /* Very janky way of saying end the game once it hits the 15th of December */
-if (day > 15 && monthsPassed == 1){
+if (day > 15 && currentMonth == "December"){
+	rentCalc_scr();
 	room_goto(ScoringRoom);
 	currentMonth = months[0];
 	day = 1;
