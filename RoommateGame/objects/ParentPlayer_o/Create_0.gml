@@ -52,10 +52,10 @@ relievingStress = false;
 partied = false;
 
 /* The total rent money due at the end of each week (changes based on the situation) */
-rentDue = 1000;
+rentDue = 1300;
 
 /* The base amount of rent due */
-baseRent = 1000;
+baseRent = 1300;
 
 /* The noise complaint fee (applied after partying) */
 noiseComplaintFee = 70;
