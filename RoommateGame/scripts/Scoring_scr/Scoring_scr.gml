@@ -14,19 +14,3 @@ so that's why it's the lowest possible score point amount at F*/
 	
 	return "F";
 }
-
-
-//here's a haiku
-
-//roses are blue
-//violets are red
-//game maker is bad
-//and Unity is better
-
-/*
-1000 Points to get S tier
-800 Points for A tier
-700 Points for B tier
-500 Points for C tier
-300 Points for D tier
-0 - 200 for F tier
