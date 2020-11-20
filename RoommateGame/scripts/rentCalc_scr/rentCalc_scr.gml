@@ -8,6 +8,12 @@ function rentCalc_scr(){
 		audio_stop_sound(BGM_snd);
 		room_goto(RentGameOver);
 	}
-	
-	if (ParentPlayer_o.rentDue > ParentPlayer_o.baseRent) ParentPlayer_o.rentDue = ParentPlayer_o.baseRent;
+	else {
+		//If rent calc doesn't move the room to the eviction screen, then go to scoring screen
+		audio_stop_sound(BGM_snd);
+		room_goto(ScoringRoom);
+		currentMonth = months[0];
+		day = 1;
+	}
+	//if (ParentPlayer_o.rentDue > ParentPlayer_o.baseRent) ParentPlayer_o.rentDue = ParentPlayer_o.baseRent;
 }
