@@ -12,6 +12,7 @@
     {"id":{"name":"Study_snd","path":"sounds/Study_snd/Study_snd.yy",},"order":1,},
     {"id":{"name":"TV_o","path":"objects/TV_o/TV_o.yy",},"order":7,},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":16,},
+    {"id":{"name":"ParticleEmitter","path":"objects/ParticleEmitter/ParticleEmitter.yy",},"order":16,},
     {"id":{"name":"Player1_walk_sp","path":"sprites/Player1_walk_sp/Player1_walk_sp.yy",},"order":6,},
     {"id":{"name":"Player1HungerBar","path":"objects/Player1HungerBar/Player1HungerBar.yy",},"order":1,},
     {"id":{"name":"Wall_o","path":"objects/Wall_o/Wall_o.yy",},"order":8,},
