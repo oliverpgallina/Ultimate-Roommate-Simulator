@@ -26,4 +26,3 @@ else{
 	showBar = false;	
 }
 
-
