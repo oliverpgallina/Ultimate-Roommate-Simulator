@@ -28,7 +28,7 @@ else{
 
 ///Particles///
 
-PartSystem = part_system_create();
+/*PartSystem = part_system_create();
 Particle = part_type_create();
 part_type_shape(Particle, pt_shape_circle);
 part_type_life(Particle, 0.3, 3);
@@ -38,4 +38,4 @@ part_type_color1(Particle, c_yellow);
 part_type_blend(Particle, 1);
 part_type_direction(Particle, 0, 359, 20, 0);
 part_type_alpha3(Particle, 0.1, 0.5, 1);
-part_particles_create(PartSystem, x, y, Particle, 20);
+part_particles_create(PartSystem, x, y, Particle, 20);*/

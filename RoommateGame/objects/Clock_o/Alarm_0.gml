@@ -63,6 +63,8 @@ if(day > 30){
 /* Very janky way of saying end the game once it hits the 15th of December */
 if (day > 15 && currentMonth == "December"){
 	rentCalc_scr();
+	//If rent calc doesn't move the room to the eviction screen, then go to scoring screen
+	audio_stop_sound(BGM_snd);
 	room_goto(ScoringRoom);
 	currentMonth = months[0];
 	day = 1;
