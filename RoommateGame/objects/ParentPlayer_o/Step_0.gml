@@ -29,29 +29,35 @@ if (!regenerating && !relievingStress)
 	{
 	
 		////Basic Up/Down/Left/Right Movement
+		//change sprites accordingly and play stepping sound effect when necessary
 		if(keyboard_check(up) ) {
 			y -= moveSpeed;
 			image_speed = 1;
 			sprite_index = AnimLeft;
+		//alarm[5] = 21;
 		}
 		else if(keyboard_check(left)) {
 			x -= moveSpeed;
 			image_speed = 1;
 			sprite_index = AnimLeft;
+		//	alarm[5] = 21;
 		}
 		else if(keyboard_check(down) ) {
 			y += moveSpeed;
 			image_speed = 1;
 			sprite_index = AnimRight;
+		//	alarm[5] = 21;
 		}
-		else if(keyboard_check(right  )) {
+		else if(keyboard_check(right)) {
 			x += moveSpeed;
 			image_speed = 1;
 			sprite_index = AnimRight;
+		//	alarm[5] = 21;
 		}
 		else if (keyboard_check(vk_nokey)){
 			image_speed = 0;
 			sprite_index = AnimIdle;
+		//	alarm[6] = 1;
 		}
 	
 	

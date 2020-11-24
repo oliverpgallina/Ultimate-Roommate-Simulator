@@ -11,6 +11,8 @@ if(currentTime > 23){
 	day++;
 	weekDay++;
 	
+	audio_play_sound(ClockTick_snd, 1, false);
+	
 	//Player1_o.hungerLevel++;
 	//Player2_o.hungerLevel++;
 	
