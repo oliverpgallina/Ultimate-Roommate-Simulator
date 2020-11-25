@@ -34,3 +34,5 @@ shakeDist = 1;
 moveIndex = irandom_range(0, 3);
 alarm[3] = shakeSpeed;
 
+canShake = true;
+
