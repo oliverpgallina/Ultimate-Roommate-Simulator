@@ -3,24 +3,24 @@
 //move 
 switch (moveIndex) {
     case 0:
-        x += 1;
+        x += shakeDist;
 		moveIndex++;
         break;
 		
     case 1:
-		y += 1;
+		y += shakeDist;
 		moveIndex++;
 		break;
 		
 	case 2:
-		x -= 1;
+		x -= shakeDist;
 		moveIndex++;
 		break;
 		
 	case 3:
-		y -= 1;
+		y -= shakeDist;
 		moveIndex = 0;
 		break;	
 }
 
-alarm[3] = 0.25 * room_speed;
+alarm[3] = shakeSpeed;

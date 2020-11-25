@@ -29,6 +29,8 @@ requirements = ["some requirement"];
 
 isInteracting = false;
 
+shakeSpeed = 0.25 * room_speed;
+shakeDist = 1;
 moveIndex = irandom_range(0, 3);
-alarm[3] = 0.25 * room_speed;
+alarm[3] = shakeSpeed;
 
