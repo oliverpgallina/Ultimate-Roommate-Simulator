@@ -29,4 +29,3 @@ if( place_meeting(x,y, ParentPlayer_o)){
 else{
 	showBar = false;	
 }
-

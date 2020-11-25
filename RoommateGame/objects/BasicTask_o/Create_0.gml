@@ -28,3 +28,7 @@ taskCanInteract = true;
 requirements = ["some requirement"];
 
 isInteracting = false;
+
+moveIndex = irandom_range(0, 3);
+alarm[3] = 0.25 * room_speed;
+
