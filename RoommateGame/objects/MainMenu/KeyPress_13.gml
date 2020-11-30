@@ -2,6 +2,7 @@
 switch (menu_index){
 	case 0: 
 		room_goto(Room1);
+		audio_stop_sound(MainMenuBGM_snd);
 		break;
 	case 1: 
 		//room_goto();
@@ -10,7 +11,7 @@ switch (menu_index){
 		//room_goto(Room1);
 		break;
 	case 3: 
-		room_goto(CreditsRoom);
+		room_goto(CreditsRoomTitle);
 		break;
 	case 4: 
 		game_end();

@@ -2,6 +2,8 @@ menu_x = x;
 menu_y = y;
 button_h = 32;
 
+if (!audio_is_playing(MainMenuBGM_snd)) audio_play_sound(MainMenuBGM_snd, 1, true);
+
 //button array
 button[0] = "START GAME";
 button[1] = "OPTIONS";

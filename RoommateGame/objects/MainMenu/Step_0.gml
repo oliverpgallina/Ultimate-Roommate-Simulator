@@ -10,3 +10,4 @@ if (menu_index != last_selected) audio_play_sound(Step_snd, 2, false);
 
 last_selected = menu_index;
 
+if (keyboard_check_pressed(vk_escape)) game_end();
