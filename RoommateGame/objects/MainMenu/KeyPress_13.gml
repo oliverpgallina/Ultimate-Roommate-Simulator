@@ -8,7 +8,7 @@ switch (menu_index){
 		//room_goto();
 		break;
 	case 2: 
-		//room_goto(Room1);
+		room_goto(ControlsScreen);
 		break;
 	case 3: 
 		room_goto(CreditsRoomTitle);
