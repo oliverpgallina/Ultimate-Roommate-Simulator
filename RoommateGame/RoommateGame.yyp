@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"UI_Background","path":"sprites/UI_Background/UI_Background.yy",},"order":2,},
+    {"id":{"name":"TitleScreenFont","path":"fonts/TitleScreenFont/TitleScreenFont.yy",},"order":5,},
     {"id":{"name":"Player1_sp","path":"sprites/Player1_sp/Player1_sp.yy",},"order":0,},
     {"id":{"name":"testCalc_scr","path":"scripts/testCalc_scr/testCalc_scr.yy",},"order":5,},
     {"id":{"name":"toilet_sp","path":"sprites/toilet_sp/toilet_sp.yy",},"order":19,},
@@ -94,6 +95,7 @@
     {"id":{"name":"Bed_o","path":"objects/Bed_o/Bed_o.yy",},"order":0,},
     {"id":{"name":"bathtub_sp","path":"sprites/bathtub_sp/bathtub_sp.yy",},"order":21,},
     {"id":{"name":"wholeroom_sp","path":"sprites/wholeroom_sp/wholeroom_sp.yy",},"order":11,},
+    {"id":{"name":"DefaultFont","path":"fonts/DefaultFont/DefaultFont.yy",},"order":6,},
     {"id":{"name":"QuitGame","path":"scripts/QuitGame/QuitGame.yy",},"order":14,},
     {"id":{"name":"YellowBarFill","path":"sprites/YellowBarFill/YellowBarFill.yy",},"order":4,},
     {"id":{"name":"Player1_walk_right_sp","path":"sprites/Player1_walk_right_sp/Player1_walk_right_sp.yy",},"order":7,},
@@ -118,9 +120,11 @@
     {"id":{"name":"CollisionBox_sp","path":"sprites/CollisionBox_sp/CollisionBox_sp.yy",},"order":9,},
     {"id":{"name":"bedsidetable_sp","path":"sprites/bedsidetable_sp/bedsidetable_sp.yy",},"order":12,},
     {"id":{"name":"checkMoveSpeed_scr","path":"scripts/checkMoveSpeed_scr/checkMoveSpeed_scr.yy",},"order":6,},
+    {"id":{"name":"MainMenuBGM_snd","path":"sounds/MainMenuBGM_snd/MainMenuBGM_snd.yy",},"order":14,},
     {"id":{"name":"Credits_o","path":"objects/Credits_o/Credits_o.yy",},"order":6,},
     {"id":{"name":"Player2_walk_right_sp","path":"sprites/Player2_walk_right_sp/Player2_walk_right_sp.yy",},"order":5,},
     {"id":{"name":"BarBackground","path":"sprites/BarBackground/BarBackground.yy",},"order":1,},
+    {"id":{"name":"MainMenu","path":"objects/MainMenu/MainMenu.yy",},"order":10,},
     {"id":{"name":"CollisionBox_o","path":"objects/CollisionBox_o/CollisionBox_o.yy",},"order":10,},
     {"id":{"name":"quit_sprite","path":"sprites/quit_sprite/quit_sprite.yy",},"order":22,},
     {"id":{"name":"CreditsRoom","path":"rooms/CreditsRoom/CreditsRoom.yy",},"order":4,},
