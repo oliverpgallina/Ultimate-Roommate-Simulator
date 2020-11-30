@@ -18,6 +18,7 @@
     {"id":{"name":"Player1_walk_sp","path":"sprites/Player1_walk_sp/Player1_walk_sp.yy",},"order":6,},
     {"id":{"name":"Player1HungerBar","path":"objects/Player1HungerBar/Player1HungerBar.yy",},"order":1,},
     {"id":{"name":"Wall_o","path":"objects/Wall_o/Wall_o.yy",},"order":8,},
+    {"id":{"name":"start","path":"objects/start/start.yy",},"order":24,},
     {"id":{"name":"DisplayNoiseComplaint","path":"objects/DisplayNoiseComplaint/DisplayNoiseComplaint.yy",},"order":4,},
     {"id":{"name":"Trash_snd","path":"sounds/Trash_snd/Trash_snd.yy",},"order":6,},
     {"id":{"name":"frypan_sp","path":"sprites/frypan_sp/frypan_sp.yy",},"order":37,},
