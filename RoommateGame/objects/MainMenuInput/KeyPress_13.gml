@@ -5,7 +5,7 @@ switch (menu_index){
 		audio_stop_sound(MainMenuBGM_snd);
 		break;
 	case 1: 
-		//room_goto();
+		room_goto(OptionsScreen);
 		break;
 	case 2: 
 		room_goto(ControlsScreen);

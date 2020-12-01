@@ -17,3 +17,5 @@ buttons = array_length_1d(button);
 menu_index = 0;
 //the last selected option in the menu
 last_selected = 0;
+
+global.vol = .5;
