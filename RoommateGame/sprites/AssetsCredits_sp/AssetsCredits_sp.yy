@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1f3f78be-2577-46bb-a9c7-0c302e03b940","path":"sprites/ControlsScreen_sp/ControlsScreen_sp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1f3f78be-2577-46bb-a9c7-0c302e03b940","path":"sprites/ControlsScreen_sp/ControlsScreen_sp.yy",},"LayerId":{"name":"be81a03a-07a9-4d0e-bf69-2c6197106624","path":"sprites/ControlsScreen_sp/ControlsScreen_sp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"ControlsScreen_sp","path":"sprites/ControlsScreen_sp/ControlsScreen_sp.yy",},"resourceVersion":"1.0","name":"1f3f78be-2577-46bb-a9c7-0c302e03b940","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b00fd7bb-be18-420d-a83a-5edc409cf116","path":"sprites/AssetsCredits_sp/AssetsCredits_sp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b00fd7bb-be18-420d-a83a-5edc409cf116","path":"sprites/AssetsCredits_sp/AssetsCredits_sp.yy",},"LayerId":{"name":"c2956b25-4bf6-403d-986a-57c6ddd0c777","path":"sprites/AssetsCredits_sp/AssetsCredits_sp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"AssetsCredits_sp","path":"sprites/AssetsCredits_sp/AssetsCredits_sp.yy",},"resourceVersion":"1.0","name":"b00fd7bb-be18-420d-a83a-5edc409cf116","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"ControlsScreen_sp","path":"sprites/ControlsScreen_sp/ControlsScreen_sp.yy",},
+    "spriteId": {"name":"AssetsCredits_sp","path":"sprites/AssetsCredits_sp/AssetsCredits_sp.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"8eae8890-afd2-4511-8615-8c8f6f69df92","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1f3f78be-2577-46bb-a9c7-0c302e03b940","path":"sprites/ControlsScreen_sp/ControlsScreen_sp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b741ebd2-ffdb-42da-8a10-0aa9619ca8e9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b00fd7bb-be18-420d-a83a-5edc409cf116","path":"sprites/AssetsCredits_sp/AssetsCredits_sp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"ControlsScreen_sp","path":"sprites/ControlsScreen_sp/ControlsScreen_sp.yy",},
+    "parent": {"name":"AssetsCredits_sp","path":"sprites/AssetsCredits_sp/AssetsCredits_sp.yy",},
     "resourceVersion": "1.3",
-    "name": "ControlsScreen_sp",
+    "name": "AssetsCredits_sp",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"be81a03a-07a9-4d0e-bf69-2c6197106624","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c2956b25-4bf6-403d-986a-57c6ddd0c777","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "UI",
     "path": "folders/Sprites/UI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ControlsScreen_sp",
+  "name": "AssetsCredits_sp",
   "tags": [],
   "resourceType": "GMSprite",
 }

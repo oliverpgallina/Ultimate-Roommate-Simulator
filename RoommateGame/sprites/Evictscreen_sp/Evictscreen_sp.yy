@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7c8ad397-af03-447e-94ba-f359858bd71a","path":"sprites/evictscreenmockup_sp/evictscreenmockup_sp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7c8ad397-af03-447e-94ba-f359858bd71a","path":"sprites/evictscreenmockup_sp/evictscreenmockup_sp.yy",},"LayerId":{"name":"0f49f46e-624d-409b-a0b4-6a538bcd4712","path":"sprites/evictscreenmockup_sp/evictscreenmockup_sp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"evictscreenmockup_sp","path":"sprites/evictscreenmockup_sp/evictscreenmockup_sp.yy",},"resourceVersion":"1.0","name":"7c8ad397-af03-447e-94ba-f359858bd71a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"81242fa3-672e-45ea-9ec8-db74d7b3528a","path":"sprites/Evictscreen_sp/Evictscreen_sp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"81242fa3-672e-45ea-9ec8-db74d7b3528a","path":"sprites/Evictscreen_sp/Evictscreen_sp.yy",},"LayerId":{"name":"bcbf08c4-841f-460a-aaab-c011099996c2","path":"sprites/Evictscreen_sp/Evictscreen_sp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Evictscreen_sp","path":"sprites/Evictscreen_sp/Evictscreen_sp.yy",},"resourceVersion":"1.0","name":"81242fa3-672e-45ea-9ec8-db74d7b3528a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"evictscreenmockup_sp","path":"sprites/evictscreenmockup_sp/evictscreenmockup_sp.yy",},
+    "spriteId": {"name":"Evictscreen_sp","path":"sprites/Evictscreen_sp/Evictscreen_sp.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"82e1b549-345a-42a0-9ef7-04ffd3d4445a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7c8ad397-af03-447e-94ba-f359858bd71a","path":"sprites/evictscreenmockup_sp/evictscreenmockup_sp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2c75c201-bea8-4a44-bf42-7ca23e00d77a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"81242fa3-672e-45ea-9ec8-db74d7b3528a","path":"sprites/Evictscreen_sp/Evictscreen_sp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"evictscreenmockup_sp","path":"sprites/evictscreenmockup_sp/evictscreenmockup_sp.yy",},
+    "parent": {"name":"Evictscreen_sp","path":"sprites/Evictscreen_sp/Evictscreen_sp.yy",},
     "resourceVersion": "1.3",
-    "name": "evictscreenmockup_sp",
+    "name": "Evictscreen_sp",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0f49f46e-624d-409b-a0b4-6a538bcd4712","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bcbf08c4-841f-460a-aaab-c011099996c2","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "UI",
     "path": "folders/Sprites/UI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "evictscreenmockup_sp",
+  "name": "Evictscreen_sp",
   "tags": [],
   "resourceType": "GMSprite",
 }
