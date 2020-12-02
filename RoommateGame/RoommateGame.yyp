@@ -84,6 +84,7 @@
     {"id":{"name":"mouse_click","path":"scripts/mouse_click/mouse_click.yy",},"order":13,},
     {"id":{"name":"Trash_sp","path":"sprites/Trash_sp/Trash_sp.yy",},"order":4,},
     {"id":{"name":"BlueBarFill","path":"sprites/BlueBarFill/BlueBarFill.yy",},"order":3,},
+    {"id":{"name":"Hunger_snd","path":"sounds/Hunger_snd/Hunger_snd.yy",},"order":15,},
     {"id":{"name":"ClockBgUI","path":"sprites/ClockBgUI/ClockBgUI.yy",},"order":7,},
     {"id":{"name":"trashbag2_sp","path":"sprites/trashbag2_sp/trashbag2_sp.yy",},"order":32,},
     {"id":{"name":"Player2TestScores","path":"objects/Player2TestScores/Player2TestScores.yy",},"order":3,},
