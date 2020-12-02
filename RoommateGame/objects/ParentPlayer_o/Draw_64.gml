@@ -3,3 +3,7 @@
 if(displayMessage && playerMessage != ""){
 	DisplayPlayerMessage(playerMessage, x, y);
 }
+
+//displays party message 
+if ((panicked && hungerLevel == 3) || (actionPoints == 0 && hungerLevel == 3) || (actionPoints == 0 && panicked))
+	DisplayPartyMessage();

@@ -5,5 +5,4 @@ up = ord("W");
 down = ord("S");
 left = ord("A");
 right = ord("D");
-if (panicked && hungerLevel == 3 && actionPoints == 0) DisplayPartyMessage();
 event_inherited();

@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "GreenP",
+    "path": "sprites/GreenP/GreenP.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
