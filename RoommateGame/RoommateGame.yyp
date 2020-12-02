@@ -163,6 +163,7 @@
     {"id":{"name":"Restart_scr","path":"scripts/Restart_scr/Restart_scr.yy",},"order":3,},
     {"id":{"name":"Relax_snd","path":"sounds/Relax_snd/Relax_snd.yy",},"order":2,},
     {"id":{"name":"Work_sp","path":"sprites/Work_sp/Work_sp.yy",},"order":6,},
+    {"id":{"name":"DisplayPartyMessage","path":"scripts/DisplayPartyMessage/DisplayPartyMessage.yy",},"order":16,},
     {"id":{"name":"couch_sp","path":"sprites/couch_sp/couch_sp.yy",},"order":14,},
     {"id":{"name":"NEWbackground_sp","path":"sprites/NEWbackground_sp/NEWbackground_sp.yy",},"order":22,},
     {"id":{"name":"doorwayfloor_sp","path":"sprites/doorwayfloor_sp/doorwayfloor_sp.yy",},"order":38,},

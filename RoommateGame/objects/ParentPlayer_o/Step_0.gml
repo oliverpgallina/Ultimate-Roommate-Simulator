@@ -70,9 +70,9 @@ if (!regenerating && !relievingStress)
 	isHungry = hungerLevel != 1;
 	trashIsNotEmpty = Clock_o.trashLevel != 0;
 	
-	if(place_meeting(x,y, StudyTask_o)){
-		show_debug_message("yo");
-	}
+	//if(place_meeting(x,y, StudyTask_o)){
+	//	show_debug_message("yo");
+	//}
 	
 	PlayerInteract(id, WorkTask_o, (playerIsNotPanicking && isTooHungry && hasActionPoints) );
 	PlayerInteract(id, StudyTask_o, (playerIsNotPanicking && isTooHungry  && hasActionPoints) ); //&& otherPlayerIsInteracting

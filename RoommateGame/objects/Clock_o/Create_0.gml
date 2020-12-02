@@ -19,7 +19,7 @@ currentMonthIndex = 0;
 //list of months in the game
 months = ["November", "December"];
 
-currentMonth = "December";// months[currentMonthIndex];
+currentMonth = /*"December";*/  months[currentMonthIndex];
 
 //keeps track of the day of the week, not month
 weekDay = 1;

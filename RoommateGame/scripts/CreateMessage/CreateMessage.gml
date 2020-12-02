@@ -13,47 +13,47 @@ function CreateMessage(player, task){
 			
 	    case "panic":
 	        
-			if(player.panicked) newMessage[i] = "I'm Panicked.";
+			if(player.panicked) newMessage[i] = "I'm panicked!";
 	        break;  
 			
 		case "hunger1":
 		
-			if(player.hungerLevel == 1) newMessage[i] = "I'm full.";
+			if(player.hungerLevel == 1) newMessage[i] = "I'm full";
 			break;
 			
 		case "hunger2":
 		
-			if(player.hungerLevel != 1) newMessage[i] = "I'm hungry.";
+			if(player.hungerLevel != 1) newMessage[i] = "I'm hungry";
 			break;
 			
 		case "hunger3":
 		
-			if(player.hungerLevel == 3) newMessage[i] = "I'm starving.";
+			if(player.hungerLevel == 3) newMessage[i] = "I'm starving!";
 			break;
 		
 		case "trash1":
 		
-			if(Clock_o.trashLevel == 0) newMessage[i] = "The apartment's clean.";
+			if(Clock_o.trashLevel == 0) newMessage[i] = "The apartment's clean";
 			break;
 			
 		case "trash3":
 		
-			if(Clock_o.trashLevel == 6) newMessage[i] = "The apartment's filthy.";
+			if(Clock_o.trashLevel == 6) newMessage[i] = "The apartment's filthy";
 			break;
 
 		case "exhausted":
 		
-			if(player.actionPoints == 0) newMessage[i] = "I'm exhausted.";
+			if(player.actionPoints == 0) newMessage[i] = "I'm exhausted!";
 			break;
 			
 		case "tired":
 			
-			if(player.actionPoints == player.maxActionPoints) newMessage[i] = "I'm not tired yet.";
+			if(player.actionPoints == player.maxActionPoints) newMessage[i] = "I'm not tired yet";
 			break;
 			
 		case "0_Stress":
 		
-			if(player.stressPoints == player.minStressPoints) newMessage[i] = "I don't feel stressed yet.";
+			if(player.stressPoints == player.minStressPoints) newMessage[i] = "I don't feel stressed yet";
 			
 		}
 	}
