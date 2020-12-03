@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e9342597-8dfc-4ee6-a53d-00bcd5013c95","path":"sprites/GreenP/GreenP.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e9342597-8dfc-4ee6-a53d-00bcd5013c95","path":"sprites/GreenP/GreenP.yy",},"LayerId":{"name":"0f860b43-8839-45b5-ac17-1b2fe58c827c","path":"sprites/GreenP/GreenP.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"GreenP","path":"sprites/GreenP/GreenP.yy",},"resourceVersion":"1.0","name":"e9342597-8dfc-4ee6-a53d-00bcd5013c95","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6743dd74-81e3-4c36-bfa5-57be5abbbdf5","path":"sprites/GreenSprite2/GreenSprite2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6743dd74-81e3-4c36-bfa5-57be5abbbdf5","path":"sprites/GreenSprite2/GreenSprite2.yy",},"LayerId":{"name":"5f9db688-d497-4a9e-9533-1720324fccf9","path":"sprites/GreenSprite2/GreenSprite2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"GreenSprite2","path":"sprites/GreenSprite2/GreenSprite2.yy",},"resourceVersion":"1.0","name":"6743dd74-81e3-4c36-bfa5-57be5abbbdf5","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"GreenP","path":"sprites/GreenP/GreenP.yy",},
+    "spriteId": {"name":"GreenSprite2","path":"sprites/GreenSprite2/GreenSprite2.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d6e40fd1-31f6-4716-b32e-df750df265b7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e9342597-8dfc-4ee6-a53d-00bcd5013c95","path":"sprites/GreenP/GreenP.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ffc3f82a-171e-4bdd-a2a7-c101b50e606f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6743dd74-81e3-4c36-bfa5-57be5abbbdf5","path":"sprites/GreenSprite2/GreenSprite2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"GreenP","path":"sprites/GreenP/GreenP.yy",},
+    "parent": {"name":"GreenSprite2","path":"sprites/GreenSprite2/GreenSprite2.yy",},
     "resourceVersion": "1.3",
-    "name": "GreenP",
+    "name": "GreenSprite2",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0f860b43-8839-45b5-ac17-1b2fe58c827c","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5f9db688-d497-4a9e-9533-1720324fccf9","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "GreenP",
+  "name": "GreenSprite2",
   "tags": [],
   "resourceType": "GMSprite",
 }
