@@ -1,5 +1,7 @@
 var i = 0;
 
+draw_text_transformed(menu_x-100, menu_y-100, "VOLUME SETTINGS", 2, 2, image_angle);
+
 //logic for drawing menu option text, colors, etc
 repeat (buttons)
 {
