@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "GreenSprite2",
-    "path": "sprites/GreenSprite2/GreenSprite2.yy",
+    "name": "GreenP",
+    "path": "sprites/GreenP/GreenP.yy",
   },
   "solid": false,
   "visible": true,
