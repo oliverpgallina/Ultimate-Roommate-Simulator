@@ -55,7 +55,8 @@ partied = false;
 rentDue = 1300;
 
 /* The base amount of rent due */
-baseRent = 1300;
+//UNCOMENT IF THERE ARE PROBLEMS WITH RENT 
+//baseRent = 1300;
 
 /* The noise complaint fee (applied after partying) */
 noiseComplaintFee = 70;
@@ -100,3 +101,6 @@ image_speed = 0;
 AnimRight = Player1_walk_right_sp;
 AnimLeft = Player1_walk_sp;
 AnimIdle = Player1_sp;
+
+partyMsgShow = true;
+timerHasStarted = false;

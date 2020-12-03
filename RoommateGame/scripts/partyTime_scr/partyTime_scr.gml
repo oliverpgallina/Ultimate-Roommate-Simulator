@@ -1,6 +1,9 @@
 /* Activates PARTY TIME for both players */
 function partyTime_scr(){
 	show_debug_message("PARTY TIME");
+	ParentPlayer_o.partyMsgShow = false;
+	Player1_o.partyMsgShow = false;
+	Player2_o.partyMsgShow = false;
 
 	partyEffects_scr();
 	
