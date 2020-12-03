@@ -2,9 +2,12 @@
 if (pause)
 {
 	draw_set_font(Font1);
+	draw_set_color(c_white);
 	draw_text_transformed(x, y, "PAUSED", 3, 3, image_angle);
 	
 	draw_text_transformed(x, y+200, "[P] Unpause", 3, 3, image_angle);
 	
 	draw_text_transformed(x, y+400, "[ESC] Exit Game", 3, 3, image_angle);
+	draw_set_color(c_red);
+	draw_set_font(-1);
 }

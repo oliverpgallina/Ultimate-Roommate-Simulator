@@ -90,6 +90,7 @@ displayMessage = false;
 
 //for the step function
 otherPlayerIsRelievingStress = false;
+
 //otherPlayerIsInteracting = false;
 up = ord("O");
 down = ord("l");

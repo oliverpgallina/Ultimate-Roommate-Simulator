@@ -1,6 +1,6 @@
 /*Exits the game if ESC is pressed */
 if (keyboard_check_pressed(vk_escape)) game_end();
-
+draw_set_color(c_white);
 /*Activate and deactivate appropriate layers when P, the pause button, is pressed */
 if (keyboard_check_pressed(ord("P"))){
 	
