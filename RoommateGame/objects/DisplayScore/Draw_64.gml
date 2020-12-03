@@ -1,4 +1,10 @@
-draw_set_color(c_black);
-draw_text_transformed(x, y, "Player One Score: " + playerOneScore, 2, 2, image_angle);
-draw_text_transformed(x + 700, y, "Player Two Score: " + playerTwoScore, 2, 2, image_angle);
-
+draw_set_color(c_yellow);
+draw_set_font(TitleScreenFont);
+draw_text_transformed(x, y-20, "Player 1 Score: " + playerOneScore, 1.3, 1.3, image_angle);
+draw_set_color(c_red);
+draw_text_transformed(x, y+50, "Times Studied: " + string(global.p1timesStudied), 1, 1, image_angle);
+draw_text_transformed(x, y+100, "Times Worked: " + string(global.p1timesWorked), 1, 1, image_angle);
+draw_text_transformed(x, y+150, "Times Slept: " + string(global.p1timesSlept), 1, 1, image_angle);
+draw_text_transformed(x, y+200, "Times Relaxed: " + string(global.p1timesRelaxed), 1, 1, image_angle);
+draw_text_transformed(x, y+250, "Times Cooked: " + string(global.p1timesCooked), 1, 1, image_angle);
+draw_text_transformed(x, y+300, "Times Taken out Trash: " + string(global.p1timesTrashtaken), 1, 1, image_angle);

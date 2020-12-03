@@ -9,5 +9,6 @@ taskStress = -50;
 taskMoney = 0;
 taskTrash = 0;
 taskStudy = 0;
+taskScorePoints = 1000;
 taskSound = Cook_snd;
 requirements = ["exhausted", "hunger1"];

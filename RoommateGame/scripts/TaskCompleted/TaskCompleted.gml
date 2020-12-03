@@ -9,12 +9,33 @@ function TaskCompleted(taskAction, taskHunger, taskMoney, taskStress, taskStudy,
 //Reset hunger alarm AND increase trash level if player just cooked food
 if (taskName == "COOK FOOD") {
 	player.alarm[3] = 1800;
+	if (player == Player1_o) global.p1timesCooked++;
+	else if (player == Player2_o) global.p2timesCooked++;
 	Clock_o.trashLevel++;
 	checkMoveSpeed_scr();
 }
 
 //For the Sleep action, since regenerating works in kinda a weird way
-if (taskName == "SLEEP") player.regenerating = true;
+if (taskName == "SLEEP") {
+	player.regenerating = true;
+	if (player == Player1_o) global.p1timesSlept++;
+	else if (player == Player2_o) global.p2timesSlept++;
+}
+
+if (taskName == "GO TO WORK") {
+	if (player == Player1_o) global.p1timesWorked++;
+	else if (player == Player2_o) global.p2timesWorked++;
+}
+
+if (taskName == "DO HOMEWORK") {
+	if (player == Player1_o) global.p1timesStudied++;
+	else if (player == Player2_o) global.p2timesStudied++;
+}
+
+if (taskName == "RELIEVE STRESS") {
+	if (player == Player1_o) global.p1timesRelaxed++;
+	else if (player == Player2_o) global.p2timesRelaxed++;
+}
 
 player.actionPoints += taskAction;
 player.actionPoints = clamp(player.actionPoints, player.minActionPoints, player.maxActionPoints);
@@ -37,5 +58,11 @@ if(player == Player1_o) global.PlayerOneScore += taskScorePoints;
 if(player == Player2_o) global.PlayerTwoScore += taskScorePoints;
 
 //Change move speed after taking out trash
-if (taskName == "TAKE OUT TRASH") checkMoveSpeed_scr();
+	if (taskName == "TAKE OUT TRASH") 
+	{
+		if (player == Player1_o) global.p1timesTrashtaken++;
+		else if (player == Player2_o) global.p2timesTrashtaken++;
+		
+		checkMoveSpeed_scr();
+	}
 }

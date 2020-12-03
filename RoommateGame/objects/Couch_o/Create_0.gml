@@ -7,5 +7,6 @@ taskStress = -1000;
 taskMoney = 0;
 taskTrash = 0;
 taskStudy = 0;
+taskScorePoints = 1000;
 taskSound = Relax_snd;
 requirements = ["hunger2", "0_Stress"];
