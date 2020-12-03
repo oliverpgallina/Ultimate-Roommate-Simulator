@@ -61,7 +61,7 @@ baseRent = 1300;
 noiseComplaintFee = 70;
 
 /* The total amount of money shared between both players */
-totalMoney = 1300;
+totalMoney = 0;
 
 /* The amount of "study points" for this player, an invisible value that goes up when studying.
 As it increases the player will get better grades at the end of each week */
