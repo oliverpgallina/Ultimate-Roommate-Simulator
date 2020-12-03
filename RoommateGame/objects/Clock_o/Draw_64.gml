@@ -1,8 +1,11 @@
 // draws the UI clock stuff
 
 ////// draws the start game text thingy
-if (showMessage) draw_text_transformed_color(300, 200, "Survive for \n one month", 7, 7, image_angle, c_red, c_red, c_red, c_red, 1);
-
+if (showMessage)
+{
+	draw_sprite_stretched(PartyTextBg, irandom_range(0, 3), 250, 200, 800, 320);
+	draw_text_transformed_color(300, 200, "Survive for \n one month", 7, 7, image_angle, c_red, c_red, c_red, c_red, 1);
+}
 
 //somehow my math worked
 timeOffset = 59 / timeRemaining;
