@@ -10,7 +10,7 @@ function TaskCompleted(taskAction, taskHunger, taskMoney, taskStress, taskStudy,
 if (taskName == "COOK FOOD") {
 	player.alarm[3] = 1800;
 	if (player == Player1_o) global.p1timesCooked++;
-	else if (player == Player2_o) global.p2timesCooked++;
+	if (player == Player2_o) global.p2timesCooked++;
 	Clock_o.trashLevel++;
 	checkMoveSpeed_scr();
 }
@@ -19,22 +19,22 @@ if (taskName == "COOK FOOD") {
 if (taskName == "SLEEP") {
 	player.regenerating = true;
 	if (player == Player1_o) global.p1timesSlept++;
-	else if (player == Player2_o) global.p2timesSlept++;
+	if (player == Player2_o) global.p2timesSlept++;
 }
 
 if (taskName == "GO TO WORK") {
 	if (player == Player1_o) global.p1timesWorked++;
-	else if (player == Player2_o) global.p2timesWorked++;
+	if (player == Player2_o) global.p2timesWorked++;
 }
 
 if (taskName == "DO HOMEWORK") {
 	if (player == Player1_o) global.p1timesStudied++;
-	else if (player == Player2_o) global.p2timesStudied++;
+	if (player == Player2_o) global.p2timesStudied++;
 }
 
 if (taskName == "RELIEVE STRESS") {
 	if (player == Player1_o) global.p1timesRelaxed++;
-	else if (player == Player2_o) global.p2timesRelaxed++;
+	if (player == Player2_o) global.p2timesRelaxed++;
 }
 
 player.actionPoints += taskAction;
@@ -61,7 +61,7 @@ if(player == Player2_o) global.PlayerTwoScore += taskScorePoints;
 	if (taskName == "TAKE OUT TRASH") 
 	{
 		if (player == Player1_o) global.p1timesTrashtaken++;
-		else if (player == Player2_o) global.p2timesTrashtaken++;
+		if (player == Player2_o) global.p2timesTrashtaken++;
 		
 		checkMoveSpeed_scr();
 	}

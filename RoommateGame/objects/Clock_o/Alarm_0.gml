@@ -45,6 +45,7 @@ if (weekDay > 7) {
 /* When a week passes, calculate grades */
 if (weekPassed) {
 	testCalc_scr();
+	audio_play_sound(Schoolbell2_snd, 1, false);
 	weekPassed = false;
 	weekDay = 1;
 	
