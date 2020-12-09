@@ -10,19 +10,19 @@ function testCalc_scr(){
 		show_debug_message("GRADING PLAYER 1");
 		if (p1SP == 1) {
 			Player1_o.grade = "D";
-			global.PlayerOneScore += 1000;
+			global.PlayerOneScore += 500;
 		}
 		else if (p1SP >= 2 && p1SP <= 5){
 			Player1_o.grade = "C";
-			global.PlayerOneScore += 2000;
+			global.PlayerOneScore += 1000;
 		}
 		else if (p1SP >= 6 && p1SP <= 9){ 
 			Player1_o.grade = "B";
-			global.PlayerOneScore += 3000;
+			global.PlayerOneScore += 1500;
 		}
 		else if (p1SP >= 10){
 			Player1_o.grade = "A";
-			global.PlayerOneScore += 4000;
+			global.PlayerOneScore += 2000;
 		}
 	}
 	else Player1_o.grade = "F";
@@ -31,19 +31,19 @@ function testCalc_scr(){
 		show_debug_message("GRADING PLAYER 2");
 		if (p2SP == 1){
 			Player2_o.grade = "D";
-			global.PlayerTwoScore += 1000;
+			global.PlayerTwoScore += 500;
 		}
 		else if (p2SP >= 2 && p2SP <= 5) {
 			Player2_o.grade = "C";
-			global.PlayerTwoScore += 2000;
+			global.PlayerTwoScore += 1000;
 		}
 		else if (p2SP >= 6 && p2SP <= 9){
 			Player2_o.grade = "B";
-			global.PlayerTwoScore += 3000;
+			global.PlayerTwoScore += 1500;
 		}
 		else if (p2SP >= 10){
 			Player2_o.grade = "A";
-			global.PlayerTwoScore += 4000;
+			global.PlayerTwoScore += 2000;
 		}
 	}
 	else Player2_o.grade = "F";
