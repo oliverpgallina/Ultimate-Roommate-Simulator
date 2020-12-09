@@ -30,4 +30,4 @@ if keyboard_check_pressed(vk_up) && menu_index != buttons - 1
       //  audio_play_sound(snd_pew,0,0);
    }
    
-   if (keyboard_check_pressed(vk_space)) room_goto(StartScreen);
+if (keyboard_check_pressed(vk_space)) room_goto(StartScreen);
