@@ -4,7 +4,7 @@
 function DisplayPlayerMessage(displayMessage, x, y){
 
 spriteX = x + 30;
-spriteY = y - 140;
+spriteY = y - 160;
 messageX = spriteX + 20;
 messageY = spriteY + 10;
 
