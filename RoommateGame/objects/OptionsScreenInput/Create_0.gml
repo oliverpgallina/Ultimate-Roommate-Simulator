@@ -6,10 +6,10 @@ if (!audio_is_playing(MainMenuBGM_snd)) audio_play_sound(MainMenuBGM_snd, 1, tru
 
 //button array
 button[0] = "SILENT";
-button[1] = "LESS SILENT";
-button[2] = "SQUEAK";
-button[3] = "SOME SOUND";
-button[4] = "BIT LOUDER";
+button[1] = "PIPSQUEAKIN'";
+button[2] = "QUITE LOW";
+button[3] = "LOWER";
+button[4] = "SOME SOUND";
 button[5] = "REASONABLE";
 button[6] = "GETTING THERE";
 button[7] = "YEP YEP";
@@ -23,4 +23,6 @@ buttons = array_length_1d(button);
 menu_index = 5;
 
 //the last selected option in the menu
-last_selected = 0;
+last_selected = 5;
+
+global.vol = .5;
